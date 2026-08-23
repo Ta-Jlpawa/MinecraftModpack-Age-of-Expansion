@@ -1,0 +1,122 @@
+---
+navigation:
+  parent: items-blocks-machines/items-blocks-machines-index.md
+  title: 涂料球
+  icon: green_lumen_paint_ball
+  position: 410
+categories:
+- tools
+item_ids:
+- ae2:white_paint_ball
+- ae2:orange_paint_ball
+- ae2:magenta_paint_ball
+- ae2:light_blue_paint_ball
+- ae2:yellow_paint_ball
+- ae2:lime_paint_ball
+- ae2:pink_paint_ball
+- ae2:gray_paint_ball
+- ae2:light_gray_paint_ball
+- ae2:cyan_paint_ball
+- ae2:purple_paint_ball
+- ae2:blue_paint_ball
+- ae2:brown_paint_ball
+- ae2:green_paint_ball
+- ae2:red_paint_ball
+- ae2:black_paint_ball
+- ae2:white_lumen_paint_ball
+- ae2:orange_lumen_paint_ball
+- ae2:magenta_lumen_paint_ball
+- ae2:light_blue_lumen_paint_ball
+- ae2:yellow_lumen_paint_ball
+- ae2:lime_lumen_paint_ball
+- ae2:pink_lumen_paint_ball
+- ae2:gray_lumen_paint_ball
+- ae2:light_gray_lumen_paint_ball
+- ae2:cyan_lumen_paint_ball
+- ae2:purple_lumen_paint_ball
+- ae2:blue_lumen_paint_ball
+- ae2:brown_lumen_paint_ball
+- ae2:green_lumen_paint_ball
+- ae2:red_lumen_paint_ball
+- ae2:black_lumen_paint_ball
+---
+
+# 涂料球
+
+<Row gap="-8">
+  <ItemImage id="white_paint_ball" scale="4" />
+
+  <ItemImage id="orange_paint_ball" scale="4" />
+
+  <ItemImage id="green_paint_ball" scale="4" />
+
+  <ItemImage id="blue_paint_ball" scale="4" />
+
+  <ItemImage id="red_paint_ball" scale="4" />
+</Row>
+
+涂料球用于<ItemLink id="color_applicator" />，给[线缆](cables.md)、羊毛、陶瓦、玻璃和混凝土等可染色方块上色。
+它们也可以装入<ItemLink id="matter_cannon" />，发射小小的颜料团。
+
+## 配方
+
+8个物质球围绕1个染料
+
+<Column>
+  <Row>
+    <RecipeFor id="white_paint_ball" />
+
+    <RecipeFor id="orange_paint_ball" />
+
+    <RecipeFor id="green_paint_ball" />
+  </Row>
+
+  <Row>
+    <RecipeFor id="blue_paint_ball" />
+
+    <RecipeFor id="red_paint_ball" />
+
+    <RecipeFor id="black_paint_ball" />
+  </Row>
+
+  <br />
+</Column>
+
+# 荧光涂料球
+
+<Row gap="-8">
+  <ItemImage id="white_lumen_paint_ball" scale="4" />
+
+  <ItemImage id="orange_lumen_paint_ball" scale="4" />
+
+  <ItemImage id="green_lumen_paint_ball" scale="4" />
+
+  <ItemImage id="blue_lumen_paint_ball" scale="4" />
+
+  <ItemImage id="red_lumen_paint_ball" scale="4" />
+</Row>
+
+它们与普通涂料球的用法完全相同，但从<ItemLink id="matter_cannon" />射出后颜料团会发光。
+我想可以当作某种信号枪来用。
+
+## 配方
+
+8个涂料球围绕1份荧石粉
+
+<Column>
+  <Row>
+    <RecipeFor id="white_lumen_paint_ball" />
+
+    <RecipeFor id="orange_lumen_paint_ball" />
+
+    <RecipeFor id="green_lumen_paint_ball" />
+  </Row>
+
+  <Row>
+    <RecipeFor id="blue_lumen_paint_ball" />
+
+    <RecipeFor id="red_lumen_paint_ball" />
+
+    <RecipeFor id="black_lumen_paint_ball" />
+  </Row>
+</Column>
