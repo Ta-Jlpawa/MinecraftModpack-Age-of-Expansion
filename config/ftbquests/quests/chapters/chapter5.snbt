@@ -1,0 +1,21 @@
+{
+	autofocus_id: "1902FE6AA2A3DCA3"
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "chapter5"
+	group: "373AA5E325543F8B"
+	id: "36D4575BA6D77EAD"
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["66BBDADBAA68B976"]
+		id: "1902FE6AA2A3DCA3"
+		shape: "circle"
+		tasks: [{
+			id: "736DD30D25E7A0D7"
+			type: "checkmark"
+		}]
+		x: 0.5d
+		y: -1.0d
+	}]
+}

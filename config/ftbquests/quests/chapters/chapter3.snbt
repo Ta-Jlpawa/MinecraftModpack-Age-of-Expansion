@@ -1,0 +1,24 @@
+{
+	autofocus_id: "1935F4E2EC90A336"
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "chapter3"
+	group: "373AA5E325543F8B"
+	icon: {
+		id: "minecraft:iron_block"
+	}
+	id: "6045195A44DEC4ED"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["560A93F5932FAF4E"]
+		id: "1935F4E2EC90A336"
+		shape: "circle"
+		tasks: [{
+			id: "2579EA35778C706B"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

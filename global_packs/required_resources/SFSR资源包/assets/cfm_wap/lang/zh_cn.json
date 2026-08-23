@@ -1,0 +1,18 @@
+{
+  "block.cfm_wap.light_circuit_breaker": "浅色断路器",
+  "block.cfm_wap.dark_circuit_breaker": "深色断路器",
+
+  "container.cfm_wap.circuit_breaker": "断路器",
+
+  "gui.cfm_wap.circuit_breaker": "断路器",
+  "gui.cfm_wap.connect_to_power": "请确保该方块正在接收来自 %s 或 %s 的能量。可以使用 %s 进行连接。",
+  "gui.cfm_wap.requires_power": "需要来自 %s 或 %s 的能量供应",
+
+  "gui.cfm_wap.node_count": "%s / %s",
+  "gui.cfm_wap.status.online": "在线",
+  "gui.cfm_wap.status.offline": "离线",
+  "gui.cfm_wap.status.overloaded": "过载",
+  "gui.cfm_wap.status.energy": "无能量",
+
+  "gui.cfm_wap.progress": "%s FE / %s FE"
+}

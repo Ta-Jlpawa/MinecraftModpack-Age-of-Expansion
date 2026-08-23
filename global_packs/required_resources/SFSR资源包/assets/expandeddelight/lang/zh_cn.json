@@ -1,0 +1,147 @@
+{
+  "item.expandeddelight.asparagus": "芦笋",
+  "item.expandeddelight.asparagus_seeds": "芦笋种子",
+  "item.expandeddelight.asparagus_soup": "芦笋汤",
+  "item.expandeddelight.asparagus_soup_creamy": "奶油芦笋汤",
+  "item.expandeddelight.asparagus_and_bacon_cheesy": "芝士芦笋培根",
+  "item.expandeddelight.asparagus_mushroom_pasta": "芦笋蘑菇意面",
+  "item.expandeddelight.asparagus_frittata": "芦笋煎蛋饼",
+
+  "item.expandeddelight.sweet_potato": "红薯",
+  "item.expandeddelight.baked_sweet_potato": "烤红薯",
+  "item.expandeddelight.sweet_potato_salad": "红薯沙拉",
+  "item.expandeddelight.sweet_potato_casserole": "红薯砂锅炖",
+
+  "item.expandeddelight.chili_pepper": "辣椒",
+  "item.expandeddelight.chili_pepper_seeds": "辣椒种子",
+  "item.expandeddelight.peperonata": "意式炒椒",
+  "item.expandeddelight.chili_pepper_salmon": "剁椒三文鱼",
+
+  "item.expandeddelight.peanut": "花生",
+  "item.expandeddelight.peanut_butter": "花生酱",
+  "item.expandeddelight.peanut_butter_sandwich": "花生酱三明治",
+  "item.expandeddelight.peanut_butter_honey_sandwich": "蜂蜜花生酱三明治",
+  "item.expandeddelight.peanut_salad": "花生沙拉",
+  "item.expandeddelight.peanut_honey_soup": "蜂蜜花生汤",
+  "item.expandeddelight.sweet_berry_jelly_sandwich": "花生酱甜浆果冻三明治",
+  "item.expandeddelight.glow_berry_jelly_sandwich": "花生酱发光浆果冻三明治",
+
+  "item.expandeddelight.cranberries": "蔓越莓",
+  "item.expandeddelight.cranberry_chicken": "蔓越莓炖鸡",
+  "item.expandeddelight.cranberry_cobbler_slice": "蔓越莓鞋匠馅饼切片",
+
+  "item.expandeddelight.lemon": "柠檬",
+
+  "item.expandeddelight.crushing_mallet": "粉碎木槌",
+  "item.expandeddelight.glass_jar": "玻璃罐",
+  "item.expandeddelight.cinnamon_stick": "肉桂棒",
+  "item.expandeddelight.cinnamon": "肉桂粉",
+  "item.expandeddelight.salt_rock": "盐石",
+  "item.expandeddelight.salt": "盐",
+
+  "item.expandeddelight.goat_milk_bucket": "山羊奶桶",
+  "item.expandeddelight.goat_milk_bottle": "瓶装山羊奶",
+
+  "item.expandeddelight.cheese_slice": "芝士切片",
+  "item.expandeddelight.goat_cheese_slice": "山羊芝士切片",
+  "item.expandeddelight.cheese_sandwich": "芝士三明治",
+  "item.expandeddelight.grilled_cheese": "烤芝士三明治",
+  "item.expandeddelight.cranberry_goat_cheese_toast": "蔓越莓山羊芝士吐司",
+  "item.expandeddelight.honeyed_goat_cheese_tart_slice": "蜂蜜山羊芝士挞切片",
+  "item.expandeddelight.goat_cheese_beetroot_salad": "山羊芝士甜菜根沙拉",
+
+  "item.expandeddelight.mac_and_cheese": "芝士通心粉",
+  "item.expandeddelight.sweet_roll": "甜面包卷",
+  "item.expandeddelight.berry_sweet_roll": "浆果甜面包卷",
+  "item.expandeddelight.glow_berry_sweet_roll": "发光浆果甜面包卷",
+  "item.expandeddelight.cinnamon_rice": "肉桂大米饭",
+  "item.expandeddelight.cinnamon_apples": "肉桂苹果",
+  "item.expandeddelight.chocolate_cookie": "巧克力饼干",
+  "item.expandeddelight.sugar_cookie": "糖饼干",
+  "item.expandeddelight.snickerdoodle": "肉桂糖饼干",
+
+  "item.expandeddelight.apple_juice": "苹果汁",
+  "item.expandeddelight.sweet_berry_juice": "甜浆果汁",
+  "item.expandeddelight.glow_berry_juice": "发光浆果汁",
+  "item.expandeddelight.cranberry_juice": "蔓越莓汁",
+
+  "item.expandeddelight.sweet_berry_jelly": "甜浆果冻",
+  "item.expandeddelight.glow_berry_jelly": "发光浆果冻",
+  "item.expandeddelight.cranberry_jelly": "蔓越莓冻",
+
+  "item.expandeddelight.cinnamon_boat": "肉桂木船",
+  "item.expandeddelight.cinnamon_chest_boat": "肉桂木运输船",
+
+  "block.expandeddelight.cinnamon_sapling": "肉桂树苗",
+  "block.expandeddelight.cinnamon_leaves": "肉桂树叶",
+  "block.expandeddelight.cinnamon_log": "肉桂原木",
+  "block.expandeddelight.stripped_cinnamon_log": "去皮肉桂原木",
+  "block.expandeddelight.cinnamon_wood": "肉桂木",
+  "block.expandeddelight.stripped_cinnamon_wood": "去皮肉桂木",
+  "block.expandeddelight.cinnamon_planks": "肉桂木板",
+  "block.expandeddelight.cinnamon_stairs": "肉桂木楼梯",
+  "block.expandeddelight.cinnamon_slab": "肉桂木半砖",
+  "block.expandeddelight.cinnamon_fence": "肉桂木栅栏",
+  "block.expandeddelight.cinnamon_fence_gate": "肉桂木栅栏门",
+  "block.expandeddelight.cinnamon_door": "肉桂木门",
+  "block.expandeddelight.cinnamon_trapdoor": "肉桂木活板门",
+  "block.expandeddelight.cinnamon_pressure_plate": "肉桂木压力版",
+  "block.expandeddelight.cinnamon_button": "肉桂木按钮",
+  "block.expandeddelight.cinnamon_sign": "肉桂木告示牌",
+  "block.expandeddelight.cinnamon_ceiling_hanging_sign": "肉桂木悬挂告示牌",
+  "block.expandeddelight.cinnamon_cabinet": "肉桂木橱柜",
+
+  "block.expandeddelight.asparagus_crate": "芦笋板条箱",
+  "block.expandeddelight.wild_asparagus": "野生芦笋",
+  "block.expandeddelight.asparagus_crop": "芦笋作物",
+
+  "block.expandeddelight.sweet_potato_crate": "红薯板条箱",
+  "block.expandeddelight.wild_sweet_potato": "野生红薯",
+  "block.expandeddelight.sweet_potato_crop": "红薯作物",
+
+  "block.expandeddelight.chili_pepper_crate": "辣椒板条箱",
+  "block.expandeddelight.wild_chili_pepper": "野生辣椒",
+  "block.expandeddelight.chili_pepper_crop": "辣椒作物",
+
+  "block.expandeddelight.wild_peanuts": "野生花生",
+  "block.expandeddelight.peanut_crop": "花生作物",
+
+  "block.expandeddelight.cranberry_plant": "蔓越莓植株",
+  "block.expandeddelight.cranberry_bag": "蔓越莓袋",
+  "block.expandeddelight.cranberry_cobbler": "蔓越莓鞋匠馅饼",
+
+  "block.expandeddelight.salt_ore": "盐矿石",
+  "block.expandeddelight.deepslate_salt_ore": "深层裂片盐矿石",
+
+  "block.expandeddelight.cheese_wheel": "大块芝士",
+  "block.expandeddelight.goat_cheese_wheel": "大块山羊芝士",
+  "block.expandeddelight.honeyed_goat_cheese_tart": "蜂蜜山羊芝士挞",
+
+  "block.expandeddelight.juicer": "榨汁机",
+  "block.expandeddelight.cask": "木桶",
+  "block.expandeddelight.milk_cask": "牛奶桶",
+  "block.expandeddelight.goat_milk_cask": "山羊奶桶",
+  "block.expandeddelight.cheese_cask": "芝士发酵桶",
+  "block.expandeddelight.goat_cheese_cask": "山羊芝士发酵桶",
+
+  "container.expandeddelight.juicer": "榨汁机",
+
+  "expandeddelight.container.juicer": "榨汁机",
+  "expandeddelight.container.recipe_book.juiceable": "显示可榨汁原料",
+  "expandeddelight.jei.juicing": "榨汁工艺",
+  "expandeddelight.jei.cheese_fermenting": "芝士发酵工艺",
+  "expandeddelight.jei.cheese_fermenting.light": "黑暗环境可加速发酵",
+  "expandeddelight.jei.cheese_fermenting.fluid": "邻近水源可加速发酵",
+  "expandeddelight.jei.cheese_fermenting.accelerators": "邻近特定激活物可加速发酵（见下文）",
+
+  "itemGroup.expandeddelight": "扩展农夫乐事",
+
+  "expandeddelight.jei.info.wild_asparagus": "芦笋常见于平原生物群系中，作为野生植物生成。",
+  "expandeddelight.jei.info.wild_sweet_potato": "红薯常见于丛林生物群系中，作为野生植物生成。",
+  "expandeddelight.jei.info.wild_chili_pepper": "辣椒常见于沙漠生物群系中，作为野生植物生成。",
+  "expandeddelight.jei.info.wild_peanuts": "花生常见于稀树草原生物群系中，作为野生植物生成。",
+  "expandeddelight.jei.info.cranberries": "蔓越莓常见于沼泽生物群系中，作为野生植物生成。",
+  "expandeddelight.jei.info.salt_ore": "盐矿石常见于地下，尤其在海洋生物群系中分布较多。",
+
+  "farmersdelight.tooltip.goat_milk_bottle": "清除 1 个状态效果"
+}

@@ -1,0 +1,381 @@
+{
+	autofocus_id: "03AC191CFD606C81"
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "chapter7"
+	group: "373AA5E325543F8B"
+	icon: {
+		id: "immersiveengineering:component_electronic_adv"
+	}
+	id: "2B4E01D1468C46F1"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "27341E0E263813C7"
+			shape: "diamond"
+			tasks: [{
+				id: "6375F20A5B384456"
+				item: { count: 1, id: "immersiveengineering:capacitor_hv" }
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			id: "199131E0F178EFEB"
+			size: 1.0d
+			tasks: [{
+				id: "75F3DCAF460C3449"
+				item: { count: 1, id: "immersiveengineering:capacitor_lv" }
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "3CA080E9616A60FC"
+			size: 1.0d
+			tasks: [{
+				id: "0C127BF21C3741CF"
+				item: { count: 1, id: "immersiveengineering:capacitor_mv" }
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["40F1171B448D478F"]
+			id: "03AC191CFD606C81"
+			shape: "circle"
+			tasks: [{
+				id: "23DF76859568290A"
+				max_input: 1000L
+				type: "forge_energy"
+				value: 1000000L
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7A15C93A6E7A89CA"]
+			id: "022B63D89832D10C"
+			shape: "circle"
+			tasks: [{
+				id: "786B1BF2D1E519BE"
+				max_input: 1000L
+				type: "forge_energy"
+				value: 1L
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["022B63D89832D10C"]
+			id: "40F1171B448D478F"
+			shape: "circle"
+			tasks: [{
+				id: "08F5C871FB19102F"
+				max_input: 1000L
+				type: "forge_energy"
+				value: 1000L
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["03AC191CFD606C81"]
+			id: "385278B33D4D2A73"
+			shape: "circle"
+			tasks: [{
+				id: "778778257E78C7D5"
+				max_input: 1000L
+				type: "forge_energy"
+				value: 1000000000L
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			id: "3AFDBD3B39CF391F"
+			shape: "diamond"
+			tasks: [{
+				fluid: {
+					amount: 10000
+					id: "immersiveengineering:creosote"
+				}
+				icon: {
+					id: "immersiveengineering:creosote_bucket"
+				}
+				id: "29BD465DB920DBFF"
+				type: "fluid"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			id: "4AD8F4C53966CAD8"
+			tasks: [{
+				id: "220CCAAB8282C441"
+				item: { count: 1, id: "immersiveengineering:wirecoil_copper" }
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			id: "5C53D850DA01A7F6"
+			shape: "diamond"
+			tasks: [{
+				id: "7F5A35596C2EE1B6"
+				item: { count: 1, id: "immersiveengineering:wirecoil_electrum" }
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "17608ED68D363317"
+			tasks: [{
+				id: "12C9E45BAF990F27"
+				item: { count: 1, id: "immersiveengineering:wirecoil_steel" }
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			id: "27F5C407D356388D"
+			tasks: [{
+				icon: {
+					id: "immersiveengineering:light_bulb"
+				}
+				id: "5BA3BD1701A019E4"
+				observation_type: "block"
+				observe_type: 0
+				timer: 60L
+				to_observe: "immersiveengineering:floodlight"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			id: "3DFD99F3BCF050B5"
+			tasks: [{
+				icon: {
+					id: "immersiveengineering:current_transformer"
+				}
+				id: "64784E8B2487F2D0"
+				observation_type: "block"
+				observe_type: 0
+				timer: 60L
+				to_observe: "immersiveengineering:current_transformer"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			id: "28890B1A0847846A"
+			tasks: [{
+				consume_items: true
+				id: "5DAEF4F8916A4F1C"
+				item: { count: 1, id: "immersiveengineering:storage_uranium" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			id: "5A367C6133AA2A66"
+			tasks: [{
+				consume_items: true
+				id: "438F280E8864D93A"
+				item: { count: 1, id: "minecraft:blue_ice" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "35DC4D8CB33D2F59"
+			tasks: [{
+				id: "098F0409CF5C4BDF"
+				item: { count: 1, id: "immersiveengineering:thermoelectric_generator" }
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"385278B33D4D2A73"
+				"27341E0E263813C7"
+				"043C297DD93C8121"
+				"35DC4D8CB33D2F59"
+				"2CEBF96D4466D47D"
+				"032C456DC4DBF547"
+				"17608ED68D363317"
+			]
+			id: "66BBDADBAA68B976"
+			rewards: [{
+				id: "1407A83470CF5260"
+				item: {
+					count: 1
+					id: "immersiveengineering:shader_bag_immersiveengineering_masterwork"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "1DB38FBBB1B0EC1F"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["28890B1A0847846A"]
+			id: "02FC6E90217898FA"
+			invisible: true
+			rewards: [{
+				id: "77EE0B4A57CE5185"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				consume_items: false
+				id: "306B57F72DF72C9F"
+				item: { count: 1, id: "immersiveengineering:slab_storage_uranium" }
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["28890B1A0847846A"]
+			id: "740EE882FFF46ED7"
+			invisible: true
+			rewards: [{
+				id: "05292594E52BD017"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				icon: {
+					id: "immersiveengineering:storage_uranium"
+				}
+				id: "72D4F92A28D51940"
+				observation_type: "block"
+				observe_type: 0
+				timer: 600L
+				to_observe: "immersiveengineering:storage_uranium"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			id: "043C297DD93C8121"
+			tasks: [{
+				id: "29896C4B973F6D7E"
+				item: { count: 1, id: "refurbished_furniture:light_electricity_generator" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			id: "40E5429D56EA03A3"
+			tasks: [{
+				id: "14EC5411E536DD8C"
+				item: { count: 1, id: "createaddition:alternator" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "6118E1286DA89A81"
+			tasks: [{
+				id: "5B1F7BC97BE98568"
+				item: { count: 1, id: "createaddition:electric_motor" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			id: "2CEBF96D4466D47D"
+			tasks: [{
+				id: "3761C955A54C2116"
+				item: { count: 1, id: "immersiveengineering:generator" }
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			id: "032C456DC4DBF547"
+			tasks: [{
+				id: "7BAF40810B90CC9C"
+				item: { count: 1, id: "immersiveengineering:dynamo" }
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			id: "5ABB113C6750D5E9"
+			tasks: [{
+				id: "137800731D2A6E01"
+				item: { count: 1, id: "immersiveengineering:radiator" }
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			id: "0C4227749FC210B2"
+			tasks: [{
+				id: "25E9464710206A68"
+				item: { count: 1, id: "immersiveengineering:biodiesel_bucket" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			id: "1BA429C088F24D75"
+			tasks: [{
+				id: "043D55340C2C9182"
+				item: { count: 1, id: "immersiveengineering:windmill" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			id: "158956CADF788851"
+			tasks: [{
+				id: "3146D68C4C504E5C"
+				item: { count: 1, id: "immersiveengineering:watermill" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+	]
+}

@@ -1,0 +1,54 @@
+{
+  "DataProviderToggles": {
+    "hud_data": true,
+    "litematic_data": true,
+    "structure_bounding_boxes": true,
+    "servux_main": true,
+    "tweaks_data": true,
+    "entity_data": true,
+    "debug_data": false
+  },
+  "hud_data": {
+    "permission_level": 0,
+    "update_interval": 80,
+    "share_weather_status": false,
+    "weather_permission_level": 0,
+    "share_seed": false,
+    "seed_permission_level": 2
+  },
+  "litematic_data": {
+    "permission_level": 0,
+    "permission_level_paste": 0,
+    "fix_rail_rotations": true,
+    "fix_stairs_mirror": true
+  },
+  "structure_bounding_boxes": {
+    "permission_level": 0,
+    "structures_blacklist_enabled": false,
+    "structures_whitelist_enabled": false,
+    "structures_blacklist": [
+      "minecraft:buried_treasure"
+    ],
+    "structures_whitelist": [],
+    "update_interval": 40,
+    "timeout": 600
+  },
+  "servux_main": {
+    "permission_level": 0,
+    "permission_level_admin": 3,
+    "permission_level_easy_place": 0,
+    "default_language": "en_us",
+    "debug_log": false
+  },
+  "tweaks_data": {
+    "permission_level": 0
+  },
+  "entity_data": {
+    "permission_level": 0,
+    "nbt_query_override": false,
+    "nbt_query_permission_level": 2
+  },
+  "debug_data": {
+    "permission_level": 2
+  }
+}

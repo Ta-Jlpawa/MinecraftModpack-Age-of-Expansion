@@ -1,0 +1,40 @@
+{
+	autofocus_id: "270421F711279842"
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "chapter_1"
+	group: "373AA5E325543F8B"
+	icon: {
+		id: "minecraft:grass_block"
+	}
+	id: "2BEABFD528600C02"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "270421F711279842"
+			shape: "circle"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: {
+					id: "minecraft:grass_block"
+				}
+				id: "297B7F59DEBECADA"
+				type: "dimension"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["270421F711279842"]
+			id: "1871BC964731E0F9"
+			shape: "circle"
+			tasks: [{
+				id: "2ED6D00AF3157A7B"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+	]
+}
