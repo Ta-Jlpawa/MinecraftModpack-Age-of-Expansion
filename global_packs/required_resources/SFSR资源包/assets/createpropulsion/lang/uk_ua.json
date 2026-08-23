@@ -1,0 +1,223 @@
+{
+  "createpropulsion": "Createpropulsion",
+  "itemGroup.createpropulsion.base": "Propulsion",
+
+  "advancement.createpropulsion.fuel_propulsion.description": "Створи рушій",
+  "advancement.createpropulsion.fuel_propulsion.title": "Паливна рушійна сила",
+
+  "advancement.createpropulsion.energy_propulsion.description": "Створи іонний рушій",
+  "advancement.createpropulsion.energy_propulsion.title": "Енергетична рушійна сила",
+
+  "advancement.createpropulsion.feed_the_fire_621.description": "Запитай генератор коралів",
+  "advancement.createpropulsion.feed_the_fire_621.title": "621... Підживи вогонь",
+
+  "advancement.createpropulsion.im_vectoring_it.description": "Створи векторний рушій",
+  "advancement.createpropulsion.im_vectoring_it.title": "Я векторизую це",
+
+  "advancement.createpropulsion.mighty_wings.description": "Створи загартовані крила",
+  "advancement.createpropulsion.mighty_wings.title": "Величні крила",
+
+  "createpropulsion.gui.goggles.cc.peripheral_controlled": "Керується периферією",
+
+  "block.createpropulsion.redstone_converter": "Редстоуновий перетворювач",
+  "createpropulsion.redstone_converter.output_strength": "Сила вихідного сигналу",
+  "createpropulsion.redstone_converter.tooltip.summary": "Перетворює силу редстоун-сигналу на налаштований вихідний сигнал.",
+
+  "block.createpropulsion.redstone_transmission": "Редстоунова трансмісія",
+  "createpropulsion.gui.goggles.redstone_transmission.title": "Режим передачі",
+  "createpropulsion.gui.goggles.redstone_transmission.internal_shift_title": "Внутрішнє зміщення",
+  "createpropulsion.gui.goggles.redstone_transmission.internal_shift_number": "%s / %s",
+  "createpropulsion.gui.goggles.redstone_transmission.output": "Вихідна швидкість",
+
+  "createpropulsion.redstone_transmission.control_mode": "Режим керування",
+  "createpropulsion.redstone_transmission.control_mode.": "",
+  "createpropulsion.redstone_transmission.control_mode.direct": "Прямий",
+  "createpropulsion.redstone_transmission.control_mode.incremental": "Покроковий",
+
+  "createpropulsion.ponder.redstone_transmission_direct.header": "Режим прямого керування",
+  "createpropulsion.ponder.shared.redstone_transmission_direct.intro": "Прямий режим напряму пов’язує вхідний сигнал із вихідним коефіцієнтом.",
+  "createpropulsion.ponder.shared.redstone_transmission_direct.proportional_output": "Вихід змінюється пропорційно силі отриманого редстоун-сигналу.",
+  "createpropulsion.ponder.shared.redstone_transmission_direct.scaling_note": "Повний сигнал забезпечує повну вихідну передачу.",
+
+  "createpropulsion.ponder.redstone_transmission_incremental.header": "Покроковий режим керування",
+  "createpropulsion.ponder.shared.redstone_transmission_incremental.proportional_output": "Покроковий режим змінює швидкість поступово.",
+  "createpropulsion.ponder.shared.redstone_transmission_incremental.changing_mode": "Використовуйте панель значень для перемикання режимів керування.",
+  "createpropulsion.ponder.shared.redstone_transmission_incremental.increase_shift": "Сигнал з одного боку збільшує швидкість передачі.",
+  "createpropulsion.ponder.shared.redstone_transmission_incremental.decrease_shift": "Сигнал з протилежного боку зменшує швидкість передачі.",
+  "createpropulsion.ponder.shared.redstone_transmission_incremental.both_sides_condition": "Якщо обидві сторони запитані, підсумкова швидкість залежить від різниці сигналів.",
+  "createpropulsion.ponder.shared.redstone_transmission_incremental.both_sides_action": "Сильніший сигнал перемагає та відповідно змінює вихід.",
+
+  "block.createpropulsion.solid_burner": "Твердопаливний пальник",
+  "block.createpropulsion.liquid_burner": "Рідинний пальник",
+
+  "createpropulsion.gui.goggles.burner.status": "Стан пальника",
+  "createpropulsion.gui.goggles.burner.heat.cold": "Холодний",
+  "createpropulsion.gui.goggles.burner.heat.warm": "Теплий",
+  "createpropulsion.gui.goggles.burner.heat.hot": "Гарячий",
+  "createpropulsion.gui.goggles.burner.heat.searing": "Розжарений",
+
+  "createpropulsion.gui.goggles.burner.thermostat": "Термостат",
+  "createpropulsion.gui.goggles.burner.thermostat.on": "Увімкнено",
+  "createpropulsion.gui.goggles.burner.thermostat.off": "Вимкнено",
+
+  "createpropulsion.ponder.solid_burner.header": "Генерація тепла твердопаливним пальником",
+  "createpropulsion.ponder.shared.solid_burner.intro": "Твердопаливні пальники можуть генерувати тепло для сумісних машин над ними.",
+  "createpropulsion.ponder.shared.solid_burner.has_thermostat": "Твердопаливні пальники підтримують керування термостатом через редстоун.",
+
+  "createpropulsion.ponder.liquid_burner.header": "Генерація тепла рідинним пальником",
+  "createpropulsion.ponder.shared.liquid_burner.intro": "Рідинні пальники споживають придатне рідке паливо для генерації тепла.",
+  "createpropulsion.ponder.shared.liquid_burner.heat_comparison": "Властивості рідкого палива впливають на підтримку тепла та продуктивність.",
+  "createpropulsion.ponder.shared.liquid_burner.has_thermostat": "Рідинні пальники також підтримують керування термостатом через редстоун.",
+  "createpropulsion.ponder.shared.liquid_burner.chaining": "Рідинні пальники можна ставити поруч у ланцюг.",
+  "createpropulsion.ponder.shared.liquid_burner.acting_as_pipe": "Вони можуть пропускати рідину крізь себе під час роботи як пальники.",
+
+  "createpropulsion.ponder.shared.burner.activation": "Після розпалювання підключені споживачі тепла можуть почати роботу.",
+  "createpropulsion.ponder.shared.burner.redstone_thermostat": "Застосування редстоуна перемикає поведінку термостата.",
+  "createpropulsion.ponder.shared.burner.constant_consumption": "З перевизначенням термостата паливо споживається безперервно.",
+  "createpropulsion.ponder.shared.burner.status.hot": "Стан пальника: Гарячий",
+  "createpropulsion.ponder.shared.burner.status.searing": "Стан пальника: Розжарений",
+  "createpropulsion.ponder.shared.burner.efficiency": "Якісне паливо та правильне налаштування забезпечують високу ефективність пальника.",
+
+  "block.createpropulsion.cable": "Кабель",
+  "block.createpropulsion.cable_hub": "Кабельний вузол",
+  "item.createpropulsion.cable_spool": "Котушка кабелю",
+  "item.createpropulsion.cable_spool.first_set": "Стартовий набір кабелю",
+
+  "block.createpropulsion.wing": "Крило",
+  "block.createpropulsion.tempered_wing": "Загартоване крило",
+
+  "block.createpropulsion.copycat_wing": "Копіювальне крило",
+  "createpropulsion.copycat_wing.tooltip.summary": "Легкий копіювальний вітрильний блок для механізмів. Розмістіть його та застосуйте інший блок, щоб скопіювати його матеріал.",
+  "block.createpropulsion.copycat_wing_8": "Копіювальне крило (8 м)",
+  "createpropulsion.copycat_wing_8.tooltip.summary": "Ширший копіювальний вітрильний блок для механізмів. Розмістіть його та застосуйте інший блок, щоб скопіювати його матеріал.",
+  "block.createpropulsion.copycat_wing_12": "Копіювальне крило (12 м)",
+  "createpropulsion.copycat_wing_12.tooltip.summary": "Найширший копіювальний вітрильний блок для механізмів. Розмістіть його та застосуйте інший блок, щоб скопіювати його матеріал.",
+
+  "block.createpropulsion.coral": "Корал",
+
+  "fluid_type.createpropulsion.coral": "Корал",
+  "fluid.createpropulsion.coral": "Корал",
+  "item.createpropulsion.coral_bucket": "Відро коралу",
+
+  "block.createpropulsion.coral_generator": "Кораловий генератор",
+  "createpropulsion.coral_generator.tooltip.summary": "Перетворює коралову рідину на FE та виводить енергію через верхню і нижню сторони.",
+
+  "createpropulsion.coral_bucket.tooltip.summary": "Паливо для коралового генератора. Утримуйте Shift, щоб побачити коефіцієнт перетворення.",
+  "createpropulsion.tooltip.holdForCoralConversionSummary": "Утримуйте [%1$s], щоб переглянути підсумок перетворення коралу.",
+
+  "block.createpropulsion.creative_thruster": "Креативний рушій",
+  "createpropulsion.creative_thruster.tooltip.summary": "Рушій із нескінченним паливом, налаштовуваним виходом і перемиканням режимів частинок за допомогою гайкового ключа.",
+
+  "createpropulsion.gui.creative_thruster.power_behaviour": "Поведінка потужності",
+
+  "createpropulsion.gui.goggles.creative_thruster.particle": "Частинки",
+  "createpropulsion.gui.goggles.creative_thruster.particle.ion": "Іонні",
+  "createpropulsion.gui.goggles.creative_thruster.particle.plasma": "Плазма",
+  "createpropulsion.gui.goggles.creative_thruster.particle.plume": "Струмінь",
+  "createpropulsion.gui.goggles.creative_thruster.particle.none": "Немає",
+
+  "block.createpropulsion.creative_vector_thruster": "Креативний векторний рушій",
+  "createpropulsion.creative_vector_thruster.tooltip.summary": "Векторний рушій із налаштовуваною креативною тягою та перемиканням режимів частинок гайковим ключем.",
+
+  "block.createpropulsion.deepslate_platinum_ore": "Платинова руда глибокосланцю",
+  "block.createpropulsion.platinum_block": "Блок платини",
+  "block.createpropulsion.platinum_ore": "Платинова руда",
+  "block.createpropulsion.raw_platinum_block": "Блок сирої платини",
+
+  "item.createpropulsion.platinum_ingot": "Злиток платини",
+  "item.createpropulsion.platinum_nugget": "Самородок платини",
+  "item.createpropulsion.platinum_sheet": "Пластина платини",
+  "item.createpropulsion.raw_platinum": "Сира платина",
+
+  "block.createpropulsion.stirling_engine": "Двигун Стірлінга",
+
+  "createpropulsion.gui.goggles.stirling_engine.status": "Стан",
+  "createpropulsion.gui.goggles.stirling_engine.status.no_heat": "Немає тепла",
+  "createpropulsion.gui.goggles.stirling_engine.status.off": "Вимкнено",
+  "createpropulsion.gui.goggles.stirling_engine.status.on": "Увімкнено",
+
+  "createpropulsion.stirling_engine.generated_speed": "Вироблена швидкість",
+
+  "createpropulsion.ponder.stirling_engine.header": "Живлення двигуна Стірлінга",
+  "createpropulsion.ponder.stirling_engine_liquid.header": "Живлення двигуна Стірлінга",
+  "createpropulsion.ponder.stirling_engine_solid.header": "Живлення двигуна Стірлінга",
+
+  "createpropulsion.ponder.shared.stirling_engine.intro": "Двигун Стірлінга працює при нагріванні знизу.",
+  "createpropulsion.ponder.shared.stirling_engine.text_1": "Тепло знизу змушує двигун створювати обертальну силу.",
+  "createpropulsion.ponder.shared.stirling_engine.text_2": "Без тепла двигун припиняє виробляти обертання.",
+
+  "createpropulsion.ponder.shared.stirling_engine_liquid.clutch_shutdown": "Увімкнення зчеплення зупиняє насос, подача палива припиняється, і двигун поступово зупиняється.",
+
+  "block.createpropulsion.thruster": "Рушій",
+
+  "createpropulsion.subtitle.thruster_loop": "Рушій гуркотить",
+
+  "createpropulsion.thruster.tooltip.summary": "Забезпечує напрямну тягу при живленні редстоуном і подачі скипидару як палива.",
+  "createpropulsion.tooltip.shared.thruster_summary": "Огляд рушія",
+
+  "createpropulsion.gui.goggles.thruster.status": "Стан",
+  "createpropulsion.gui.goggles.thruster.status.no_energy": "Немає енергії",
+  "createpropulsion.gui.goggles.thruster.status.no_fuel": "Немає палива",
+  "createpropulsion.gui.goggles.thruster.status.not_powered": "Немає живлення",
+  "createpropulsion.gui.goggles.thruster.status.working": "Працює",
+  "createpropulsion.gui.goggles.thruster.status.wrong_fuel": "Неправильне паливо",
+  "createpropulsion.gui.goggles.thruster.obstructed": "Заблоковано",
+
+  "createpropulsion.gui.goggles.thruster.efficiency": "Ефективність",
+  "createpropulsion.gui.goggles.thruster.energy_container": "Запас енергії:",
+  "createpropulsion.gui.goggles.thruster.fluid_container": "Рідинний контейнер:",
+  "createpropulsion.gui.goggles.thruster.thrust_output": "Тяга:",
+  "createpropulsion.gui.goggles.thruster.size": " Розмір",
+  "createpropulsion.gui.goggles.thruster.unit_pn": "пН",
+
+  "createpropulsion.ponder.ponder_thruster_normal.header": "Подача палива для рушія",
+  "createpropulsion.ponder.shared.thruster_normal.fuels_intro": "Рушії приймають визначене паливо через підключені труби.",
+  "createpropulsion.ponder.shared.thruster_normal.invalid_fuel": "Непридатні рідини не живлять рушій.",
+  "createpropulsion.ponder.shared.thruster_normal.valid_fuels": "Використовуйте придатне паливо для рушіїв у вхідному каналі.",
+  "createpropulsion.ponder.shared.thruster_normal.power_and_thrust": "Тепер подайте редстоун, щоб рушій почав створювати тягу.",
+
+  "createpropulsion.ponder.ponder_thruster_2x2.header": "Входи 2x2 рушія",
+  "createpropulsion.ponder.shared.thruster_2x2.composed_of_blocks": "Мультиблок 2x2x2 складається з 8 звичайних рушіїв.",
+  "createpropulsion.ponder.shared.thruster_2x2.valid_rear": "Мультиблоки приймають паливо лише через задній мідний шар.",
+  "createpropulsion.ponder.shared.thruster_2x2.valid_fuel_now": "Використовуйте придатне паливо для подачі.",
+  "createpropulsion.ponder.shared.thruster_2x2.power_thruster": "Подайте редстоун — і рушій запрацює.",
+
+  "createpropulsion.ponder.ponder_thruster_3x3.header": "Входи 3x3 рушія",
+  "createpropulsion.ponder.shared.thruster_3x3.composed_of_blocks": "Мультиблок 3x3x3 складається з 27 звичайних рушіїв.",
+  "createpropulsion.ponder.shared.thruster_3x3.back_layer_inputs": "Мультиблоки приймають паливо лише через задній мідний шар.",
+  "createpropulsion.ponder.shared.thruster_3x3.valid_fuel_now": "Використовуйте придатне паливо для подачі.",
+  "createpropulsion.ponder.shared.thruster_3x3.power_thruster": "Подайте редстоун — і рушій запрацює.",
+
+  "block.createpropulsion.ion_thruster": "Іонний рушій",
+  "createpropulsion.ion_thruster.tooltip.summary": "Забезпечує напрямну тягу при живленні редстоуном і подачі енергії FE.",
+
+  "block.createpropulsion.vector_thruster": "Векторний рушій",
+  "createpropulsion.vector_thruster.tooltip.summary": "Напрямний рушій, що також дозволяє керувати ривком і тангажем для векторного контролю тяги.",
+
+  "block.createpropulsion.tilt_adapter": "Адаптер нахилу",
+  "createpropulsion.tilt_adapter.tooltip.summary": "Пристрій, що змінює кут обертального виходу залежно від аналогового сигналу редстоуна.",
+
+  "createpropulsion.ponder.tilt_adapter.header": "Керування нахилом за допомогою редстоуна",
+  "createpropulsion.ponder.shared.tilt_adapter.intro": "Адаптер нахилу перетворює різницю редстоун-сигналу на цільовий кут виходу.",
+  "createpropulsion.ponder.shared.tilt_adapter.equal_signals": "Рівні сигнали зліва і справа утримують адаптер у центрі.",
+  "createpropulsion.ponder.shared.tilt_adapter.left_higher": "Сильніший сигнал зліва нахиляє вихід в один бік.",
+  "createpropulsion.ponder.shared.tilt_adapter.right_higher": "Сильніший сигнал справа нахиляє вихід у протилежний бік.",
+
+  "item.createpropulsion.pine_resin": "Соснова смола",
+  "block.createpropulsion.turpentine": "Скипидар",
+  "fluid.createpropulsion.turpentine": "Скипидар",
+  "item.createpropulsion.turpentine_bucket": "Відро скипидару",
+  "createpropulsion.turpentine_bucket.tooltip.summary": "Паливо для рушіїв. Утримуйте Shift, щоб переглянути підсумок тяги та швидкості згоряння.",
+
+  "createpropulsion.tooltip.airflow": "Повітряний потік: ",
+  "createpropulsion.tooltip.consumption": "Швидкість згоряння",
+  "createpropulsion.tooltip.conversion_rate": "Коефіцієнт перетворення",
+
+  "createpropulsion.tooltip.heat.consumption": "Споживання",
+  "createpropulsion.tooltip.heat.generation": "Генерація",
+
+  "createpropulsion.tooltip.holdForRocketFuelSummary": "Утримуйте [%1$s], щоб переглянути підсумок ракетного пального",
+
+  "createpropulsion.tooltip.thrust": "Тяга",
+  "createpropulsion.tooltip.thrust1": "Тяга: "
+}

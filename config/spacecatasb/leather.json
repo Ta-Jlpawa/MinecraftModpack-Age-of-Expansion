@@ -1,0 +1,37 @@
+{
+  "armorSetName": "leather",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "minecraft:leather_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "minecraft:leather_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "minecraft:leather_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "minecraft:leather_boots",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 3.0,
+      "modifierId": "asb:bonus_leather_armor",
+      "description": "+3 armor",
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "percentageChance": 100.0,
+      "duration": 300,
+      "amplifier": 0
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

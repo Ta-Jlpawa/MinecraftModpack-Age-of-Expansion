@@ -1,0 +1,67 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "branch1"
+	group: "04B02BDEFDBB803F"
+	icon: {
+		id: "minecraft:enchanted_golden_apple"
+	}
+	id: "32AB59C6539B6B4E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6C0D6E56DDADB634"
+			tasks: [{
+				icon: {
+					id: "minecraft:netherite_sword"
+				}
+				id: "7F3AA8AD0FEB2B4C"
+				stat: "minecraft:player_kills"
+				type: "stat"
+				value: 100
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "4A2DDC44FF5E6EE3"
+			tasks: [{
+				icon: {
+					id: "immersiveengineering:warning_sign_arrow_double_right"
+				}
+				id: "1E744C67C5E2BE45"
+				stat: "minecraft:leave_game"
+				type: "stat"
+				value: 100
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "15DAE4245A5628C0"
+			tasks: [{
+				icon: {
+					id: "exposure:high_sensitivity_color_film"
+				}
+				id: "27127F39288057B7"
+				stat: "exposure:film_frames_exposed"
+				type: "stat"
+				value: 30
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			id: "607FE9AE90098747"
+			tasks: [{
+				id: "2B2EE932DE22183E"
+				item: { count: 1, id: "exposure:camera" }
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+	]
+}

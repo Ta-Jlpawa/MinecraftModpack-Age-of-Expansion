@@ -1,0 +1,17 @@
+[dynamic_recipes]
+	#Master switch for dynamic ammo recipe injection. Disable to remove all auto-generated ammo cutting/assembly/pressing recipes.
+	enableDynamicRecipes = true
+	#Whether to auto-extract materials and output count from TaCZ GunSmithTable recipes. When disabled, only AmmoRecipeConfig OVERRIDES + category fallback are used.
+	autoMatchFromTaCZ = true
+
+[step_scaling]
+	#How to scale assembly step counts from TaCZ recipe ingredient amounts.
+	#RAW  - use the raw count (e.g. 110 copper steps for 9mm)
+	#GCD  - divide all counts and output by their greatest common divisor
+	#FIXED - divide all counts and output by fixedScaleFactor
+	#Allowed Values: RAW, GCD, FIXED
+	stepScaling = "GCD"
+	#Divisor used when stepScaling = FIXED
+	# Default: 10
+	# Range: 1 ~ 1000
+	fixedScaleFactor = 10

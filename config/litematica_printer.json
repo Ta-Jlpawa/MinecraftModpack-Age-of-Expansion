@@ -1,0 +1,97 @@
+{
+  "litematica_printer": {
+    "打印状态": true,
+    "printerSpeed": 1,
+    "printerRange": 6,
+    "printerPlaceCooldown": 3,
+    "iteratorUseTime": 8,
+    "printerUsePacket": false,
+    "显示打印机HUD": false,
+    "quickShulker": false,
+    "quickShulkerMode": "click_slot",
+    "quickShulkerCooldown": 10,
+    "printerLagCheck": true,
+    "iteratorMode": "xzy",
+    "xReverse": false,
+    "yReverse": false,
+    "zReverse": false,
+    "模式切换": "single",
+    "打印机模式": "printer",
+    "渲染层数限制": false,
+    "排流体-方块名单": [
+      "minecraft:sand"
+    ],
+    "排流体-液体名单": [
+      "minecraft:water",
+      "minecraft:lava"
+    ],
+    "填充方块名单": [
+      "minecraft:cobblestone"
+    ],
+    "debugOutput": false,
+    "updateCheck": true,
+    "跳过放置": false,
+    "跳过放置名单": [],
+    "有序存放": false,
+    "easyPlaceProtocol": false,
+    "轻松放置模式": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "打印时潜行": false,
+    "凭空放置": true,
+    "printWater": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "printSkipWaterlogged": false,
+    "覆盖打印": true,
+    "覆盖方块列表": [
+      "minecraft:snow",
+      "minecraft:lava",
+      "minecraft:water",
+      "minecraft:bubble_column",
+      "minecraft:short_grass"
+    ],
+    "自动去树皮": false,
+    "替换珊瑚": false,
+    "autoTuning": true,
+    "safelyObserver": true,
+    "autoFillComposter": false,
+    "fallingBlockCheck": true,
+    "breakWrongBlock": false,
+    "breakExtraBlock": false,
+    "fillModeFillFlowing": true,
+    "挖掘模式限制器": "custom",
+    "挖掘模式限制": "none",
+    "挖掘白名单": [
+      ""
+    ],
+    "挖掘黑名单": [
+      ""
+    ],
+    "打开菜单": {
+      "keys": "Z,Y"
+    },
+    "打印": {
+      "keys": ""
+    },
+    "打印状态开关": {
+      "keys": "END"
+    },
+    "切换模式": {
+      "keys": "HOME"
+    },
+    "关闭全部模式": {
+      "keys": "LEFT_CONTROL,G"
+    },
+    "容器同步": {
+      "keys": ""
+    },
+    "容器同步与打印机添加库存高亮颜色": "#4CFF4CE6"
+  }
+}
