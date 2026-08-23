@@ -1,0 +1,7 @@
+{
+  "config.abridged.title": "Abridged 配置",
+  "config.abridged.option.frequency": "生成频率",
+  "config.abridged.option.frequency.tooltip": "在找到合适位置时放置桥梁的概率。",
+  "config.abridged.option.directly_sample_heightmap": "直接采样高度图",
+  "config.abridged.option.directly_sample_heightmap.tooltip": "检查是否可生成桥梁时直接对高度图进行采样。\n\n默认情况下该选项关闭，此时会基于噪声路由器中的 depth 字段对高度图进行近似估算。\n\n近似方式的效率要高得多，且能提高桥梁的生成成功率，但在特殊情况下可能失效（例如使用 Tectonic 或放大化世界类型时）。"
+}

@@ -1,0 +1,127 @@
+{
+	"modmenu.descriptionTranslation.inventory_particles": "为物品栏中的物品添加漂亮的粒子效果！让你的物品栏更有活力、更加生动！",
+	"inventory_particles.modmenu.title": "§l物品栏粒子 配置",
+
+	"inventory_particles.modmenu.category.general.name": "常规",
+
+	"inventory_particles.modmenu.group.main.name": "主要",
+	"inventory_particles.modmenu.group.main.description": "模组的主要设置。",
+
+	"inventory_particles.modmenu.option.mod_enabled.name": "启用模组",
+	"inventory_particles.modmenu.option.mod_enabled.description": "启用后，手持物品时鼠标指针周围会生成粒子；禁用则不会。",
+
+	"inventory_particles.modmenu.option.debug_mode_enabled.name": "启用调试模式",
+	"inventory_particles.modmenu.option.debug_mode_enabled.description": "启用后，会显示一些调试信息；禁用则不会。",
+
+	"inventory_particles.modmenu.option.nbt_debug_mode_enabled.name": "启用 NBT 调试模式",
+	"inventory_particles.modmenu.option.nbt_debug_mode_enabled.description": "启用后，游戏日志中会输出物品 NBT 的调试信息；禁用则不会。",
+
+	"inventory_particles.modmenu.category.particles_spawn.name": "粒子生成",
+
+	"inventory_particles.modmenu.group.global_section.name": "[全局]",
+	"inventory_particles.modmenu.group.global_section.description": "适用于所有场景的全局设置，会与各场景的专属设置叠加生效。",
+
+	"inventory_particles.modmenu.group.cursor_section.name": "[光标]",
+	"inventory_particles.modmenu.group.cursor_section.description": "手持物品时在光标周围生成的粒子。",
+
+	"inventory_particles.modmenu.group.hovered_slot_section.name": "[悬停槽位]",
+	"inventory_particles.modmenu.group.hovered_slot_section.description": "在光标当前悬停的槽位周围生成的粒子。",
+
+	"inventory_particles.modmenu.group.gui_slots_section.name": "[界面槽位]",
+	"inventory_particles.modmenu.group.gui_slots_section.description": "在每个含有物品的界面槽位中生成的粒子。",
+
+	"inventory_particles.modmenu.group.gui_actions_section.name": "[界面操作]",
+	"inventory_particles.modmenu.group.gui_actions_section.description": "执行任意界面操作（如取出、放入、快速移动等）后生成的粒子。",
+
+	"inventory_particles.modmenu.option.spawn_enabled.name": "启用粒子生成",
+	"inventory_particles.modmenu.option.spawn_enabled.description": "启用后，此场景会生成粒子；禁用则不会。",
+
+	"inventory_particles.modmenu.option.gui_action_take_spawn_enabled.name": "[取出] 启用粒子生成",
+	"inventory_particles.modmenu.option.gui_action_take_spawn_enabled.description": "启用后，从槽位取出物品时会生成粒子；禁用则不会。",
+
+	"inventory_particles.modmenu.option.gui_action_put_spawn_enabled.name": "[放入] 启用粒子生成",
+	"inventory_particles.modmenu.option.gui_action_put_spawn_enabled.description": "启用后，把物品放入槽位时会生成粒子；禁用则不会。",
+
+	"inventory_particles.modmenu.option.gui_action_quick_move_spawn_enabled.name": "[快速移动] 启用粒子生成",
+	"inventory_particles.modmenu.option.gui_action_quick_move_spawn_enabled.description": "启用后，快速移动物品（Shift+左键）时会生成粒子；禁用则不会。",
+
+	"inventory_particles.modmenu.option.count_coefficient.name": "数量系数",
+	"inventory_particles.modmenu.option.count_coefficient.description": "此场景可生成粒子数量的倍率。",
+
+	"inventory_particles.modmenu.option.cooldown_coefficient.name": "冷却系数",
+	"inventory_particles.modmenu.option.cooldown_coefficient.description": "此场景粒子生成间隔的倍率。",
+
+	"inventory_particles.modmenu.option.spawn_chance.name": "生成概率",
+	"inventory_particles.modmenu.option.spawn_chance.description": "某些界面操作（如取出/放入）后生成粒子的概率（与冷却无关）。",
+
+	"inventory_particles.modmenu.option.whitelist_mode.disabled": "禁用",
+	"inventory_particles.modmenu.option.whitelist_mode.whitelist": "白名单",
+	"inventory_particles.modmenu.option.whitelist_mode.blacklist": "黑名单",
+
+	"inventory_particles.modmenu.option.whitelist_mode.name": "名单模式",
+	"inventory_particles.modmenu.option.whitelist_mode.description": "控制名单的应用方式。白名单 - 仅名单内的物品会生成粒子；黑名单 - 名单内的物品不会生成粒子。",
+
+	"inventory_particles.modmenu.option.whitelist_items.name": "名单物品",
+	"inventory_particles.modmenu.option.whitelist_items.description": "在此填写物品 ID。可在开启 F3+H 后从物品提示中获取，多个 ID 用空格分隔。",
+
+	"inventory_particles.modmenu.group.visual.name": "视觉",
+	"inventory_particles.modmenu.group.visual.description": "粒子外观相关设置。",
+
+	"inventory_particles.modmenu.option.particles_deletion_mode.name": "粒子移除模式",
+	"inventory_particles.modmenu.option.particles_deletion_mode.description": "当达到粒子上限需要为新粒子腾出空间时，决定移除哪些粒子。",
+
+	"inventory_particles.modmenu.option.particles_deletion_mode.random": "随机",
+	"inventory_particles.modmenu.option.particles_deletion_mode.oldest": "最旧的",
+
+	"inventory_particles.modmenu.option.particles_count_limit.name": "粒子数量上限",
+	"inventory_particles.modmenu.option.particles_count_limit.description": "控制屏幕上最多能存在多少个粒子。",
+
+	"inventory_particles.modmenu.option.particles_transparency.name": "粒子透明度",
+	"inventory_particles.modmenu.option.particles_transparency.description": "控制屏幕上所有粒子的透明度。",
+
+	"inventory_particles.modmenu.option.fade_out_duration.name": "粒子消失淡出时长",
+	"inventory_particles.modmenu.option.fade_out_duration.description": "达到粒子上限后，粒子平滑淡出效果的持续时间（以游戏刻计）。设为 0 表示立即移除、不淡出。",
+
+	"inventory_particles.modmenu.group.family_generation.name": "同族粒子生成",
+	"inventory_particles.modmenu.group.family_generation.description": "控制自动同族粒子生成对哪些模组和物品生效。同族粒子会根据模组物品的渲染外观自动生成。物品必须同时通过模组过滤器和物品过滤器。\n\n!!!!! 注意：修改这些列表后必须重新生成粒子——点击下方的“立即重建缓存”按钮删除旧缓存，然后按 F3+T 重载资源。",
+
+	"inventory_particles.modmenu.option.family_generation_mode.blacklist": "黑名单",
+	"inventory_particles.modmenu.option.family_generation_mode.whitelist": "白名单",
+
+	"inventory_particles.modmenu.option.family_generation_mods_mode.name": "[模组] 名单模式",
+	"inventory_particles.modmenu.option.family_generation_mods_mode.description": "模组列表的应用方式。黑名单 - 除列表中的模组外都生成同族粒子；白名单 - 仅为列表中的模组生成同族粒子。",
+
+	"inventory_particles.modmenu.option.family_generation_mods.name": "[模组] 列表",
+	"inventory_particles.modmenu.option.family_generation_mods.description": "要筛选的模组 ID（命名空间），用空格分隔，例如“minecraft create farmersdelight”。留空表示不过滤（黑名单模式下）。",
+
+	"inventory_particles.modmenu.option.family_generation_items_mode.name": "[物品] 名单模式",
+	"inventory_particles.modmenu.option.family_generation_items_mode.description": "物品列表的应用方式。黑名单 - 除列表中的物品外都生成同族粒子；白名单 - 仅为列表中的物品生成同族粒子。",
+
+	"inventory_particles.modmenu.option.family_generation_items.name": "[物品] 列表",
+	"inventory_particles.modmenu.option.family_generation_items.description": "要筛选的物品 ID，用空格分隔，例如“minecraft:diamond create:wrench”。可在开启 F3+H 后从物品提示中复制 ID。留空表示不过滤（黑名单模式下）。",
+
+	"inventory_particles.modmenu.group.cache.name": "模组物品缓存",
+	"inventory_particles.modmenu.group.cache.description": "控制模组物品所用缓存资源的设置。",
+
+	"inventory_particles.modmenu.option.invalidate_mode.name": "重建时机",
+	"inventory_particles.modmenu.option.invalidate_mode.description": "何时删除并重建模组物品的缓存资源。",
+
+	"inventory_particles.modmenu.option.invalidate_mode.after_resource_reloading": "资源重载后",
+	"inventory_particles.modmenu.option.invalidate_mode.after_joining_world": "进入世界后",
+	"inventory_particles.modmenu.option.invalidate_mode.after_game_launch": "游戏启动后",
+	"inventory_particles.modmenu.option.invalidate_mode.manual_invalidate": "手动（使用下方按钮）",
+
+	"inventory_particles.modmenu.option.invalidate_now.name": "立即重建缓存",
+	"inventory_particles.modmenu.option.invalidate_now.description": "立即删除并重建模组物品的缓存资源。",
+
+	"inventory_particles.particles_linking.title": "正在将粒子关联到物品",
+	"inventory_particles.particles_linking.loading": "进度：%s / %s",
+	"inventory_particles.particles_linking.average_time": "平均用时：%s秒",
+	"inventory_particles.particles_linking.remaining_time": "剩余时间：约%s分钟",
+	"inventory_particles.particles_linking.preparing": "正在准备……请稍候",
+
+	"inventory_particles.modmenu.formatter.enabled_or_disabled.true": "已启用",
+	"inventory_particles.modmenu.formatter.enabled_or_disabled.false": "已禁用",
+
+	"inventory_particles.notice_message_2_1_0": "§a[物品栏粒子]§e 你好 %s§e！有一条重要的小消息：§r\n\n物品栏粒子现在原生支持其他模组的物品了！\n\n工作原理：本模组会读取物品并为它们生成粒子贴图。根据游戏中模组物品的数量，这可能需要一些时间 §e（目前共有 %s 个！）§r。\n\n想查看进度，请打开物品栏并将鼠标悬停在右上角。\n\n如果你的电脑非常非常慢，生成期间可能会出现轻微掉帧。这是正常现象，而且只会发生一次！\n\n完成后一切都会被缓存保存，之后加载会非常快。\n\n要清除缓存或更改其行为，请打开本模组的设置菜单。\n\n§e感谢你的阅读！这条消息不会再出现。"
+}
