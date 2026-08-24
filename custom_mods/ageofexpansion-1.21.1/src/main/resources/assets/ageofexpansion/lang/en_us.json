@@ -1,0 +1,13 @@
+{
+  "itemGroup.ageofexpansion": "Example Mod Tab",
+  "block.ageofexpansion.example_block": "Example Block",
+  "item.ageofexpansion.example_item": "Example Item",
+
+  "ageofexpansion.configuration.title": "Age of Expansion Configs",
+  "ageofexpansion.configuration.section.ageofexpansion.common.toml": "Age of Expansion Configs",
+  "ageofexpansion.configuration.section.ageofexpansion.common.toml.title": "Age of Expansion Configs",
+  "ageofexpansion.configuration.items": "Item List",
+  "ageofexpansion.configuration.logDirtBlock": "Log Dirt Block",
+  "ageofexpansion.configuration.magicNumberIntroduction": "Magic Number Text",
+  "ageofexpansion.configuration.magicNumber": "Magic Number"
+}

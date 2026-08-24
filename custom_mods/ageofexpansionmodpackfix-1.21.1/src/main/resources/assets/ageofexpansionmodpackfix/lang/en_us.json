@@ -1,0 +1,13 @@
+{
+  "itemGroup.ageofexpansionmodpackfix": "Example Mod Tab",
+  "block.ageofexpansionmodpackfix.example_block": "Example Block",
+  "item.ageofexpansionmodpackfix.example_item": "Example Item",
+
+  "ageofexpansionmodpackfix.configuration.title": "Age of Expansion Modpack Fix Configs",
+  "ageofexpansionmodpackfix.configuration.section.ageofexpansionmodpackfix.common.toml": "Age of Expansion Modpack Fix Configs",
+  "ageofexpansionmodpackfix.configuration.section.ageofexpansionmodpackfix.common.toml.title": "Age of Expansion Modpack Fix Configs",
+  "ageofexpansionmodpackfix.configuration.items": "Item List",
+  "ageofexpansionmodpackfix.configuration.logDirtBlock": "Log Dirt Block",
+  "ageofexpansionmodpackfix.configuration.magicNumberIntroduction": "Magic Number Text",
+  "ageofexpansionmodpackfix.configuration.magicNumber": "Magic Number"
+}
