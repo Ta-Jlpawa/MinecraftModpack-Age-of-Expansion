@@ -277,7 +277,7 @@
 	# Range: 0 ~ 9223372036854775807
 	solarRechargingRate = 500
 	#Should the Gravitational Modulation unit give off vibrations that can be detected by Sculk Sensors and Shriekers when in use.
-	gravitationalVibrations = true
+	gravitationalVibrations = false
 	#Maximum amount in mB of Nutritional Paste storable by the nutritional injection unit.
 	# Default: 128000
 	# Range: > 1
@@ -328,7 +328,7 @@
 		#Energy usage (Joules) of MekaSuit per tick when flying via Gravitational Modulation.
 		# Default: 1000
 		# Range: 0 ~ 2305843009213693951
-		gravitationalModulation = 1000
+		gravitationalModulation = 6400
 		#Energy usage (Joules) of MekaSuit per tick of using vision enhancement.
 		# Default: 500
 		# Range: 0 ~ 9223372036854775807

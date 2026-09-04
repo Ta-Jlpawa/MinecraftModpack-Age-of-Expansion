@@ -1,0 +1,1 @@
+{"type":"mekanism:mek_data","category":"misc","key":{"#":{"item":"mekanism:ultimate_energy_cube"},"E":{"item":"mekanism:energy_tablet"},"P":{"item":"mekanism:elite_induction_cell"},"N":{"item":"mekanism:pellet_antimatter"}},"pattern":["ENE","P#P","ENE"],"result":{"count":1,"id":"mekanism:ultimate_induction_cell"}}

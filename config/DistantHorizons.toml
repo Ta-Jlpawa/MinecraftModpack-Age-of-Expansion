@@ -220,7 +220,7 @@ _version = 4
 			# to cause frame stuttering and/or other issues.
 			logGarbageCollectorWarning = true
 			#
-			# If enabled, a chat message will be displayed in chat if the garbage 
+			# If enabled, a chat message will be displayed if the garbage 
 			# collector Java is currently using is known 
 			# to cause frame stuttering and/or other issues.
 			showGarbageCollectorWarning = true
@@ -678,7 +678,7 @@ _version = 4
 				# 
 				# Example: "minecraft:overworld,minecraft:the_end"
 				# 
-				# Changes require a world re-load.
+				# Changes will only be seen when the world is re-loaded.
 				dimensionEnabledCloudRenderingCsv = "minecraft:overworld"
 				#
 				# If true LOD clouds will be rendered.
@@ -689,16 +689,14 @@ _version = 4
 				# If false all LOD beacon beams will only ever be 1 block wide.
 				expandDistantBeacons = true
 				#
-				# Sets the maximum height beacons will render up to. 
-				# 
-				# Requires a world re-load to take affect.
+				# Sets the maximum height at which beacons will render.This will only affect new beacons coming into LOD render distance.Beacons currently visible in LOD chunks will not be affected.
 				beaconRenderHeight = 6000
 				#
 				# If true LOD beacon beams will be rendered.
 				enableBeaconRendering = true
 				#
-				# If true non terrain objects will be rendered by DH. 
-				# i.e. beacon beams and clouds.
+				# If true non terrain objects will be rendered in DH's terrain. 
+				# This includes beacon beams and clouds.
 				enableGenericRendering = true
 				#
 				# False = DH will render a single layer of clouds, like vanilla Minecraft. 
@@ -707,7 +705,7 @@ _version = 4
 
 			[client.advanced.graphics.quality]
 				#
-				# What is the maximum detail LODs can render at? 
+				# What is the maximum detail LODs should be drawn at? 
 				# Higher settings will increase memory and GPU usage. 
 				# 
 				# CHUNK: render 1 LOD for each Chunk. 
@@ -716,8 +714,8 @@ _version = 4
 				# TWO_BLOCKS: render 64 LODs for each Chunk. 
 				# BLOCK: render 256 LODs for each Chunk (width of one block). 
 				# 
-				# Fastest: CHUNK
-				# Fanciest: BLOCK
+				# Lowest Quality: CHUNK
+				# Highest Quality: BLOCK
 				maxHorizontalResolution = "BLOCK"
 				#
 				# If true LODs will fade away as you get closer to them. 
@@ -771,7 +769,7 @@ _version = 4
 				# Higher options will make the world more accurate, butwill increase memory and GPU usage. 
 				# 
 				# Lowest Quality: HEIGHT_MAP
-				# Highest Quality: PIXEL_ART
+				# Highest Quality: EXTREME
 				verticalQuality = "MEDIUM"
 				#
 				# What blocks shouldn't be rendered as LODs? 
@@ -781,10 +779,6 @@ _version = 4
 				blocksToIgnore = "NON_COLLIDING"
 				#
 				# The radius of the mod's render distance. (measured in chunks)
-				# 
-				# Note: this is a best effort number. 
-				# The actual render distance may be above or below this number 
-				# depending on your other graphic settings.
 				lodChunkRenderDistanceRadius = 128
 				#
 				# How should the sides and bottom of grass block LODs render? 
@@ -800,20 +794,20 @@ _version = 4
 				# False: skipped blocks will not change color of surface below them.
 				tintWithAvoidedBlocks = true
 				#
-				# This indicates how far apart drops in LOD quality are. 
-				# 
-				# Higher settings will increase the distance between drops 
+				# This indicates how quickly LODs decrease in quality the further away they are. 
+				# Higher settings will render higher quality fake chunks farther away, 
 				# but will increase memory and GPU usage.
 				horizontalQuality = "MEDIUM"
 				#
 				# How should LOD transparency be handled. 
 				# 
 				# COMPLETE: LODs will render transparent. 
+				# FAKE: LODs will be opaque, but shaded to match the blocks underneath. 
 				# DISABLED: LODs will be opaque.
 				transparency = "COMPLETE"
 				#
 				# This is the same as vanilla Biome Blending settings for Lod area. 
-				#     Note: anything above '0' will slow down LOD loading time. 
+				#     Note that anything other than '0' will greatly effect Lod building time. 
 				# 
 				#     '0' equals to Vanilla Biome Blending of '1x1' or 'OFF', 
 				#     '1' equals to Vanilla Biome Blending of '3x3', 

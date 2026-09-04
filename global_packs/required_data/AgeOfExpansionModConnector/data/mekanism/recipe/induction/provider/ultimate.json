@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","category":"misc","key":{"#":{"item":"mekanism:ultimate_energy_cube"},"C":{"tag":"c:circuits/ultimate"},"P":{"item":"mekanism:basic_induction_provider"},"N":{"item":"mekanism:pellet_antimatter"}},"pattern":["CNC","P#P","CNC"],"result":{"count":1,"id":"mekanism:ultimate_induction_provider"}}

@@ -1,0 +1,1 @@
+{"type":"mekanism:injecting","chemical_input":{"amount":200,"chemical":"mekanism:carbon"},"item_input":{"count":9,"item":"immersiveengineering:coal_coke"},"output":{"count":1,"id":"immersiveengineering:dust_hop_graphite"},"per_tick_usage":false}
