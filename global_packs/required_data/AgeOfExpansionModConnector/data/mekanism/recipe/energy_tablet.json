@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","category":"misc","key":{"A":{"tag":"mekanism:alloys/infused"},"B":{"tag":"c:ingots/gold"},"C":{"tag":"c:dusts/redstone"}},"pattern":["CBC","CAC","CBC"],"result":{"count":1,"id":"mekanism:energy_tablet"}}

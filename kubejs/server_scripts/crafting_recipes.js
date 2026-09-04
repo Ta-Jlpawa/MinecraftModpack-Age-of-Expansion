@@ -48,23 +48,6 @@ ServerEvents.recipes(event => {
                 id: "sophisticatedcore:xp_still"
             }]
     });
-    // 禁用背包嵌套
-    event.remove({
-        id: "sophisticatedbackpacks:inception_upgrade"
-    });
-    // 禁用经验桶
-    event.remove({
-        output: "sophisticatedcore:xp_bucket"
-    });
-    event.remove({
-        id: "create:empty_sophisticatedcore_xp_bucket_of_sophisticatedcore_xp_still"
-    });
-    event.remove({
-        id: "immersiveengineering:jei_bucket_sophisticatedcore_xp_still"
-    });
-    event.remove({
-        id: "create:fill_minecraft_bucket_with_sophisticatedcore_xp_still"
-    });
     // 随机工具
     event.remove({
         id: "effortlessbuilding:randomizer_tool"

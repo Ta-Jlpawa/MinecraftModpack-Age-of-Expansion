@@ -2,9 +2,9 @@ ServerEvents.recipes(event => {
     // ================== 矿脉生成 ==================
     // 定义时间(tick)
     const TIME = {
-        NORMAL: 600,
-        DIAMOND: 400,
-        NETHERITE: 160
+        NORMAL: 1280,
+        DIAMOND: 640,
+        NETHERITE: 320
     };
     // === 铝土矿
     event.recipes.createoreexcavation.vein('{"text": "铝土矿"}', 'immersiveengineering:raw_aluminum') // 生成矿脉(名称，贴图)

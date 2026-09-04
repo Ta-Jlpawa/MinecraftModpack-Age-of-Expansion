@@ -1,0 +1,19 @@
+{
+  "replace": true,
+  "values": [
+    "#minecraft:small_flowers",
+    "minecraft:grass_block",
+    "minecraft:dirt",
+    "minecraft:coarse_dirt",
+    "minecraft:podzol",
+    "minecraft:sand",
+    "minecraft:red_sand",
+    "minecraft:gravel",
+    "minecraft:cactus",
+    "minecraft:clay",
+    "minecraft:pumpkin",
+    "minecraft:carved_pumpkin",
+    "minecraft:melon",
+    "minecraft:mycelium"
+  ]
+}
