@@ -2,7 +2,9 @@
   "required": true,
   "package": "com.tajlpawa.ageofexpansionmodpackfix.mixin",
   "compatibilityLevel": "JAVA_21",
-  "mixins": [],
+  "mixins": [
+    "mekanism.TileEntityTransmitterMixin"
+  ],
   "injectors": {
     "defaultRequire": 1
   },

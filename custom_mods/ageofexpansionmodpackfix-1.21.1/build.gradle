@@ -35,12 +35,33 @@ base {
     archivesName = mod_id
 }
 
+tasks.register('installModpack', Copy) {
+    group = 'build'
+    description = 'Build and install the mod into the client modpack only.'
+    dependsOn tasks.named('build')
+    mustRunAfter 'compileGameTestJava', 'runGameTestServer'
+    from tasks.named('jar').flatMap { it.archiveFile }
+    into layout.projectDirectory.dir('../../mods')
+}
+
 // Mojang ships Java 21 to end users in 1.21.1, so mods should target Java 21.
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+sourceSets {
+    gameTest {
+        compileClasspath += sourceSets.main.output
+        runtimeClasspath += sourceSets.main.output
+    }
+}
+configurations {
+    gameTestImplementation.extendsFrom implementation
+    gameTestRuntimeOnly.extendsFrom runtimeOnly, localRuntime
+}
 
 neoForge {
     // Specify the version of NeoForge to use.
     version = project.neo_version
+    addModdingDependenciesTo sourceSets.gameTest
 
     parchment {
         mappingsVersion = project.parchment_mappings_version
@@ -69,6 +90,8 @@ neoForge {
         // The gametest system is also enabled by default for other run configs under the /test command.
         gameTestServer {
             type = "gameTestServer"
+            sourceSet = sourceSets.gameTest
+            gameDirectory = layout.buildDirectory.dir('gameTestServer').get().asFile
             systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
         }
 
@@ -104,8 +127,17 @@ neoForge {
         "${mod_id}" {
             sourceSet(sourceSets.main)
         }
+        "${mod_id}_game_test" {
+            sourceSet(sourceSets.main)
+            sourceSet(sourceSets.gameTest)
+        }
     }
 }
+
+neoForge.runs.configureEach {
+    loadedMods = [neoForge.mods.getByName(project.mod_id)]
+}
+neoForge.runs.gameTestServer.loadedMods = [neoForge.mods.getByName("${mod_id}_game_test")]
 
 // Sets up a dependency configuration called 'localRuntime'.
 // This configuration should be used instead of 'runtimeOnly' to declare
@@ -116,6 +148,7 @@ configurations {
 }
 
 dependencies {
+    implementation files('../../mods/Mekanism-1.21.1-10.7.19.85.jar')
     // Example optional mod dependency with JEI
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
     // compileOnly "mezz.jei:jei-${mc_version}-common-api:${jei_version}"

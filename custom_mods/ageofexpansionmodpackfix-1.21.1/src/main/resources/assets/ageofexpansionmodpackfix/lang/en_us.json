@@ -1,4 +1,8 @@
 {
+  "item.ageofexpansionmodpackfix.advanced_transmitter_installer": "Advanced Transmitter Installer",
+  "item.ageofexpansionmodpackfix.elite_transmitter_installer": "Elite Transmitter Installer",
+  "item.ageofexpansionmodpackfix.ultimate_transmitter_installer": "Ultimate Transmitter Installer",
+  "tooltip.ageofexpansionmodpackfix.transmitter_installer": "Upgrades up to 8 lower-tier transmitters in the same network to this tier, nearest first. Consumes one installer on success.",
   "itemGroup.ageofexpansionmodpackfix": "Example Mod Tab",
   "block.ageofexpansionmodpackfix.example_block": "Example Block",
   "item.ageofexpansionmodpackfix.example_item": "Example Item",
