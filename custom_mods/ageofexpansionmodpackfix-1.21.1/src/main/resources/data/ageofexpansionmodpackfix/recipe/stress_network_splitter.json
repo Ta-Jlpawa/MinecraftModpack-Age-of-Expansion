@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "DCD",
+    "BAB",
+    "DBD"
+  ],
+  "key": {
+    "A": {
+      "item": "create:rotation_speed_controller"
+    },
+    "B": {
+      "item": "create:shaft"
+    },
+    "C": {
+      "item": "create:clutch"
+    },
+    "D": {
+      "item": "create:brass_casing"
+    }
+  },
+  "result": {
+    "id": "ageofexpansionmodpackfix:stress_network_splitter",
+    "count": 1
+  }
+}

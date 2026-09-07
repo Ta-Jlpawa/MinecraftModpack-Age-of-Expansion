@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "com.tajlpawa.ageofexpansionmodpackfix.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "mekanism.TileEntityTransmitterMixin",
+    "create.RouterRotationMixin",
+    "create.RouterKineticMixin",
+    "create.RouterGeneratorMixin",
+    "create.RouterNetworkMixin",
+    "create.RouterTorqueAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
