@@ -1,0 +1,12 @@
+{
+  "id": "seals:industry_pioneer",
+  "lang_key": "industry_pioneer",
+  "requisites": [
+    "mekanism:ultimate_qio_drive",
+    "mekanism:upgraded_mekasuit",
+    "mekanism:nucleosynthesizer"
+  ],
+  "icon": "mekanism:qio_drive_array",
+  "invisible": false,
+  "type": "seals:seal"
+}

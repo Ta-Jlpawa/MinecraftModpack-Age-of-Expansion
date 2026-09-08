@@ -1,0 +1,27 @@
+{
+  "seal.alchemist": "Alchemist",
+  "seal.explorer": "Explorer",
+  "seal.cultist": "Cultist",
+  "seal.pacifist": "Pacifist",
+  "seal.hero": "Hero",
+  "seal.machinist": "Machinist",
+  "seal.munificent": "Munificent",
+  "seal.vault_hunter": "Vault Hunter",
+  "seal.blacksmith": "Blacksmith",
+  "seal.dragon_slayer": "Dragon Slayer",
+  "seal.nether_conqueror": "Nether Conqueror",
+  "seal.sharpshooter": "Sharpshooter",
+  "seal.archaeologist": "Archaeologist",
+  "seal.beastmaster": "Beastmaster",
+  "seal.daredevil": "Daredevil",
+  "seal.sentinel": "Sentinel",
+  "seal.cartographer": "Cartographer",
+  "seal.master_chef": "Master Chef",
+  "seal.gatherer": "Gatherer",
+  "seal.industry_pioneer": "Industry Pioneer",
+
+  "seals.seals": "Seals",
+  "seals.open_selection": "Seals",
+  "seals.select": "Select a Seal",
+  "seals.select_hint": "Choose a seal to display beside your name"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "seals:gatherer",
+  "lang_key": "gatherer",
+  "requisites": [
+    "farmersdelight:main/get_fd_seed",
+    "farmersdelight:main/harvest_straw",
+    "farmersdelight:main/use_cutting_board",
+    "minecraft:husbandry/fishy_business",
+    "farmersdelight:main/get_mushroom_colony"
+  ],
+  "icon": "farmersdelight:iron_knife",
+  "invisible": false,
+  "type": "seals:seal"
+}

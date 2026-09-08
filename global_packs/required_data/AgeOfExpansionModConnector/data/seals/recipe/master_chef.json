@@ -1,0 +1,11 @@
+{
+  "id": "seals:master_chef",
+  "lang_key": "master_chef",
+  "requisites": [
+    "farmersdelight:main/master_chef",
+    "farmersdelight:main/obtain_netherite_knife"
+  ],
+  "icon": "farmersdelight:skillet",
+  "invisible": false,
+  "type": "seals:seal"
+}
