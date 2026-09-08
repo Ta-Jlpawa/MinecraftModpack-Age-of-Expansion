@@ -130,7 +130,7 @@ randomizedConsumption = true
 	#Base cost in Joules for teleporting an entity.
 	# Default: 1000
 	# Range: 0 ~ 9223372036854775807
-	base = 1000
+	base = 5000
 	#Joules per unit of distance travelled during teleportation - sqrt(xDiff^2 + yDiff^2 + zDiff^2).
 	# Default: 10
 	# Range: 0 ~ 9223372036854775807

@@ -4,7 +4,9 @@ Move entries from 'defaultPacks' to 'disabledPacks' to disable them.
 */
 {
 	"defaultPacks": [
+		"t_and_t:resources/t_and_t_waystones_patch",
 		"wwoo:resources/wwoo_main",
+		"wwoo:resources/vanilla_backport_compat",
 		"wwoo:resources/wwoo_remove_ores",
 		"wwoo:resources/towering_tepuis_add_on",
 		"wwoo:resources/cliffs_and_coves_add_on",

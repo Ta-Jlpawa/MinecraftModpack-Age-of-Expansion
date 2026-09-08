@@ -212,35 +212,35 @@
 		#Capacity of Basic mechanical pipes in mB.
 		# Default: 2000
 		# Range: > 1
-		basicCapacity = 4000
+		basicCapacity = 2000
 		#Pump rate of Basic mechanical pipes in mB/t.
 		# Default: 250
 		# Range: > 1
-		basicPullAmount = 500
+		basicPullAmount = 250
 		#Capacity of Advanced mechanical pipes in mB.
 		# Default: 8000
 		# Range: > 1
-		advancedCapacity = 16000
+		advancedCapacity = 8000
 		#Pump rate of Advanced mechanical pipes in mB/t.
 		# Default: 1000
 		# Range: > 1
-		advancedPullAmount = 2000
+		advancedPullAmount = 1000
 		#Capacity of Elite mechanical pipes in mB.
 		# Default: 32000
 		# Range: > 1
-		eliteCapacity = 64000
+		eliteCapacity = 32000
 		#Pump rate of Elite mechanical pipes in mB/t.
 		# Default: 8000
 		# Range: > 1
-		elitePullAmount = 16000
+		elitePullAmount = 8000
 		#Capacity of Ultimate mechanical pipes in mB.
 		# Default: 128000
 		# Range: > 1
-		ultimateCapacity = 256000
+		ultimateCapacity = 128000
 		#Pump rate of Ultimate mechanical pipes in mB/t.
 		# Default: 32000
 		# Range: > 1
-		ultimatePullAmount = 128000
+		ultimatePullAmount = 32000
 
 	#Settings for configuring Pressurized Tubes
 	[transmitters.chemical]
@@ -275,7 +275,7 @@
 		#Pump rate of Ultimate pressurized tubes in mB/t.
 		# Default: 256000
 		# Range: 1 ~ 9223372036854775807
-		ultimatePullAmount = 128000
+		ultimatePullAmount = 256000
 
 	#Settings for configuring Logistical Transporters
 	[transmitters.items]

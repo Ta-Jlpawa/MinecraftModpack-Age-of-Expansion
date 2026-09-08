@@ -1,5 +1,5 @@
 [general]
-	"Enable 'q' Button" = true
+	"Enable 'q' Button" = false
 	"'q' Button on the Right" = false
 	"Disable Q Menu Effects" = false
 	#How many advancements deep you can see in the advancement screen. Vanilla is 2.
@@ -307,6 +307,9 @@
 		"Allow Opening Shulker Boxes" = true
 		"Allow Rotating Bundles" = true
 
+	[management.hotbar_changer]
+		"Animation Time" = 7.0
+
 	[management.inventory_sorting]
 		"Enable Player Inventory" = true
 		"Enable Player Inventory In Chests" = true
@@ -506,7 +509,7 @@
 	"Double Door Opening" = true
 	"Dragon Scales" = true
 	"Dyeable Item Frames" = true
-	Emotes = true
+	Emotes = false
 	"Enhanced Ladders" = true
 	"Glass Shard" = true
 	"Gold Tools Have Fortune" = true
@@ -1593,8 +1596,8 @@
 		"Enchanting Tooltips" = true
 		"Fuel Time Tooltips" = true
 		"Shulker Box Use Colors" = true
-		"Shulker Box Require Shift" = false
-		"Map Require Shift" = false
+		"Shulker Box Require Shift" = true
+		"Map Require Shift" = true
 		#The value of each shank of food.
 		#Tweak this when using mods like Hardcore Hunger which change that value.
 		"Food Divisor" = 2

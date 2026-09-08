@@ -11,7 +11,7 @@ ClientNotDisplayModels = []
 [server_scheduler]
 	#Concurrent level for processing models. Value 0 means AUTO.
 	# Default: 0
-	# Range: 0 ~ 3
+	# Range: 0 ~ 23
 	ThreadCount = 0
 	#Bandwidth limitation during distributing models to players.(In Mbps)
 	# Default: 5
