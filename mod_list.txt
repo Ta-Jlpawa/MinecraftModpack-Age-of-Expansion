@@ -1,8 +1,8 @@
 AdvancedPeripherals-1.21.1-0.7.62b.jar
 AmbientSounds_NEOFORGE_v6.3.8_mc1.21.1.jar
+ApothicAttributes-1.21.1-2.10.1.jar
 Applied-Mekanistics-1.6.3.jar
 Armor-Set-Bonuses-1.21.1-NeoForge-1.0.1.jar
-Atlas-Lib-1.21.0-1.1.14.jar
 Axiom-5.4.2-for-MC1.21.1.jar
 BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar
 BetterF3-11.0.3-NeoForge-1.21.1.jar
@@ -15,6 +15,7 @@ ExtremeSoundMuffler-3.56_NeoForge-1.21.jar
 FarmersDelight-1.21.1-1.3.2.jar
 ForgematicaPrinter-0.1.0+mc1.20.6.jar
 Gamma-Utils-2.1.2-mc1.21.1.jar
+GatewaysToEternity-1.21.1-5.1.0.jar
 GlitchCore-neoforge-1.21.1-2.1.0.2.jar
 HopoBetterRuinedPortals-[1.21.1-1.21.3]-1.4.4b.jar
 IAS-9.0.6+1.21.1-neoforge.jar
@@ -32,15 +33,16 @@ MouseTweaks-neoforge-mc1.21-2.26.1.jar
 OctoLib-NEOFORGE-0.6.2+1.21.jar
 Patchouli-1.21.1-93-NEOFORGE.jar
 PickUpNotifier-v21.1.1-1.21.1-NeoForge.jar
+Placebo-1.21.1-9.9.2.jar
 Platform-neoforge-1.21.1-1.3.3.jar
 PresenceFootsteps-1.21.1-1.12.0-beta.1-1.21NeoForge.jar
 PuzzlesLib-v21.1.46-1.21.1-NeoForge.jar
 Quark-4.1-482.jar
 Searchables-neoforge-1.21.1-1.0.2.jar
 SereneSeasons-neoforge-1.21.1-10.1.0.3.jar
+Stackable Potions-neoforge-1.21.1-1.0.0.jar
 Stoneworks-v21.1.0-1.21.1-NeoForge.jar
 Structory_26.2_v1.3.7.jar
-The-Hordes-1.21.1-1.6.3d.jar
 ToolBelt-1.21.1-2.2.10.jar
 TravelersTitles-1.21.1-NeoForge-5.1.3.jar
 VanillaBackport-neoforge-1.21.1-1.1.7.10.jar
@@ -49,6 +51,7 @@ Zeta-1.1-40.jar
 [1.21.1] SecurityCraft v1.10.2.1.jar
 [Neoforge]ctov-3.6.3.jar
 abridged-2.0.2-neoforge-21.1.jar
+ageofexpansionmodpackfix-1.0.0.jar
 another_furniture-neoforge-4.0.2.jar
 appleskin-neoforge-mc1.21-3.0.9.jar
 appliedenergistics2-19.2.17.jar
@@ -58,7 +61,8 @@ athena-neoforge-1.21.1-4.0.6.jar
 azimuth-1.4.7.jar
 balm-neoforge-1.21.1-21.0.58.jar
 beautify-neoforge-1.21.1-2.0.2.jar
-bits_n_bobs-2.1.15-beta.jar
+better_modlist-1.1.22.jar
+bits_n_bobs-2.3.0.jar
 bocchud-0.4.1+mc1.21.1.jar
 c2me-neoforge-mc1.21.1-0.4.0-alpha.0.116.jar
 caelus-neoforge-7.0.1+1.21.1.jar
@@ -68,6 +72,7 @@ cc-tweaked-1.21.1-forge-1.120.0.jar
 certain_questing_additions-neoforge-1.2.0.4+mc1.21.1.jar
 cfm_wap-1.21.1-neoforge-1.2.0.jar
 chalk-1.6.12.jar
+champions-neoforge-21.1.1.7.jar
 chat_heads-0.15.7-neoforge-1.21.jar
 cloth-config-15.0.140-neoforge.jar
 colorfulhearts-neoforge-1.21.1-10.5.9.jar
@@ -140,6 +145,7 @@ jei-1.21.1-neoforge-19.51.0.418.jar
 jei_swift_copy-1.0.0-1.21.1.jar
 jeimultiblocks-1.21.1-1.0.6.jar
 justzoom_neoforge_2.1.0_MC_1.21.1.jar
+kaleidoscope_doll_workshop-1.0.4a-neoforge+mc1.21.1.jar
 kaleidoscopecookery-1.4.1-neoforge+mc1.21.1.jar
 kaleidoscopedoll-1.4.1-neoforge+mc1.21.1-Remake.jar
 kaleidoscopetavern-1.2.0-neoforge+mc1.21.1.jar
@@ -148,7 +154,6 @@ konkrete_neoforge_1.9.9_MC_1.21.jar
 kotlinforforge-5.11.0-all.jar
 krypton_fnp-neoforge-1.21.1-0.2.28.1-1.21.1.jar
 kubejs-neoforge-2101.7.2-build.368.jar
-lambdynamiclights-4.8.8+1.21.1.jar
 letsdo-bakery-neoforge-2.1.6.jar
 letsdo-farm_and_charm-neoforge-1.1.22.jar
 letsdo-vinery-neoforge-1.5.3.jar
@@ -162,7 +167,6 @@ medieval_buildings_end_edition-1.21.1-1.0.4-neoforge.jar
 mekanism_ponders-1.0.3-1.21.1.jar
 melody_neoforge_1.0.10_MC_1.21.jar
 modernfix-neoforge-5.27.24+mc1.21.1.jar
-modmenu-11.0.4.jar
 moogs_structures-neoforge-1.21.1-2.0.2.jar
 moonlight-1.21.1-3.3.3-neoforge.jar
 mysterious_mountain_lib-1.2.15-1.21.1.jar
@@ -177,7 +181,7 @@ pipe_connector-neoforge-0.5.28.jar
 player-animation-lib-forge-2.0.4+1.21.1.jar
 pneumaticcraft-repressurized-8.2.23+mc1.21.1.jar
 polymorph-neoforge-1.1.0+1.21.1.jar
-powergrid-mc1.21.1-0.6.0.1.jar
+powergrid-mc1.21.1-0.6.1.jar
 railways-0.2.0+neoforge-mc1.21.1.jar
 rechiseled-1.2.5-neoforge-mc1.21.jar
 refinedstorage-jei-integration-neoforge-1.0.0.jar
@@ -191,6 +195,7 @@ sable-neoforge-1.21.1-2.0.5.jar
 scholar-neoforge-1.21.1-1.2.5.jar
 seals-1.21.0-3.3.0.jar
 sentrymechanicalarm-neoforge-1.21.1-1.3.6.jar
+sit-1.21.1-1.4.jar
 sliceanddice-forge-4.2.4.jar
 sodium-neoforge-0.8.13+mc1.21.1.jar
 sophisticatedbackpacks-1.21.1-3.25.78.2107.jar

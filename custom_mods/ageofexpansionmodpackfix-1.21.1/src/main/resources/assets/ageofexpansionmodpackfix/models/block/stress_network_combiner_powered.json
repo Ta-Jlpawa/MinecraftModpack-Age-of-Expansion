@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "ageofexpansionmodpackfix:block/brass_casing",
+    "down": "ageofexpansionmodpackfix:block/brass_casing_powered",
+    "up": "ageofexpansionmodpackfix:block/brass_casing_powered",
+    "south": "ageofexpansionmodpackfix:block/brass_casing",
+    "north": "ageofexpansionmodpackfix:block/stress_operation_output",
+    "east": "ageofexpansionmodpackfix:block/stress_operation_input",
+    "west": "ageofexpansionmodpackfix:block/stress_operation_input"
+  }
+}

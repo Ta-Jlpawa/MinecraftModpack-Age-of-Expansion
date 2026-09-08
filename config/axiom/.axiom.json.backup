@@ -113,12 +113,12 @@
     "globalHotbars": false
   },
   "capabilities": {
-    "bulldozer": true,
-    "replaceMode": true,
+    "bulldozer": false,
+    "replaceMode": false,
     "typeReplace": false,
     "forcePlace": false,
     "noUpdates": false,
-    "tinker": true,
+    "tinker": false,
     "infiniteReach": false,
     "infiniteReachLimit": -1,
     "fastPlace": false,

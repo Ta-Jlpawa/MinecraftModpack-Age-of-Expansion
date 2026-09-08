@@ -52,6 +52,9 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "champions": {
+    "enable_affix_compact": true
+  },
   "jade_access": {
     "held_item": true,
     "sign": true,

@@ -1,0 +1,36 @@
+{
+  "variants": {
+    "facing=north,powered=false": {
+      "model": "ageofexpansionmodpackfix:block/stress_network_splitter",
+      "y": 0
+    },
+    "facing=north,powered=true": {
+      "model": "ageofexpansionmodpackfix:block/stress_network_splitter_powered",
+      "y": 0
+    },
+    "facing=east,powered=false": {
+      "model": "ageofexpansionmodpackfix:block/stress_network_splitter",
+      "y": 90
+    },
+    "facing=east,powered=true": {
+      "model": "ageofexpansionmodpackfix:block/stress_network_splitter_powered",
+      "y": 90
+    },
+    "facing=south,powered=false": {
+      "model": "ageofexpansionmodpackfix:block/stress_network_splitter",
+      "y": 180
+    },
+    "facing=south,powered=true": {
+      "model": "ageofexpansionmodpackfix:block/stress_network_splitter_powered",
+      "y": 180
+    },
+    "facing=west,powered=false": {
+      "model": "ageofexpansionmodpackfix:block/stress_network_splitter",
+      "y": 270
+    },
+    "facing=west,powered=true": {
+      "model": "ageofexpansionmodpackfix:block/stress_network_splitter_powered",
+      "y": 270
+    }
+  }
+}

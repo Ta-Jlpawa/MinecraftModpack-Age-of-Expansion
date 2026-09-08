@@ -36,17 +36,38 @@ ServerEvents.recipes(event => {
         "#c:dusts/diamond",
         "mekanism:dimensional_stabilizer"
     )
-    // 精英加压管道
-    event.replaceInput(
-        { id: "mekanism:transmitter/pressurized_tube/elite" },
-        "mekanism:advanced_pressurized_tube",
-        "mekanism:basic_pressurized_tube"
-    )
-    // 终极加压管道
-    event.replaceInput(
-        { id: "mekanism:transmitter/pressurized_tube/ultimate" },
-        "mekanism:elite_pressurized_tube",
-        "mekanism:basic_pressurized_tube"
-    )
+    // 线缆升级，沿用原ID覆盖数据包配方
+    const transmitterTypes = [
+        "universal_cable",
+        "mechanical_pipe",
+        "pressurized_tube",
+        "logistical_transporter",
+        "thermodynamic_conductor"
+    ]
+    const transmitterTiers = [
+        ["advanced", "alloy_infused"],
+        ["elite", "alloy_reinforced"],
+        ["ultimate", "alloy_atomic"]
+    ]
+    transmitterTiers.forEach(([tier, alloy]) => {
+        transmitterTypes.forEach(type => {
+            const id = `mekanism:transmitter/${type}/${tier}`
+            const basic = `mekanism:basic_${type}`
+            event.remove({ id: id })
+            event.shapeless(Item.of(`mekanism:${tier}_${type}`, 4), [
+                basic, basic, basic, basic,
+                `mekanism:${alloy}`
+            ]).id(id)
+        })
+        // 线缆升级安装器
+        event.shaped(Item.of(`ageofexpansionmodpackfix:${tier}_transmitter_installer`, 1), [
+            ' A ',
+            ' B ',
+            ' A '
+        ], {
+            A: `mekanism:${alloy}`,
+            B: "#minecraft:planks"
+        }).id(`ageofexpansionmodpackfix:${tier}_transmitter_installer`)
+    })
 
 })

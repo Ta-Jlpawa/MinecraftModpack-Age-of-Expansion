@@ -1,0 +1,27 @@
+{
+  "seal.alchemist": "炼金术士",
+  "seal.explorer": "探险家",
+  "seal.cultist": "异教徒",
+  "seal.pacifist": "和平主义者",
+  "seal.hero": "英雄",
+  "seal.machinist": "机械师",
+  "seal.munificent": "乐善好施",
+  "seal.vault_hunter": "寻宝猎人",
+  "seal.blacksmith": "铁匠",
+  "seal.dragon_slayer": "屠龙勇士",
+  "seal.nether_conqueror": "下界征服者",
+  "seal.sharpshooter": "神射手",
+  "seal.archaeologist": "考古学家",
+  "seal.beastmaster": "驯兽大师",
+  "seal.daredevil": "无畏挑战者",
+  "seal.sentinel": "守望者",
+  "seal.cartographer": "制图师",
+  "seal.master_chef": "顶级厨师",
+  "seal.gatherer": "采集者",
+  "seal.industry_pioneer": "工业先锋",
+
+  "seals.seals": "徽记",
+  "seals.open_selection": "徽记",
+  "seals.select": "选择一枚徽记",
+  "seals.select_hint": "选择一枚徽记，它会显示在你的名字旁"
+}

@@ -9,7 +9,7 @@ blockDeactivationDelay = 60
 #If enabled, lasers can break blocks and the flamethrower can start fires.
 aestheticWorldDamage = true
 #Allow upgrading Universal Cables, Mechanical Pipes, Pressurized Tubes, Logistical Transporters, and Thermodynamic Conductors by right clicking them with the next tier of alloy.
-transmitterAlloyUpgrade = true
+transmitterAlloyUpgrade = false
 #Base factor for working out machine performance with upgrades - UpgradeModifier * (UpgradesInstalled/UpgradesPossible).
 # Default: 10
 # Range: > 1
