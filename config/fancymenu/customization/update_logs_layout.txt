@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = update_logs
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1788521995027
+  last_edited_time = 1788870807093
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:81b00a9f-a537-4aa4-9246-8c80d7a06f84-1788521783975] = [groups:][instances:]
+  [loading_requirement_container_meta:38dcbe68-3258-4a54-abea-4a677c6fac35-1788870743406] = [groups:][instances:]
 }
 
 customization {
@@ -370,13 +370,13 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 2560
   auto_sizing_base_screen_height = 1440
-  auto_sizing_base_gui_scale = 0
-  auto_sizing_base_gui_width = 0
-  auto_sizing_base_gui_height = 0
+  auto_sizing_base_gui_scale = 4
+  auto_sizing_base_gui_width = 640
+  auto_sizing_base_gui_height = 360
   sticky_anchor = false
   anchor_point = top-centered
   x = -98
-  y = 30
+  y = 17
   width = 194
   height = 55
   stay_on_screen = true
@@ -427,7 +427,7 @@ element {
 
 element {
   interactable = true
-  source = By TA\_JLPawa%n%%n%**更新日志:**%n%**V0.0.7 -> V0.0.8**%n%新增模组:%n%由于模组更改没有统计，因此不写明模组变动%n%%n%新增内容:%n%由于更新内容统计不完全，因此可能有遗漏%n%1. 平衡mek原子分解机与meka工具的配方%n%2. 平衡mek感应供应器与感应元件的配方%n%3. 平衡mek重力模块升级消耗的能量(1000 -> 10000)%n%4. 平衡mek维度稳定锚相关的配方%n%5. 森罗物语:玩偶 添加一个自定义玩偶%n%%n%其他更改:%n%1. 为AE2的游戏内指南提供翻译%n%2. 为一个特殊物品添加工具提示%n%3. 为部分物品添加JEI提示%n%%n%%n%**V0.0.6 -> V0.0.7**%n%新增模组%n%Design-n-Decor-1.21.1-2.2b.jar%n%Mekanism-1.21.1-10.7.19.85.jar%n%MekanismGenerators-1.21.1-10.7.19.85.jar%n%PickUpNotifier-v21.1.1-1.21.1-NeoForge.jar%n%Platform-neoforge-1.21.1-1.3.3.jar%n%Structory\_26.2\_v1.3.7.jar%n%TinySkeletons-v21.1.0-1.21.1-NeoForge.jar%n%ToolBelt-1.21.1-2.2.10.jar%n%VanillaBackport-neoforge-1.21.1-1.1.7.10.jar%n%[Neoforge]ctov-3.6.3.jar%n%abridged-2.0.2-neoforge-21.1.jar%n%c2me-neoforge-mc1.21.1-0.4.0-alpha.0.116.jar%n%colorfulhearts-neoforge-1.21.1-10.5.9.jar%n%coolrain-1.4.0-1.21.1.jar%n%cristellib-neoforge-1.21.1-3.1.7.jar%n%durabilitytooltip-1.1.6-neoforge-mc1.21.jar%n%firstperson-neoforge-2.7.2-mc1.21.1.jar%n%immersive\_armors-1.7.6+1.21.1-neoforge.jar%n%lithostitched-1.7.13-neoforge-21.1.jar%n%mcw-mcwpaths-1.1.1-mc1.21.1neoforge.jar%n%mcw-mcwwindows-2.4.2-mc1.21.1neoforge.jar%n%medieval\_buildings\_end\_edition-1.21.1-1.0.4-neoforge.jar%n%notenoughanimations-neoforge-1.12.4-mc1.21.1.jar%n%refinedstorage-neoforge-2.0.9.jar%n%t\_and\_t-neoforge-fabric-1.13.9+1.21.1.jar%n%%n%更新模组%n%DistantHorizons-3.0.3-b-1.21.1-fabric-neoforge.jar -> DistantHorizons-3.2.0-b-1.21.1-fabric-neoforge.jar%n%ImmersivePetroleum-1.21.1-4.4.1-37.jar -> ImmersivePetroleum-1.21.1-4.5.0-39.jar%n%bettercombat-neoforge-2.3.2+1.21.1.jar -> bettercombat-neoforge-2.4.0+1.21.1.jar%n%expandeddelight-0.1.4.jar -> expandeddelight-0.1.4\_Remake.jar 个人重新构建版本%n%moonlight-neoforge-1.21.1-3.0.14.jar -> moonlight-1.21.1-3.3.3-neoforge.jar%n%supplementaries-neoforge-1.21.1-3.7.4.jar -> supplementaries-1.21.1-3.8.8-neoforge.jar%n%tacz-neoforge-1.21.1-1.1.8-r3.jar -> tacz-neoforge-1.21.1-1.1.8-hotfix-r6.jar%n%wwoo-neoforge-2.6.6.jar -> wwoo-neoforge-2.6.7\_fix.jar 个人修改版本%n%%n%新增内容:%n%优化地形与结构生成%n%将wwoo生成的蘑菇岛修改为原版生成逻辑%n%添加大量机械相关物品%n%添加大量装饰与建筑相关物品%n%添加经验与液态经验的转换配方%n%%n%%n%修复Bug:%n%修复农夫乐事：拓展乐事成就页面异常的问题%n%修复锦致核心中经验桶配合机械动力：附魔工业的烈焰人附魔室可以无限刷取经验的问题%n%修复末影人拿起部分物品导致无法被刷新的问题%n%修复wwoo地形生成时冰刺之地无法正常生成的问题%n%%n%%n%**V0.0.5 -> V0.0.6**%n%更新模组：%n%connector-2.0.0-beta.14+1.21.1-full -> connector-2.0.0-beta.15+1.21.1-full%n%Quark-4.1-479 -> Quark-4.1-482%n%ImmersiveEngineering-1.21.1-12.4.2-194 -> ImmersiveEngineering-1.21.1-12.4.3-194-Remake **个人重新构建版本**%n%forgematica-0.4.1+mc1.21.1 -> forgematica-0.4.2+mc1.21.1%n%forgified-fabric-api-0.116.7+2.2.4+1.21.1. -> forgified-fabric-api-0.116.14+2.3.0+1.21.1%n%lootr-neoforge-1.21.1-1.11.37.120 -> lootr-neoforge-1.21.1-1.11.37.122%n%%n%新增模组：%n%Axiom-5.4.2-for-MC1.21.1 **注：该模组为客户端建筑模组, 需要额外添加**%n%modmenu-11.0.4 Fabric版本的Mod菜单%n%placeholder-api-2.4.2+1.21 文本占位符api%n%createendertransmission-2.1.1-1.21.1 机械动力:末影传输%n%cc-tweaked-1.21.1-forge-1.120.0 CC:T电脑模组%n%MouseTweaks-neoforge-mc1.21-2.26.1 鼠标手势模组%n%kaleidoscopecookery-1.4.1-neoforge+mc1.21.1 森罗物语:厨房%n%kaleidoscopedoll-1.4.1-neoforge+mc1.21.1 森罗物语:玩偶%n%kaleidoscopetavern-1.2.0-neoforge+mc1.21.1 森罗物语:酿酒%n%%n%新增内容:%n%新增 沉浸石油:沥青混凝土 与 机械动力柴油动力:沥青块 相互转化的配方%n%修改部分配置，以便更适合在生存模式中建筑%n%%n%修复Bug:%n%修复主界面>更新日志彩蛋在非全屏模式下背景缩放异常的问题%n%修复沉浸工程铁杆异常的问题%n%修复沉浸工程与物理化模组冲突的问题%n%修复部分矿脉生成冲突问题%n%%n%%n%**V0.0.4 -> V0.0.5**%n%更新模组：%n%create\_things\_and\_misc-4.1.1-neoforge-1.21.1 机械动力：实用杂物（修复配方）%n%createaddition-1.6.0 机械动力：创想附加（更新版本）%n%create\_connected-1.3.2-mc1.21.1 机械动力：创意传动（更新版本）%n%sodium-neoforge-0.8.12+mc1.21.1 钠（更新版本）%n%supplementaries-neoforge-1.21.1-3.7.4 锦致装饰（更新版本）%n%iris-neoforge-1.8.14-beta.1+mc1.21.1 Iris着色器(更新版本)%n%fancymenu\_neoforge\_3.9.8\_MC\_1.21.1 UI修改模组(更新版本)%n%%n%新增模组：%n%railways-0.2.0+neoforge-mc1.21.1 机械动力：汽鸣铁道1.21.1%n%sable-neoforge-1.21.1-2.0.3 方块物理化模组支持库（支持：机械动力：航空学）%n%create-aeronautics-bundled-1.21.1-1.3.0 机械动力：航空学%n%ritchiesprojectilelib-2.1.2+mc.1.21.1-neoforge 支持库（支持：机械动力：火炮）%n%createbigcannons-5.11.7+mc.1.21.1 机械动力：火炮%n%createdieselgenerators-1.21.1-1.3.14 机械动力：柴油动力%n%createpropulsion-1.1.4 机械动力：推进学%n%CreateDragonsPlus-1.11.2b 机械动力：龙之 Plus支持库（支持：机械动力：中央厨房）%n%create-central-kitchen-2.5.0 机械动力：中央厨房%n%create-enchantment-industry-2.4.2 机械动力：附魔工业%n%globalpacks-neoforge-1.21.1-21.0.6  全局数据包支持模组%n%justzoom\_neoforge\_2.1.0\_MC\_1.21.1 缩放模组%n%%n%新增数据包：%n%SFSRModConnector 模组整合用数据包%n%%n%新增资源包:%n%SFSR资源包 汉化用资源包%n%%n%新增内容:%n%园艺玻璃罩现在支持种植辣椒与原版树苗%n%统一了沉浸原油与机械动力：柴油动力的同类流体%n%为沉浸原油的部分流体新增燃料功能%n%新增沉浸原油的焦煤塔合成沥青的配方%n%修改了机械动力：附魔工业的经验蛋糕配方%n%新增盐矿与铂矿的钻井配方%n%新增多个模组的汉化%n%%n%%n%**V0.0.3 -> V0.0.4**%n%新增客户端模组：%n%LetDo系列模组:烘焙模组：letsdo-bakery-neoforge-2.1.6%n%JEI拓展模组：JustEnoughResources-NeoForge-1.21.1-1.6.0.12%n%雕刻方块装饰模组：rechiseled-1.2.5-neoforge-mc1.21%n%FTB任务模组：ftb-quests-neoforge-2101.1.27%n%ImmersivePetroleum-1.21.1-4.4.1-37.jar%n%%n%新增服务端模组:%n%letsdo-bakery-neoforge-2.1.6 %n%rechiseled-1.2.5-neoforge-mc1.21%n%ftb-quests-neoforge-2101.1.27%n%ImmersivePetroleum-1.21.1-4.4.1-37.jar%n%%n%物品更新:%n%添加少量未完成的FTB任务%n%添加部分未完成的酿酒自动化配方%n%添加沉浸工程系列矿脉%n%%n%杂项更新:%n%优化自定义界面%n%添加查看更新日志功能%n%%n%%n%**V0.0.2 -> V0.0.3**%n%针对部分模组进行了汉化%n%移除TACZ中的两个枪包，新增九个枪包%n%%n%%n%**V0.0.1 -> V0.0.2**%n%修改模组与界面%n%%n%%n%**V0.0.1**%n%初始版本
+  source = # 我的世界: 开拓纪元 V0.0.9%n%%n%## Minecraft modpack - Age of Expansion 更新日志%n%%n%By TA\_JLPawa%n%**更新日志: V0.0.8 -> V0.0.9**%n%%n%### 新增模组%n%%n%1. Placebo-1.21.1-9.9.2 支持库 -> 永恒之门 SC%n%2. ApothicAttributes-1.21.1-2.10.1 支持库 -> 永恒之门 SC%n%3. champions-neoforge-21.1.1.7 冠军(特殊怪物) SC%n%4. GatewaysToEternity-1.21.1-5.1.0 永恒之门 SC%n%5. sit-1.21.1-1.4 席地而坐 SC%n%6. kaleidoscope\_doll\_workshop-1.0.4a-neoforge+mc1.21.1 森罗物语:玩偶工坊 SC%n%7. ageofexpansionmodpackfix-1.0.0 开拓纪元:整合包拓展(自制模组) SC%n%%n%### 更新模组%n%%n%1. powergrid-mc1.21.1-0.6.0.1 -> powergrid-mc1.21.1-0.6.1 机械动力:交错电网 SC%n%2. bits\_n\_bobs-2.1.15-beta -> bits\_n\_bobs-2.3.0 机械动力:零零件件 SC%n%%n%### 移除模组%n%%n%1. Atlas-Lib-1.21.0-1.1.14 支持库 -> 尸潮 SC%n%2. The-Hordes-1.21.1-1.6.3d 尸潮模组 SC%n%3. modmenu-11.0.4 Fabric模组菜单 C%n%4. lambdynamiclights-4.8.8+1.21.1 Lambd的动态光源 C%n%%n%### 修改物品%n%%n%1. 调整Mekanism五类线缆的15条升级配方，禁用合金右键升级，新增高级、精英、终极线缆安装器。%n%2. 添加新的机械动力系列功能性方块: 应力网络组合器、应力网络分解器。%n%3. 添加开拓纪元徽章物品。%n%%n%### 其他更改%n%%n%1. 添加3个seals进度徽章：顶级厨师，采集者，工业先锋。%n%%n%### 其他杂项%n%%n%1. 移除了him%n%%n%%n%**V0.0.7 -> V0.0.8**%n%新增模组:%n%由于模组更改没有统计，因此不写明模组变动%n%%n%新增内容:%n%由于更新内容统计不完全，因此可能有遗漏%n%1. 平衡mek原子分解机与meka工具的配方%n%2. 平衡mek感应供应器与感应元件的配方%n%3. 平衡mek重力模块升级消耗的能量(1000 -> 10000)%n%4. 平衡mek维度稳定锚相关的配方%n%5. 森罗物语:玩偶 添加一个自定义玩偶%n%%n%其他更改:%n%1. 为AE2的游戏内指南提供翻译%n%2. 为一个特殊物品添加工具提示%n%3. 为部分物品添加JEI提示%n%%n%%n%**V0.0.6 -> V0.0.7**%n%新增模组%n%Design-n-Decor-1.21.1-2.2b.jar%n%Mekanism-1.21.1-10.7.19.85.jar%n%MekanismGenerators-1.21.1-10.7.19.85.jar%n%PickUpNotifier-v21.1.1-1.21.1-NeoForge.jar%n%Platform-neoforge-1.21.1-1.3.3.jar%n%Structory\_26.2\_v1.3.7.jar%n%TinySkeletons-v21.1.0-1.21.1-NeoForge.jar%n%ToolBelt-1.21.1-2.2.10.jar%n%VanillaBackport-neoforge-1.21.1-1.1.7.10.jar%n%[Neoforge]ctov-3.6.3.jar%n%abridged-2.0.2-neoforge-21.1.jar%n%c2me-neoforge-mc1.21.1-0.4.0-alpha.0.116.jar%n%colorfulhearts-neoforge-1.21.1-10.5.9.jar%n%coolrain-1.4.0-1.21.1.jar%n%cristellib-neoforge-1.21.1-3.1.7.jar%n%durabilitytooltip-1.1.6-neoforge-mc1.21.jar%n%firstperson-neoforge-2.7.2-mc1.21.1.jar%n%immersive\_armors-1.7.6+1.21.1-neoforge.jar%n%lithostitched-1.7.13-neoforge-21.1.jar%n%mcw-mcwpaths-1.1.1-mc1.21.1neoforge.jar%n%mcw-mcwwindows-2.4.2-mc1.21.1neoforge.jar%n%medieval\_buildings\_end\_edition-1.21.1-1.0.4-neoforge.jar%n%notenoughanimations-neoforge-1.12.4-mc1.21.1.jar%n%refinedstorage-neoforge-2.0.9.jar%n%t\_and\_t-neoforge-fabric-1.13.9+1.21.1.jar%n%%n%更新模组%n%DistantHorizons-3.0.3-b-1.21.1-fabric-neoforge.jar -> DistantHorizons-3.2.0-b-1.21.1-fabric-neoforge.jar%n%ImmersivePetroleum-1.21.1-4.4.1-37.jar -> ImmersivePetroleum-1.21.1-4.5.0-39.jar%n%bettercombat-neoforge-2.3.2+1.21.1.jar -> bettercombat-neoforge-2.4.0+1.21.1.jar%n%expandeddelight-0.1.4.jar -> expandeddelight-0.1.4\_Remake.jar 个人重新构建版本%n%moonlight-neoforge-1.21.1-3.0.14.jar -> moonlight-1.21.1-3.3.3-neoforge.jar%n%supplementaries-neoforge-1.21.1-3.7.4.jar -> supplementaries-1.21.1-3.8.8-neoforge.jar%n%tacz-neoforge-1.21.1-1.1.8-r3.jar -> tacz-neoforge-1.21.1-1.1.8-hotfix-r6.jar%n%wwoo-neoforge-2.6.6.jar -> wwoo-neoforge-2.6.7\_fix.jar 个人修改版本%n%%n%新增内容:%n%优化地形与结构生成%n%将wwoo生成的蘑菇岛修改为原版生成逻辑%n%添加大量机械相关物品%n%添加大量装饰与建筑相关物品%n%添加经验与液态经验的转换配方%n%%n%%n%修复Bug:%n%修复农夫乐事：拓展乐事成就页面异常的问题%n%修复锦致核心中经验桶配合机械动力：附魔工业的烈焰人附魔室可以无限刷取经验的问题%n%修复末影人拿起部分物品导致无法被刷新的问题%n%修复wwoo地形生成时冰刺之地无法正常生成的问题%n%%n%%n%**V0.0.5 -> V0.0.6**%n%更新模组：%n%connector-2.0.0-beta.14+1.21.1-full -> connector-2.0.0-beta.15+1.21.1-full%n%Quark-4.1-479 -> Quark-4.1-482%n%ImmersiveEngineering-1.21.1-12.4.2-194 -> ImmersiveEngineering-1.21.1-12.4.3-194-Remake **个人重新构建版本**%n%forgematica-0.4.1+mc1.21.1 -> forgematica-0.4.2+mc1.21.1%n%forgified-fabric-api-0.116.7+2.2.4+1.21.1. -> forgified-fabric-api-0.116.14+2.3.0+1.21.1%n%lootr-neoforge-1.21.1-1.11.37.120 -> lootr-neoforge-1.21.1-1.11.37.122%n%%n%新增模组：%n%Axiom-5.4.2-for-MC1.21.1 **注：该模组为客户端建筑模组, 需要额外添加**%n%modmenu-11.0.4 Fabric版本的Mod菜单%n%placeholder-api-2.4.2+1.21 文本占位符api%n%createendertransmission-2.1.1-1.21.1 机械动力:末影传输%n%cc-tweaked-1.21.1-forge-1.120.0 CC:T电脑模组%n%MouseTweaks-neoforge-mc1.21-2.26.1 鼠标手势模组%n%kaleidoscopecookery-1.4.1-neoforge+mc1.21.1 森罗物语:厨房%n%kaleidoscopedoll-1.4.1-neoforge+mc1.21.1 森罗物语:玩偶%n%kaleidoscopetavern-1.2.0-neoforge+mc1.21.1 森罗物语:酿酒%n%%n%新增内容:%n%新增 沉浸石油:沥青混凝土 与 机械动力柴油动力:沥青块 相互转化的配方%n%修改部分配置，以便更适合在生存模式中建筑%n%%n%修复Bug:%n%修复主界面>更新日志彩蛋在非全屏模式下背景缩放异常的问题%n%修复沉浸工程铁杆异常的问题%n%修复沉浸工程与物理化模组冲突的问题%n%修复部分矿脉生成冲突问题%n%%n%%n%**V0.0.4 -> V0.0.5**%n%更新模组：%n%create\_things\_and\_misc-4.1.1-neoforge-1.21.1 机械动力：实用杂物（修复配方）%n%createaddition-1.6.0 机械动力：创想附加（更新版本）%n%create\_connected-1.3.2-mc1.21.1 机械动力：创意传动（更新版本）%n%sodium-neoforge-0.8.12+mc1.21.1 钠（更新版本）%n%supplementaries-neoforge-1.21.1-3.7.4 锦致装饰（更新版本）%n%iris-neoforge-1.8.14-beta.1+mc1.21.1 Iris着色器(更新版本)%n%fancymenu\_neoforge\_3.9.8\_MC\_1.21.1 UI修改模组(更新版本)%n%%n%新增模组：%n%railways-0.2.0+neoforge-mc1.21.1 机械动力：汽鸣铁道1.21.1%n%sable-neoforge-1.21.1-2.0.3 方块物理化模组支持库（支持：机械动力：航空学）%n%create-aeronautics-bundled-1.21.1-1.3.0 机械动力：航空学%n%ritchiesprojectilelib-2.1.2+mc.1.21.1-neoforge 支持库（支持：机械动力：火炮）%n%createbigcannons-5.11.7+mc.1.21.1 机械动力：火炮%n%createdieselgenerators-1.21.1-1.3.14 机械动力：柴油动力%n%createpropulsion-1.1.4 机械动力：推进学%n%CreateDragonsPlus-1.11.2b 机械动力：龙之 Plus支持库（支持：机械动力：中央厨房）%n%create-central-kitchen-2.5.0 机械动力：中央厨房%n%create-enchantment-industry-2.4.2 机械动力：附魔工业%n%globalpacks-neoforge-1.21.1-21.0.6  全局数据包支持模组%n%justzoom\_neoforge\_2.1.0\_MC\_1.21.1 缩放模组%n%%n%新增数据包：%n%SFSRModConnector 模组整合用数据包%n%%n%新增资源包:%n%SFSR资源包 汉化用资源包%n%%n%新增内容:%n%园艺玻璃罩现在支持种植辣椒与原版树苗%n%统一了沉浸原油与机械动力：柴油动力的同类流体%n%为沉浸原油的部分流体新增燃料功能%n%新增沉浸原油的焦煤塔合成沥青的配方%n%修改了机械动力：附魔工业的经验蛋糕配方%n%新增盐矿与铂矿的钻井配方%n%新增多个模组的汉化%n%%n%%n%**V0.0.3 -> V0.0.4**%n%新增客户端模组：%n%LetDo系列模组:烘焙模组：letsdo-bakery-neoforge-2.1.6%n%JEI拓展模组：JustEnoughResources-NeoForge-1.21.1-1.6.0.12%n%雕刻方块装饰模组：rechiseled-1.2.5-neoforge-mc1.21%n%FTB任务模组：ftb-quests-neoforge-2101.1.27%n%ImmersivePetroleum-1.21.1-4.4.1-37.jar%n%%n%新增服务端模组:%n%letsdo-bakery-neoforge-2.1.6 %n%rechiseled-1.2.5-neoforge-mc1.21%n%ftb-quests-neoforge-2101.1.27%n%ImmersivePetroleum-1.21.1-4.4.1-37.jar%n%%n%物品更新:%n%添加少量未完成的FTB任务%n%添加部分未完成的酿酒自动化配方%n%添加沉浸工程系列矿脉%n%%n%杂项更新:%n%优化自定义界面%n%添加查看更新日志功能%n%%n%%n%**V0.0.2 -> V0.0.3**%n%针对部分模组进行了汉化%n%移除TACZ中的两个枪包，新增九个枪包%n%%n%%n%**V0.0.1 -> V0.0.2**%n%修改模组与界面%n%%n%%n%**V0.0.1**%n%初始版本
   source_mode = direct
   shadow = true
   grabber_texture_normal = [source:local]/config/fancymenu/assets/sfsr/panel-border-012.png
@@ -459,17 +459,17 @@ element {
   fade_in_v2 = no_fading
   fade_out = no_fading
   auto_sizing = false
-  auto_sizing_base_screen_width = 2561
-  auto_sizing_base_screen_height = 1352
-  auto_sizing_base_gui_scale = 3.7555555555555555
-  auto_sizing_base_gui_width = 682
+  auto_sizing_base_screen_width = 2560
+  auto_sizing_base_screen_height = 1440
+  auto_sizing_base_gui_scale = 4
+  auto_sizing_base_gui_width = 640
   auto_sizing_base_gui_height = 360
   sticky_anchor = false
   anchor_point = mid-centered
   x = -269
-  y = -90
+  y = -101
   width = 537
-  height = 197
+  height = 239
   stay_on_screen = true
   element_loading_requirement_container_identifier = bf94ec10-d4c2-4aff-8c1e-d77207cf48fc-1781854537947
   [loading_requirement_container_meta:bf94ec10-d4c2-4aff-8c1e-d77207cf48fc-1781854537947] = [groups:][instances:]
@@ -546,13 +546,13 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 2560
   auto_sizing_base_screen_height = 1440
-  auto_sizing_base_gui_scale = 0
-  auto_sizing_base_gui_width = 0
-  auto_sizing_base_gui_height = 0
+  auto_sizing_base_gui_scale = 4
+  auto_sizing_base_gui_width = 640
+  auto_sizing_base_gui_height = 360
   sticky_anchor = false
   anchor_point = bottom-centered
   x = -50
-  y = -58
+  y = -35
   width = 100
   height = 20
   stay_on_screen = true
