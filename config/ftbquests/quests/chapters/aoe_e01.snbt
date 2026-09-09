@@ -1,0 +1,284 @@
+{
+  "id": "1229B3441E399857",
+  "filename": "aoe_e01",
+  "order_index": 12,
+  "group": "36E33A5845B80DA6",
+  "icon": {
+    "id": "minecraft:comparator"
+  },
+  "default_quest_shape": "circle",
+  "default_quest_size": 1.0,
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "hide_quest_details_until_startable": false,
+  "hide_quest_until_deps_complete": false,
+  "hide_quest_until_deps_visible": false,
+  "autofocus_id": "16BCACF7008EEB43",
+  "quest_links": [],
+  "quests": [
+    {
+      "id": "16BCACF7008EEB43",
+      "custom_id": "aoe_backup_prepare",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "backup_prepare"
+      ],
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "immersiveengineering:capacitor_lv"
+      },
+      "dependencies": [
+        "7C3D6ABD1E11DDBA"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": true,
+      "tasks": [
+        {
+          "id": "6263BA28095CB9C2",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "79AB8B563CFCA2EF",
+      "custom_id": "aoe_backup_check",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "backup_check"
+      ],
+      "x": 5.2,
+      "y": 0.0,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "minecraft:comparator"
+      },
+      "dependencies": [
+        "16BCACF7008EEB43"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "5EF845F018A6216B",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "63C466F026BFB730",
+      "custom_id": "aoe_recycle_prepare",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "recycle_prepare"
+      ],
+      "x": 0.0,
+      "y": 2.88,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "minecraft:iron_nugget"
+      },
+      "dependencies": [
+        "7C3D6ABD1E11DDBA"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": true,
+      "tasks": [
+        {
+          "id": "1612E184924855DC",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "426DD9BECEB95012",
+      "custom_id": "aoe_recycle_use",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "recycle_use"
+      ],
+      "x": 5.2,
+      "y": 2.88,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "minecraft:iron_ingot"
+      },
+      "dependencies": [
+        "63C466F026BFB730"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "146F0AFEF588BD81",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "46298362638E76BA",
+      "custom_id": "aoe_remote_prepare",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "remote_prepare"
+      ],
+      "x": 0.0,
+      "y": 5.76,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "minecraft:bread"
+      },
+      "dependencies": [
+        "7C3D6ABD1E11DDBA"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": true,
+      "tasks": [
+        {
+          "id": "5F2CC2DDB2A9F871",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1504A84AC5467D71",
+      "custom_id": "aoe_remote_delivery",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "remote_delivery"
+      ],
+      "x": 5.2,
+      "y": 5.76,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "minecraft:comparator"
+      },
+      "dependencies": [
+        "46298362638E76BA"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "475472DC19CBE204",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "73DE064AB663F38A",
+      "custom_id": "aoe_logistics_prepare",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "logistics_prepare"
+      ],
+      "x": 0.0,
+      "y": 8.639999999999999,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "create:andesite_funnel"
+      },
+      "dependencies": [
+        "7C3D6ABD1E11DDBA"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": true,
+      "tasks": [
+        {
+          "id": "74184A83870EC31E",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "74CD67917F40DB09",
+      "custom_id": "aoe_logistics_result",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "logistics_result"
+      ],
+      "x": 5.2,
+      "y": 8.639999999999999,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "minecraft:comparator"
+      },
+      "dependencies": [
+        "73DE064AB663F38A"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "27E8347A561311BC",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    }
+  ]
+}

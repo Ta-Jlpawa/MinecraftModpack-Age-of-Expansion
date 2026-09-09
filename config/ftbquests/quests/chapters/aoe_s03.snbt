@@ -1,0 +1,186 @@
+{
+  "id": "1500F8B118D733D4",
+  "filename": "aoe_s03",
+  "order_index": 9,
+  "group": "71919F3451FA2DA2",
+  "icon": {
+    "id": "minecraft:wheat"
+  },
+  "default_quest_shape": "circle",
+  "default_quest_size": 1.0,
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "hide_quest_details_until_startable": false,
+  "hide_quest_until_deps_complete": false,
+  "hide_quest_until_deps_visible": false,
+  "autofocus_id": "10E93BD05344F424",
+  "quest_links": [],
+  "quests": [
+    {
+      "id": "10E93BD05344F424",
+      "custom_id": "aoe_farm_water",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "farm_water"
+      ],
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "minecraft:iron_hoe"
+      },
+      "dependencies": [
+        "78B031640981F9D2"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": true,
+      "tasks": [
+        {
+          "id": "2B9B31B62434B1E3",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "0D45B4A90025975F",
+      "custom_id": "aoe_farm_harvest",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "farm_harvest"
+      ],
+      "x": 2.6,
+      "y": 0.0,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "minecraft:wheat"
+      },
+      "dependencies": [
+        "10E93BD05344F424"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "73264902FCB94736",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "616F257C28F3F464",
+      "custom_id": "aoe_farm_processing",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "farm_processing"
+      ],
+      "x": 5.2,
+      "y": 0.0,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "create:millstone"
+      },
+      "dependencies": [
+        "0D45B4A90025975F"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "658B92957151CD64",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1AF1C7D016C8ACD0",
+      "custom_id": "aoe_farm_reserve",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "farm_reserve"
+      ],
+      "x": 7.800000000000001,
+      "y": 0.0,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "minecraft:wheat_seeds"
+      },
+      "dependencies": [
+        "616F257C28F3F464"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "18C80C236C816B4C",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "7A490193D1B95615",
+      "custom_id": "aoe_farm_finish",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "farm_finish",
+        "aoe_chapter_end"
+      ],
+      "x": 10.4,
+      "y": 0.0,
+      "shape": "gear",
+      "size": 1.3,
+      "icon": {
+        "id": "minecraft:wheat"
+      },
+      "dependencies": [
+        "1AF1C7D016C8ACD0"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "40DD5CB18A04435C",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    }
+  ]
+}

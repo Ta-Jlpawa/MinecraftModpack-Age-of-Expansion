@@ -1,0 +1,652 @@
+{
+  "id": "62719620DE5AC0C8",
+  "filename": "aoe_m05",
+  "order_index": 4,
+  "group": "413F578156EE8A08",
+  "icon": {
+    "id": "mekanism:metallurgic_infuser"
+  },
+  "default_quest_shape": "circle",
+  "default_quest_size": 1.0,
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "hide_quest_details_until_startable": false,
+  "hide_quest_until_deps_complete": false,
+  "hide_quest_until_deps_visible": false,
+  "autofocus_id": "07FA341FA06B8C72",
+  "quest_links": [],
+  "quests": [
+    {
+      "id": "07FA341FA06B8C72",
+      "custom_id": "aoe_advanced_start",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "advanced_start"
+      ],
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "mekanism:metallurgic_infuser"
+      },
+      "dependencies": [
+        "6DFB8768A0F0B3FD"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "6849FD0CAAE0524B",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "133F47145EC684E9",
+      "custom_id": "aoe_mek_basics",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "mek_basics"
+      ],
+      "x": 2.6,
+      "y": -2.4,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "mekanism:metallurgic_infuser"
+      },
+      "dependencies": [
+        "07FA341FA06B8C72"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "7C67B5E18DD2AD1A",
+          "type": "item",
+          "item": {
+            "id": "mekanism:metallurgic_infuser",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "23FE49BAC7213CBD",
+          "type": "item",
+          "item": {
+            "id": "mekanism:enrichment_chamber",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "3E8FA3341C4B603E",
+      "custom_id": "aoe_ae_processing",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "ae_processing"
+      ],
+      "x": 2.6,
+      "y": 2.4,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "ae2:inscriber"
+      },
+      "dependencies": [
+        "07FA341FA06B8C72"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "5042BDDE31FF2FB7",
+          "type": "item",
+          "item": {
+            "id": "ae2:inscriber",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "71C3C3168D2B8B4E",
+          "type": "item",
+          "item": {
+            "id": "ae2:energy_acceptor",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "03502F24167DB2BA",
+      "custom_id": "aoe_reinforced",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "reinforced"
+      ],
+      "x": 5.2,
+      "y": -2.4,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "mekanism:alloy_reinforced"
+      },
+      "dependencies": [
+        "133F47145EC684E9"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "50361E16187CE7CA",
+          "type": "item",
+          "item": {
+            "id": "mekanism:alloy_reinforced",
+            "count": 1
+          },
+          "count": 4,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "5A0C542A49FF5A0E",
+      "custom_id": "aoe_ae_processors",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "ae_processors"
+      ],
+      "x": 5.2,
+      "y": 2.4,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "ae2:logic_processor"
+      },
+      "dependencies": [
+        "3E8FA3341C4B603E"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "19AA801C972C8B44",
+          "type": "item",
+          "item": {
+            "id": "ae2:logic_processor",
+            "count": 1
+          },
+          "count": 2,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "475C3B1D1FCC862A",
+          "type": "item",
+          "item": {
+            "id": "ae2:calculation_processor",
+            "count": 1
+          },
+          "count": 2,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "7B80343692B80640",
+      "custom_id": "aoe_atomic",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "atomic"
+      ],
+      "x": 7.800000000000001,
+      "y": -2.4,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "immersiveengineering:ingot_hop_graphite"
+      },
+      "dependencies": [
+        "03502F24167DB2BA"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "28AD90081245D3AB",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:ingot_hop_graphite",
+            "count": 1
+          },
+          "count": 2,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "46B159EFB7819CF3",
+          "type": "item",
+          "item": {
+            "id": "mekanism:alloy_atomic",
+            "count": 1
+          },
+          "count": 4,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "46EB47068B4100E8",
+      "custom_id": "aoe_ae_network",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "ae_network"
+      ],
+      "x": 7.800000000000001,
+      "y": 2.4,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "ae2:crafting_terminal"
+      },
+      "dependencies": [
+        "5A0C542A49FF5A0E"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "532C00A076226A20",
+          "type": "item",
+          "item": {
+            "id": "ae2:crafting_terminal",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "30D4015772E7D9D7",
+          "type": "item",
+          "item": {
+            "id": "ae2:1k_crafting_storage",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "46E773CF86F8BE27",
+      "custom_id": "aoe_chemistry",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "chemistry"
+      ],
+      "x": 10.4,
+      "y": -2.4,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "mekanism:electrolytic_separator"
+      },
+      "dependencies": [
+        "7B80343692B80640"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "42C808D0DB866E7B",
+          "type": "item",
+          "item": {
+            "id": "mekanism:electrolytic_separator",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "23234821AB131D89",
+          "type": "item",
+          "item": {
+            "id": "mekanism:pressurized_reaction_chamber",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "4065BF1217250673",
+      "custom_id": "aoe_ae_patterns",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "ae_patterns"
+      ],
+      "x": 10.4,
+      "y": 2.4,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "ae2:pattern_provider"
+      },
+      "dependencies": [
+        "46EB47068B4100E8"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "4FAAD9BCE7D2069C",
+          "type": "item",
+          "item": {
+            "id": "ae2:pattern_provider",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "637B37EE03CC5CA1",
+          "type": "item",
+          "item": {
+            "id": "ae2:molecular_assembler",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "66F951801E6B6487",
+          "type": "item",
+          "item": {
+            "id": "ae2:blank_pattern",
+            "count": 1
+          },
+          "count": 4,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "3208FE3A412C335E",
+      "custom_id": "aoe_hdpe",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "hdpe"
+      ],
+      "x": 13.0,
+      "y": -2.4,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "mekanism:hdpe_sheet"
+      },
+      "dependencies": [
+        "46E773CF86F8BE27"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "455BAFEADCF10A07",
+          "type": "item",
+          "item": {
+            "id": "mekanism:hdpe_sheet",
+            "count": 1
+          },
+          "count": 4,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "49A3C512A39F840C",
+      "custom_id": "aoe_ae_result",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "ae_result"
+      ],
+      "x": 13.0,
+      "y": 2.4,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "ae2:crafting_unit"
+      },
+      "dependencies": [
+        "4065BF1217250673"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "137E1271FDB6D63C",
+          "type": "item",
+          "item": {
+            "id": "ae2:crafting_unit",
+            "count": 1
+          },
+          "count": 2,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "580F4DD81C923DB3",
+      "custom_id": "aoe_m05_end",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "m05_end",
+        "aoe_chapter_end"
+      ],
+      "x": 15.600000000000001,
+      "y": 0.0,
+      "shape": "gear",
+      "size": 1.3,
+      "icon": {
+        "id": "mekanism:metallurgic_infuser"
+      },
+      "dependencies": [
+        "3208FE3A412C335E",
+        "49A3C512A39F840C"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "4F5D9D4AF7826D6A",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "75DE13D454367BA0",
+          "type": "item",
+          "item": {
+            "id": "minecraft:golden_carrot",
+            "count": 8
+          },
+          "team_reward": true
+        }
+      ]
+    },
+    {
+      "id": "65093BE06631BD1F",
+      "custom_id": "aoe_fresh_batch",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "fresh_batch"
+      ],
+      "x": 7.800000000000001,
+      "y": 7.199999999999999,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "ae2:crafting_unit"
+      },
+      "dependencies": [
+        "46EB47068B4100E8"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": true,
+      "tasks": [
+        {
+          "id": "0B0671E05894DD8D",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1C4F00A317617174",
+      "custom_id": "aoe_material_reuse",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "material_reuse"
+      ],
+      "x": 10.4,
+      "y": 7.199999999999999,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "immersiveengineering:ingot_hop_graphite"
+      },
+      "dependencies": [
+        "65093BE06631BD1F"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "29CB4FB765B82F85",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    }
+  ]
+}

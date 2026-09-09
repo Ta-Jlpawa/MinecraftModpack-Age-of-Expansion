@@ -42,5 +42,7 @@
   "gui.ageofexpansionmodpackfix.router.distribution": "分配比例",
   "gui.ageofexpansionmodpackfix.router.right_output": "右侧",
   "itemGroup.ageofexpansionmodpackfix": "开拓纪元 · 整合包扩展",
-  "item.ageofexpansionmodpackfix.mod_icon": "开拓纪元徽章"
+  "item.ageofexpansionmodpackfix.mod_icon": "开拓纪元徽章",
+  "item.ageofexpansionmodpackfix.cat_ear_headband": "猫耳头饰",
+  "tooltip.ageofexpansionmodpackfix.cat_ear_headband": "佩戴于头盔槽或饰品头饰槽时，不会被选中成为生成幻翼的目标。注意:不会阻止已有的幻翼攻击。"
 }

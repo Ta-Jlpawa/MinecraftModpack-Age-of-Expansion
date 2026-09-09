@@ -1,0 +1,771 @@
+{
+  "id": "683BE7E8A7818027",
+  "filename": "aoe_m03",
+  "order_index": 2,
+  "group": "413F578156EE8A08",
+  "icon": {
+    "id": "immersiveengineering:dynamo"
+  },
+  "default_quest_shape": "circle",
+  "default_quest_size": 1.0,
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "hide_quest_details_until_startable": false,
+  "hide_quest_until_deps_complete": false,
+  "hide_quest_until_deps_visible": false,
+  "autofocus_id": "0E176F9D88DBFECA",
+  "quest_links": [],
+  "quests": [
+    {
+      "id": "0E176F9D88DBFECA",
+      "custom_id": "aoe_industry_start",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "industry_start"
+      ],
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "immersiveengineering:dynamo"
+      },
+      "dependencies": [
+        "78B031640981F9D2"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "7C3932AD366F78F5",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "4770F7FCC70B0D6F",
+      "custom_id": "aoe_ore_survey",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "ore_survey"
+      ],
+      "x": 2.6,
+      "y": -2.4,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "minecraft:raw_iron"
+      },
+      "dependencies": [
+        "0E176F9D88DBFECA"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "14E8AD5B0FBB8473",
+          "type": "item",
+          "item": {
+            "id": "minecraft:raw_iron",
+            "count": 1
+          },
+          "count": 16,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "672CAD4D3AF41078",
+          "type": "item",
+          "item": {
+            "id": "minecraft:raw_copper",
+            "count": 1
+          },
+          "count": 16,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "22769A797C6C0B16",
+      "custom_id": "aoe_transport",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "transport"
+      ],
+      "x": 2.6,
+      "y": 2.4,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "minecraft:bread"
+      },
+      "dependencies": [
+        "0E176F9D88DBFECA"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "2AE33548D5AD6A98",
+          "type": "item",
+          "item": {
+            "id": "minecraft:bread",
+            "count": 1
+          },
+          "count": 16,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "6F8BF5C91671A936",
+          "type": "item",
+          "item": {
+            "id": "minecraft:chest",
+            "count": 1
+          },
+          "count": 2,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "00040C7D3DC6BAAE",
+      "custom_id": "aoe_nether_ready",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "nether_ready"
+      ],
+      "x": 5.2,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "minecraft:flint_and_steel"
+      },
+      "dependencies": [
+        "4770F7FCC70B0D6F",
+        "22769A797C6C0B16"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "25490D6EC83B0A26",
+          "type": "item",
+          "item": {
+            "id": "minecraft:flint_and_steel",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "71FE83CB53122D64",
+          "type": "item",
+          "item": {
+            "id": "minecraft:golden_boots",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "6B19A3CC86254FDD",
+      "custom_id": "aoe_nether",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "nether"
+      ],
+      "x": 7.800000000000001,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "immersiveengineering:dynamo"
+      },
+      "dependencies": [
+        "00040C7D3DC6BAAE"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "3439D594B552425E",
+          "type": "advancement",
+          "advancement": "minecraft:story/enter_the_nether"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "485A8F758566A306",
+      "custom_id": "aoe_quartz",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "quartz"
+      ],
+      "x": 10.4,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "minecraft:quartz"
+      },
+      "dependencies": [
+        "6B19A3CC86254FDD"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "370AA8ACEA743D08",
+          "type": "item",
+          "item": {
+            "id": "minecraft:quartz",
+            "count": 1
+          },
+          "count": 16,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "311069BFB8817680",
+          "type": "item",
+          "item": {
+            "id": "minecraft:nether_brick",
+            "count": 1
+          },
+          "count": 16,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "300F88B5EBA3A7AB",
+      "custom_id": "aoe_coke",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "coke"
+      ],
+      "x": 13.0,
+      "y": -2.4,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "immersiveengineering:cokebrick"
+      },
+      "dependencies": [
+        "485A8F758566A306"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "4CDE6F88A7A08255",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:cokebrick",
+            "count": 1
+          },
+          "count": 27,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "577BE71EAB9DC0B6",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:coal_coke",
+            "count": 1
+          },
+          "count": 4,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "0109E21448AD3E48",
+      "custom_id": "aoe_generation",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "generation"
+      ],
+      "x": 18.2,
+      "y": 2.4,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "immersiveengineering:dynamo"
+      },
+      "dependencies": [
+        "58B98E8EC905AC86"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "6D7BD0770A454050",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:dynamo",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "2307DDD74D84A212",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:watermill",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "58B98E8EC905AC86",
+      "custom_id": "aoe_steel",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "steel"
+      ],
+      "x": 15.600000000000001,
+      "y": -2.4,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "immersiveengineering:blastbrick"
+      },
+      "dependencies": [
+        "300F88B5EBA3A7AB"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "01E293718052DCED",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:blastbrick",
+            "count": 1
+          },
+          "count": 27,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "10017722D973B308",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:ingot_steel",
+            "count": 1
+          },
+          "count": 8,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "49971051D2E8B1F6",
+      "custom_id": "aoe_power_grid",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "power_grid"
+      ],
+      "x": 20.8,
+      "y": 2.4,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "immersiveengineering:wirecoil_copper"
+      },
+      "dependencies": [
+        "0109E21448AD3E48"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "0D27652F8E16DBD0",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:wirecoil_copper",
+            "count": 1
+          },
+          "count": 4,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "021D36625F0CD43D",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:connector_lv",
+            "count": 1
+          },
+          "count": 2,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "5860A32D78B3F4F6",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:capacitor_lv",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "2F05ED835811E9C7",
+      "custom_id": "aoe_industry_parts",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "industry_parts"
+      ],
+      "x": 18.2,
+      "y": -2.4,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "immersiveengineering:component_steel"
+      },
+      "dependencies": [
+        "58B98E8EC905AC86"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "7E4DC0D710C527F7",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:component_steel",
+            "count": 1
+          },
+          "count": 4,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "237441FD23CBA9C8",
+      "custom_id": "aoe_rs_control",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "rs_control"
+      ],
+      "x": 23.400000000000002,
+      "y": 2.4,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "refinedstorage:controller"
+      },
+      "dependencies": [
+        "49971051D2E8B1F6"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "5286DF5A147CBCBB",
+          "type": "item",
+          "item": {
+            "id": "refinedstorage:controller",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "58AD95D22351A3AF",
+          "type": "item",
+          "item": {
+            "id": "refinedstorage:crafting_grid",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "65EDC0CC7255A4D7",
+      "custom_id": "aoe_rs_storage",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "rs_storage"
+      ],
+      "x": 26.0,
+      "y": 2.4,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "refinedstorage:disk_drive"
+      },
+      "dependencies": [
+        "237441FD23CBA9C8"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "1B33ACA19644283F",
+          "type": "item",
+          "item": {
+            "id": "refinedstorage:disk_drive",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "486757C4BB1988D0",
+          "type": "item",
+          "item": {
+            "id": "refinedstorage:1k_storage_disk",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "3930EE2B847CF1EC",
+          "type": "item",
+          "item": {
+            "id": "refinedstorage:cable",
+            "count": 1
+          },
+          "count": 4,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "7C3D6ABD1E11DDBA",
+      "custom_id": "aoe_m03_end",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "m03_end",
+        "aoe_chapter_end"
+      ],
+      "x": 28.6,
+      "y": 0.0,
+      "shape": "gear",
+      "size": 1.3,
+      "icon": {
+        "id": "immersiveengineering:dynamo"
+      },
+      "dependencies": [
+        "2F05ED835811E9C7",
+        "65EDC0CC7255A4D7"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "5861F8D19C01D8A8",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7996167410045227",
+          "type": "item",
+          "item": {
+            "id": "minecraft:golden_carrot",
+            "count": 8
+          },
+          "team_reward": true
+        }
+      ]
+    },
+    {
+      "id": "1957ADA299B15252",
+      "custom_id": "aoe_rail_platform",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "rail_platform"
+      ],
+      "x": 13.0,
+      "y": 7.199999999999999,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "create:track_station"
+      },
+      "dependencies": [
+        "22769A797C6C0B16"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": true,
+      "tasks": [
+        {
+          "id": "2D3D203DD2570A03",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "3B4D96F5162243AE",
+      "custom_id": "aoe_rail_delivery",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "rail_delivery"
+      ],
+      "x": 15.600000000000001,
+      "y": 7.199999999999999,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "create:track"
+      },
+      "dependencies": [
+        "1957ADA299B15252"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "2AD08ADCFA428F19",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    }
+  ]
+}

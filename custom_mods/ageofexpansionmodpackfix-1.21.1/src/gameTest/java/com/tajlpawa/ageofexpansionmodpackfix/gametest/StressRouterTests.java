@@ -360,7 +360,7 @@ public class StressRouterTests {
         var registry = net.minecraft.core.registries.BuiltInRegistries.ITEM;
         registry.entrySet().stream().filter(e -> e.getKey().location().getNamespace().equals(StressRouterContent.MOD_ID))
                 .forEach(e -> h.assertTrue(entries.contains(e.getValue()), "Missing creative item: " + e.getKey().location()));
-        h.assertTrue(entries.size() == 6, "Five functional items and the emblem");
+        h.assertTrue(entries.size() == 7, "Six functional items and the emblem");
         h.assertTrue(!registry.containsKey(ResourceLocation.fromNamespaceAndPath(StressRouterContent.MOD_ID, "example_item"))
                 && !registry.containsKey(ResourceLocation.fromNamespaceAndPath(StressRouterContent.MOD_ID, "example_block")), "Example items removed");
         h.assertTrue(tab.getIconItem().is(com.tajlpawa.ageofexpansionmodpackfix.AgeofExpansionModpackFix.TAB_ICON.get()), "Custom icon registered");

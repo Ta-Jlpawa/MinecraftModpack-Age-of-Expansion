@@ -1,0 +1,521 @@
+{
+  "id": "029250FC1410232B",
+  "filename": "aoe_m02",
+  "order_index": 1,
+  "group": "413F578156EE8A08",
+  "icon": {
+    "id": "create:water_wheel"
+  },
+  "default_quest_shape": "circle",
+  "default_quest_size": 1.0,
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "hide_quest_details_until_startable": false,
+  "hide_quest_until_deps_complete": false,
+  "hide_quest_until_deps_visible": false,
+  "autofocus_id": "0D557BBF539938F7",
+  "quest_links": [],
+  "quests": [
+    {
+      "id": "0D557BBF539938F7",
+      "custom_id": "aoe_mechanical_start",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "mechanical_start"
+      ],
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "create:water_wheel"
+      },
+      "dependencies": [
+        "0FF9A769C36B91A6"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "48145128AB1681F8",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "2454A6DEA877F174",
+      "custom_id": "aoe_andesite",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "andesite"
+      ],
+      "x": 2.6,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "create:andesite_alloy"
+      },
+      "dependencies": [
+        "0D557BBF539938F7"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "7D18E9D1454E8C2D",
+          "type": "item",
+          "item": {
+            "id": "create:andesite_alloy",
+            "count": 1
+          },
+          "count": 16,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "663BBEA0A5E01EA1",
+      "custom_id": "aoe_water_power",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "water_power"
+      ],
+      "x": 5.2,
+      "y": -2.4,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "create:water_wheel"
+      },
+      "dependencies": [
+        "2454A6DEA877F174"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "1E41C53D4FF24089",
+          "type": "item",
+          "item": {
+            "id": "create:water_wheel",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "6E169611F92BEAB5",
+          "type": "item",
+          "item": {
+            "id": "create:shaft",
+            "count": 1
+          },
+          "count": 8,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "17E35BB0ACE15099",
+      "custom_id": "aoe_transmission",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "transmission"
+      ],
+      "x": 5.2,
+      "y": 2.4,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "create:cogwheel"
+      },
+      "dependencies": [
+        "2454A6DEA877F174"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "4EC7EDFAE3317681",
+          "type": "item",
+          "item": {
+            "id": "create:cogwheel",
+            "count": 1
+          },
+          "count": 4,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "2BD244F6007F1CAA",
+          "type": "item",
+          "item": {
+            "id": "create:gearbox",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "67FDCBDC57C8DCB4",
+      "custom_id": "aoe_press",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "press"
+      ],
+      "x": 7.800000000000001,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "create:mechanical_press"
+      },
+      "dependencies": [
+        "663BBEA0A5E01EA1",
+        "17E35BB0ACE15099"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "66D90265EAB8B7E1",
+          "type": "item",
+          "item": {
+            "id": "create:mechanical_press",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "4A1E3607C72BEA64",
+          "type": "item",
+          "item": {
+            "id": "create:depot",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "4A8831186D3D3F9D",
+      "custom_id": "aoe_plates",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "plates"
+      ],
+      "x": 10.4,
+      "y": -2.4,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "create:iron_sheet"
+      },
+      "dependencies": [
+        "67FDCBDC57C8DCB4"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "09856FBBD0C447AA",
+          "type": "item",
+          "item": {
+            "id": "create:iron_sheet",
+            "count": 1
+          },
+          "count": 8,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "07CFDD037DD6555F",
+          "type": "item",
+          "item": {
+            "id": "create:copper_sheet",
+            "count": 1
+          },
+          "count": 8,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14A03F7FD310E51A",
+          "type": "item",
+          "item": {
+            "id": "minecraft:scaffolding",
+            "count": 16
+          },
+          "team_reward": true
+        }
+      ]
+    },
+    {
+      "id": "36D7461E868118EB",
+      "custom_id": "aoe_mixer",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "mixer"
+      ],
+      "x": 10.4,
+      "y": 2.4,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "create:mechanical_mixer"
+      },
+      "dependencies": [
+        "67FDCBDC57C8DCB4"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "33F0576B698A4A04",
+          "type": "item",
+          "item": {
+            "id": "create:mechanical_mixer",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "37C78DF99B4CDB27",
+          "type": "item",
+          "item": {
+            "id": "create:basin",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "0D17F6D43D4B6690",
+      "custom_id": "aoe_mechanical_tools",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "mechanical_tools"
+      ],
+      "x": 13.0,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "create:wrench"
+      },
+      "dependencies": [
+        "4A8831186D3D3F9D",
+        "36D7461E868118EB"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "7F42CAB9255B39C4",
+          "type": "item",
+          "item": {
+            "id": "create:wrench",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "70CC26617E0E0527",
+          "type": "item",
+          "item": {
+            "id": "create:mechanical_drill",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "78B031640981F9D2",
+      "custom_id": "aoe_m02_end",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "m02_end",
+        "aoe_chapter_end"
+      ],
+      "x": 15.600000000000001,
+      "y": 0.0,
+      "shape": "gear",
+      "size": 1.3,
+      "icon": {
+        "id": "create:water_wheel"
+      },
+      "dependencies": [
+        "0D17F6D43D4B6690"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "404630F42AF2626B",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "320A1AA45AA5998E",
+          "type": "item",
+          "item": {
+            "id": "minecraft:golden_carrot",
+            "count": 8
+          },
+          "team_reward": true
+        }
+      ]
+    },
+    {
+      "id": "3CC778DDC08CF7F2",
+      "custom_id": "aoe_stress_reading",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "stress_reading"
+      ],
+      "x": 5.2,
+      "y": 7.199999999999999,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "create:goggles"
+      },
+      "dependencies": [
+        "17E35BB0ACE15099"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": true,
+      "tasks": [
+        {
+          "id": "6569159796AA122A",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "18743E81701ABE58",
+      "custom_id": "aoe_mechanical_fan",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "mechanical_fan"
+      ],
+      "x": 7.800000000000001,
+      "y": 7.199999999999999,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "create:encased_fan"
+      },
+      "dependencies": [
+        "3CC778DDC08CF7F2"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "4D7648AC8080C94C",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    }
+  ]
+}

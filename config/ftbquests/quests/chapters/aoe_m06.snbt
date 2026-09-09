@@ -1,0 +1,783 @@
+{
+  "id": "0832AF996FF7A127",
+  "filename": "aoe_m06",
+  "order_index": 5,
+  "group": "413F578156EE8A08",
+  "icon": {
+    "id": "mekanismgenerators:fission_reactor_casing"
+  },
+  "default_quest_shape": "circle",
+  "default_quest_size": 1.0,
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "hide_quest_details_until_startable": false,
+  "hide_quest_until_deps_complete": false,
+  "hide_quest_until_deps_visible": false,
+  "autofocus_id": "51D6CD277370855F",
+  "quest_links": [],
+  "quests": [
+    {
+      "id": "51D6CD277370855F",
+      "custom_id": "aoe_nuclear_start",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "nuclear_start"
+      ],
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "mekanismgenerators:fission_reactor_casing"
+      },
+      "dependencies": [
+        "580F4DD81C923DB3"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "668822FB2F403C16",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "181F73AB27A93BEE",
+      "custom_id": "aoe_fissile_setup",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "fissile_setup"
+      ],
+      "x": 2.6,
+      "y": -2.4,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "mekanism:chemical_oxidizer"
+      },
+      "dependencies": [
+        "51D6CD277370855F"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "4858EBF50B53E232",
+          "type": "item",
+          "item": {
+            "id": "mekanism:chemical_oxidizer",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "2E536B3F4152DA94",
+          "type": "item",
+          "item": {
+            "id": "mekanism:chemical_infuser",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "06AF47AB2AEDC10A",
+          "type": "item",
+          "item": {
+            "id": "mekanism:isotopic_centrifuge",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "46EBBAA70516E71D",
+      "custom_id": "aoe_fusion_setup",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "fusion_setup"
+      ],
+      "x": 2.6,
+      "y": 2.4,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "mekanism:electric_pump"
+      },
+      "dependencies": [
+        "51D6CD277370855F"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "77222CD8C8777701",
+          "type": "item",
+          "item": {
+            "id": "mekanism:electric_pump",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "40995AFC51224978",
+          "type": "item",
+          "item": {
+            "id": "mekanism:upgrade_filter",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "38B94951BB47011B",
+          "type": "item",
+          "item": {
+            "id": "mekanism:solar_neutron_activator",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "57561C2D3F207B50",
+      "custom_id": "aoe_fission_parts",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "fission_parts"
+      ],
+      "x": 5.2,
+      "y": -2.4,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "mekanismgenerators:fission_reactor_casing"
+      },
+      "dependencies": [
+        "181F73AB27A93BEE"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "7F786DFDD00CC85C",
+          "type": "item",
+          "item": {
+            "id": "mekanismgenerators:fission_reactor_casing",
+            "count": 1
+          },
+          "count": 16,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "6C023CC3F73A6210",
+          "type": "item",
+          "item": {
+            "id": "mekanismgenerators:fission_fuel_assembly",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "1C7845AB5416416F",
+          "type": "item",
+          "item": {
+            "id": "mekanismgenerators:control_rod_assembly",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "5A255EEB10717221",
+          "type": "item",
+          "item": {
+            "id": "mekanismgenerators:fission_reactor_port",
+            "count": 1
+          },
+          "count": 2,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "53B913BB3FDF6BA0",
+      "custom_id": "aoe_fusion_fuel",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "fusion_fuel"
+      ],
+      "x": 5.2,
+      "y": 2.4,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "mekanismgenerators:hohlraum"
+      },
+      "dependencies": [
+        "46EBBAA70516E71D"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "41E80602B2C7A2CB",
+          "type": "item",
+          "item": {
+            "id": "mekanismgenerators:hohlraum",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "663D0FB786734A86",
+          "type": "item",
+          "item": {
+            "id": "mekanism:basic_chemical_tank",
+            "count": 1
+          },
+          "count": 2,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "2B730B5F0EFF95D7",
+      "custom_id": "aoe_cooling_waste",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "cooling_waste"
+      ],
+      "x": 7.800000000000001,
+      "y": -2.4,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "mekanism:radioactive_waste_barrel"
+      },
+      "dependencies": [
+        "57561C2D3F207B50"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "0625E879D8985200",
+          "type": "item",
+          "item": {
+            "id": "mekanism:radioactive_waste_barrel",
+            "count": 1
+          },
+          "count": 4,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "58D54545FA476189",
+          "type": "item",
+          "item": {
+            "id": "mekanismgenerators:fission_reactor_logic_adapter",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "27F72CF0B471758E",
+      "custom_id": "aoe_fusion_parts",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "fusion_parts"
+      ],
+      "x": 7.800000000000001,
+      "y": 2.4,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "mekanismgenerators:fusion_reactor_controller"
+      },
+      "dependencies": [
+        "53B913BB3FDF6BA0"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "5113CAB126C445F7",
+          "type": "item",
+          "item": {
+            "id": "mekanismgenerators:fusion_reactor_controller",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "6364BE68E21131C7",
+          "type": "item",
+          "item": {
+            "id": "mekanismgenerators:fusion_reactor_frame",
+            "count": 1
+          },
+          "count": 8,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "5F97C9533AF4CC65",
+          "type": "item",
+          "item": {
+            "id": "mekanismgenerators:fusion_reactor_port",
+            "count": 1
+          },
+          "count": 2,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "73B4EBEE999D51CD",
+      "custom_id": "aoe_nuclear_products",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "nuclear_products"
+      ],
+      "x": 10.4,
+      "y": -2.4,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "mekanism:pellet_polonium"
+      },
+      "dependencies": [
+        "2B730B5F0EFF95D7"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "15E7E85C876A52D5",
+          "type": "item",
+          "item": {
+            "id": "mekanism:pellet_polonium",
+            "count": 1
+          },
+          "count": 4,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "2BC62DA74203FAB7",
+          "type": "item",
+          "item": {
+            "id": "mekanism:pellet_plutonium",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "553349457E8E2D58",
+      "custom_id": "aoe_ignition",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "ignition"
+      ],
+      "x": 10.4,
+      "y": 2.4,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "mekanism:laser"
+      },
+      "dependencies": [
+        "27F72CF0B471758E"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "476592429FC4F618",
+          "type": "item",
+          "item": {
+            "id": "mekanism:laser",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "08C0806EAB965096",
+          "type": "item",
+          "item": {
+            "id": "mekanism:laser_amplifier",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "72164958A14214E1",
+          "type": "item",
+          "item": {
+            "id": "mekanism:advanced_energy_cube",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "10B3A1C8C6E6FE4C",
+      "custom_id": "aoe_fusion_review",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "fusion_review"
+      ],
+      "x": 13.0,
+      "y": 2.4,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "mekanismgenerators:fission_reactor_casing"
+      },
+      "dependencies": [
+        "553349457E8E2D58"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "04C2A60BF2FC6628",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "7514D888DFA1A13B",
+      "custom_id": "aoe_sps_parts",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "sps_parts"
+      ],
+      "x": 13.0,
+      "y": -2.4,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "mekanism:sps_casing"
+      },
+      "dependencies": [
+        "73B4EBEE999D51CD"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "5830FD1A216B42BE",
+          "type": "item",
+          "item": {
+            "id": "mekanism:sps_casing",
+            "count": 1
+          },
+          "count": 8,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "1CFA970240343FA9",
+          "type": "item",
+          "item": {
+            "id": "mekanism:sps_port",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "54685A9D45DB9C2A",
+          "type": "item",
+          "item": {
+            "id": "mekanism:supercharged_coil",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "7916220273623A0C",
+      "custom_id": "aoe_antimatter",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "antimatter"
+      ],
+      "x": 15.600000000000001,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "mekanism:pellet_antimatter"
+      },
+      "dependencies": [
+        "7514D888DFA1A13B",
+        "10B3A1C8C6E6FE4C"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "6E1F5244F3575C70",
+          "type": "item",
+          "item": {
+            "id": "mekanism:pellet_antimatter",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "41220716169325D2",
+          "type": "item",
+          "item": {
+            "id": "minecraft:golden_carrot",
+            "count": 16
+          },
+          "team_reward": true
+        }
+      ]
+    },
+    {
+      "id": "36F473CE78277BFB",
+      "custom_id": "aoe_m06_end",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "m06_end",
+        "aoe_chapter_end"
+      ],
+      "x": 18.2,
+      "y": 0.0,
+      "shape": "gear",
+      "size": 1.3,
+      "icon": {
+        "id": "mekanismgenerators:fission_reactor_casing"
+      },
+      "dependencies": [
+        "7916220273623A0C"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "3610E42500B352F2",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2402C8360E7D4193",
+          "type": "item",
+          "item": {
+            "id": "minecraft:golden_carrot",
+            "count": 8
+          },
+          "team_reward": true
+        }
+      ]
+    },
+    {
+      "id": "60C46613B95F5577",
+      "custom_id": "aoe_reactor_telemetry",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "reactor_telemetry"
+      ],
+      "x": 7.800000000000001,
+      "y": 7.199999999999999,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "mekanismgenerators:fission_reactor_casing"
+      },
+      "dependencies": [
+        "2B730B5F0EFF95D7"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": true,
+      "tasks": [
+        {
+          "id": "3B8851417D909D26",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "53666D71C6A5FFA5",
+      "custom_id": "aoe_fusion_telemetry",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "fusion_telemetry"
+      ],
+      "x": 10.4,
+      "y": 7.199999999999999,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "mekanismgenerators:fission_reactor_casing"
+      },
+      "dependencies": [
+        "60C46613B95F5577"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "1647A8FF01A97C05",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    }
+  ]
+}

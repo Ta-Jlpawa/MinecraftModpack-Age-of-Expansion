@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_door"
+    },
+    {
+      "item": "securitycraft:keypad"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "securitycraft:keypad_door_item"
+  }
+}

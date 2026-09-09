@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "artifacts:config_value",
+                  "value": "cloud_in_a_bottle.generateAsLoot"
+                }
+              ],
+              "name": "artifacts:cloud_in_a_bottle"
+            },
+            {
+              "type": "minecraft:empty"
+            }
+          ]
+        }
+      ],
+      "name": "main",
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.2
+        }
+      ]
+    }
+  ],
+  "random_sequence": "artifacts:items/cloud_in_a_bottle"
+}

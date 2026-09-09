@@ -1,0 +1,19 @@
+{
+  "loader": "neoforge:separate_transforms",
+  "base": {
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "ageofexpansionmodpackfix:item/cat_ear_headband_icon"
+    }
+  },
+  "perspectives": {
+    "head": {
+      "parent": "ageofexpansionmodpackfix:item/cat_ear_headband_worn"
+    }
+  },
+  "gui_light": "front",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "ageofexpansionmodpackfix:item/cat_ear_headband_icon"
+  }
+}

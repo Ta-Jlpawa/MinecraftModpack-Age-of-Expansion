@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "securitycraft:crystal_quartz"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "securitycraft:block_pocket_wall"
+  }
+}

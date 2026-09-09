@@ -1,0 +1,185 @@
+{
+  "id": "4AA604E86C50574E",
+  "filename": "aoe_p01",
+  "order_index": 14,
+  "group": "02958343D1CB1EEA",
+  "icon": {
+    "id": "minecraft:nether_star"
+  },
+  "default_quest_shape": "circle",
+  "default_quest_size": 1.0,
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "hide_quest_details_until_startable": false,
+  "hide_quest_until_deps_complete": false,
+  "hide_quest_until_deps_visible": false,
+  "autofocus_id": "5A0850EA9B361324",
+  "quest_links": [],
+  "quests": [
+    {
+      "id": "5A0850EA9B361324",
+      "custom_id": "aoe_creative_fluid",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "creative_fluid"
+      ],
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "mekanism:creative_fluid_tank"
+      },
+      "dependencies": [
+        "6D9E635AD616122E"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": true,
+      "tasks": [
+        {
+          "id": "56C72A297E3C3A17",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1BE7D4CE87285731",
+      "custom_id": "aoe_creative_chemical",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "creative_chemical"
+      ],
+      "x": 5.2,
+      "y": 0.0,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "mekanism:creative_chemical_tank"
+      },
+      "dependencies": [
+        "6D9E635AD616122E"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": true,
+      "tasks": [
+        {
+          "id": "16A430E6957BB87F",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "6459BF391D8DF1CD",
+      "custom_id": "aoe_creative_energy",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "creative_energy"
+      ],
+      "x": 10.4,
+      "y": 0.0,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "mekanism:creative_energy_cube"
+      },
+      "dependencies": [
+        "6D9E635AD616122E"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": true,
+      "tasks": [
+        {
+          "id": "2033932AD1C9ADD1",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "012F95DEE446D343",
+      "custom_id": "aoe_creative_range",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "creative_range"
+      ],
+      "x": 0.0,
+      "y": 3.5999999999999996,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "refinedstorage:creative_range_upgrade"
+      },
+      "dependencies": [
+        "6D9E635AD616122E"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": true,
+      "tasks": [
+        {
+          "id": "63BE6639B12C3F37",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "7F92AD032BCB209A",
+      "custom_id": "aoe_portable_qio",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "portable_qio"
+      ],
+      "x": 5.2,
+      "y": 3.5999999999999996,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "mekanism:portable_qio_dashboard"
+      },
+      "dependencies": [
+        "012F95DEE446D343"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "2369336D4891D234",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    }
+  ]
+}

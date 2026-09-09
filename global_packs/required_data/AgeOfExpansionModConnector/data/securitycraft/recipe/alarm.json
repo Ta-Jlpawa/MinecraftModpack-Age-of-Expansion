@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "N": {
+      "item": "minecraft:note_block"
+    },
+    "R": {
+      "tag": "c:dusts/redstone"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "GNG",
+    "GRG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "securitycraft:alarm"
+  }
+}

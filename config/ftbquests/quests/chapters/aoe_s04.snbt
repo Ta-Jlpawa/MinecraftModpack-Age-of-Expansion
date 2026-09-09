@@ -1,0 +1,186 @@
+{
+  "id": "537DE565B15E2A23",
+  "filename": "aoe_s04",
+  "order_index": 10,
+  "group": "71919F3451FA2DA2",
+  "icon": {
+    "id": "create:track_station"
+  },
+  "default_quest_shape": "circle",
+  "default_quest_size": 1.0,
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "hide_quest_details_until_startable": false,
+  "hide_quest_until_deps_complete": false,
+  "hide_quest_until_deps_visible": false,
+  "autofocus_id": "0FBCEE9ED1B4BD4B",
+  "quest_links": [],
+  "quests": [
+    {
+      "id": "0FBCEE9ED1B4BD4B",
+      "custom_id": "aoe_public_road",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "public_road"
+      ],
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "minecraft:gravel"
+      },
+      "dependencies": [
+        "7C3D6ABD1E11DDBA"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": true,
+      "tasks": [
+        {
+          "id": "59B8989C40F52E4E",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "46419CB1C74D7491",
+      "custom_id": "aoe_public_station",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "public_station"
+      ],
+      "x": 2.6,
+      "y": 0.0,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "minecraft:barrel"
+      },
+      "dependencies": [
+        "0FBCEE9ED1B4BD4B"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "2B594FBE224A371F",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "51D18EDED191FF7D",
+      "custom_id": "aoe_public_rail",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "public_rail"
+      ],
+      "x": 5.2,
+      "y": 0.0,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "create:track"
+      },
+      "dependencies": [
+        "46419CB1C74D7491"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "6975954F551B6A73",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "65FB18FF8C452EB4",
+      "custom_id": "aoe_public_signal",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "public_signal"
+      ],
+      "x": 7.800000000000001,
+      "y": 0.0,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "create:track_signal"
+      },
+      "dependencies": [
+        "51D18EDED191FF7D"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "0C0DFD68CAED30F8",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "2C1BA507E21449CC",
+      "custom_id": "aoe_public_finish",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "public_finish",
+        "aoe_chapter_end"
+      ],
+      "x": 10.4,
+      "y": 0.0,
+      "shape": "gear",
+      "size": 1.3,
+      "icon": {
+        "id": "create:track_station"
+      },
+      "dependencies": [
+        "65FB18FF8C452EB4"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "281DAE4336ADF1F9",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    }
+  ]
+}

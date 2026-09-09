@@ -1,0 +1,186 @@
+{
+  "id": "441D9EF89C989063",
+  "filename": "aoe_s05",
+  "order_index": 11,
+  "group": "71919F3451FA2DA2",
+  "icon": {
+    "id": "exposure:camera"
+  },
+  "default_quest_shape": "circle",
+  "default_quest_size": 1.0,
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "hide_quest_details_until_startable": false,
+  "hide_quest_until_deps_complete": false,
+  "hide_quest_until_deps_visible": false,
+  "autofocus_id": "479E5688D2816737",
+  "quest_links": [],
+  "quests": [
+    {
+      "id": "479E5688D2816737",
+      "custom_id": "aoe_photo_camera",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "photo_camera"
+      ],
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "exposure:camera"
+      },
+      "dependencies": [
+        "0FF9A769C36B91A6"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": true,
+      "tasks": [
+        {
+          "id": "360F66BD1A2ACE90",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "217E7252B8807927",
+      "custom_id": "aoe_photo_home",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "photo_home"
+      ],
+      "x": 2.6,
+      "y": 0.0,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "exposure:camera"
+      },
+      "dependencies": [
+        "479E5688D2816737"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "6D200A670069239E",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "5873E5C338579694",
+      "custom_id": "aoe_photo_industry",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "photo_industry"
+      ],
+      "x": 5.2,
+      "y": 0.0,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "exposure:camera"
+      },
+      "dependencies": [
+        "217E7252B8807927"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "789DEF4F08CC695D",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1C7C19854E8D8D0A",
+      "custom_id": "aoe_photo_journey",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "photo_journey"
+      ],
+      "x": 7.800000000000001,
+      "y": 0.0,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "exposure:camera"
+      },
+      "dependencies": [
+        "5873E5C338579694"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "4B4EE9A3B596E20E",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "63BBBC830B4298E8",
+      "custom_id": "aoe_photo_album",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "photo_album",
+        "aoe_chapter_end"
+      ],
+      "x": 10.4,
+      "y": 0.0,
+      "shape": "gear",
+      "size": 1.3,
+      "icon": {
+        "id": "exposure:camera"
+      },
+      "dependencies": [
+        "1C7C19854E8D8D0A"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "0548612B31C7644F",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    }
+  ]
+}

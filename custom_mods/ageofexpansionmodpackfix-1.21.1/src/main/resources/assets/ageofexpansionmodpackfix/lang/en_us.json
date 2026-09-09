@@ -51,5 +51,7 @@
   "gui.ageofexpansionmodpackfix.router.front_output": "Front",
   "gui.ageofexpansionmodpackfix.router.distribution": "Distribution",
   "gui.ageofexpansionmodpackfix.router.right_output": "Right",
-  "item.ageofexpansionmodpackfix.mod_icon": "Age of Expansion Emblem"
+  "item.ageofexpansionmodpackfix.mod_icon": "Age of Expansion Emblem",
+  "item.ageofexpansionmodpackfix.cat_ear_headband": "Cat Ear Headband",
+  "tooltip.ageofexpansionmodpackfix.cat_ear_headband": "While equipped on your head or in an active Curios slot, your insomnia cannot spawn phantoms. Removing it ends protection; existing phantoms can still attack."
 }

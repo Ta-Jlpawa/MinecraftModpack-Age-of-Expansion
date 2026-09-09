@@ -1,0 +1,284 @@
+{
+  "id": "73725739455C7534",
+  "filename": "aoe_a01",
+  "order_index": 13,
+  "group": "36E33A5845B80DA6",
+  "icon": {
+    "id": "minecraft:diamond_sword"
+  },
+  "default_quest_shape": "circle",
+  "default_quest_size": 1.0,
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "hide_quest_details_until_startable": false,
+  "hide_quest_until_deps_complete": false,
+  "hide_quest_until_deps_visible": false,
+  "autofocus_id": "08A6EFDC8C982F21",
+  "quest_links": [],
+  "quests": [
+    {
+      "id": "08A6EFDC8C982F21",
+      "custom_id": "aoe_trial_prepare",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "trial_prepare"
+      ],
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "minecraft:shield"
+      },
+      "dependencies": [
+        "6DFB8768A0F0B3FD"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": true,
+      "tasks": [
+        {
+          "id": "18A585522EC30FC2",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "7F4D7787FF75900A",
+      "custom_id": "aoe_trial_finish",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "trial_finish"
+      ],
+      "x": 5.2,
+      "y": 0.0,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "minecraft:diamond_sword"
+      },
+      "dependencies": [
+        "08A6EFDC8C982F21"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "77073472F6C1030D",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "413DC200CD12D802",
+      "custom_id": "aoe_wither_prepare",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "wither_prepare"
+      ],
+      "x": 0.0,
+      "y": 2.88,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "minecraft:bow"
+      },
+      "dependencies": [
+        "6DFB8768A0F0B3FD"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": true,
+      "tasks": [
+        {
+          "id": "14F17BAF7621EEC2",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "0F71D7113785D60D",
+      "custom_id": "aoe_wither_finish",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "wither_finish"
+      ],
+      "x": 5.2,
+      "y": 2.88,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "minecraft:diamond_sword"
+      },
+      "dependencies": [
+        "413DC200CD12D802"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "42798BD28DF9D8E9",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "34920989EF16DBEC",
+      "custom_id": "aoe_ruins_prepare",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "ruins_prepare"
+      ],
+      "x": 0.0,
+      "y": 5.76,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "minecraft:brush"
+      },
+      "dependencies": [
+        "6DFB8768A0F0B3FD"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": true,
+      "tasks": [
+        {
+          "id": "559E3C907ABFF60B",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "79E94CDB65342C6F",
+      "custom_id": "aoe_ruins_finish",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "ruins_finish"
+      ],
+      "x": 5.2,
+      "y": 5.76,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "minecraft:diamond_sword"
+      },
+      "dependencies": [
+        "34920989EF16DBEC"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "235D4344FB973994",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "78876473B1AA7EF2",
+      "custom_id": "aoe_deep_prepare",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "deep_prepare"
+      ],
+      "x": 0.0,
+      "y": 8.639999999999999,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "minecraft:white_wool"
+      },
+      "dependencies": [
+        "6DFB8768A0F0B3FD"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": true,
+      "tasks": [
+        {
+          "id": "366C2B6829368694",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "144A3AA9A665DD0C",
+      "custom_id": "aoe_deep_finish",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "deep_finish"
+      ],
+      "x": 5.2,
+      "y": 8.639999999999999,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "minecraft:diamond_sword"
+      },
+      "dependencies": [
+        "78876473B1AA7EF2"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "36690F41C3CADAF0",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    }
+  ]
+}

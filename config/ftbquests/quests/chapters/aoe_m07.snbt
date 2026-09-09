@@ -1,0 +1,442 @@
+{
+  "id": "3E04905DA240994B",
+  "filename": "aoe_m07",
+  "order_index": 6,
+  "group": "413F578156EE8A08",
+  "icon": {
+    "id": "mekanism:meka_tool"
+  },
+  "default_quest_shape": "circle",
+  "default_quest_size": 1.0,
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "hide_quest_details_until_startable": false,
+  "hide_quest_until_deps_complete": false,
+  "hide_quest_until_deps_visible": false,
+  "autofocus_id": "1ABB70605E8F14C9",
+  "quest_links": [],
+  "quests": [
+    {
+      "id": "1ABB70605E8F14C9",
+      "custom_id": "aoe_final_start",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "final_start"
+      ],
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "mekanism:meka_tool"
+      },
+      "dependencies": [
+        "36F473CE78277BFB"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "564DFF92BDDCA4E8",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "6FD2DB48B38EDF77",
+      "custom_id": "aoe_final_build",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "final_build"
+      ],
+      "x": 2.6,
+      "y": -2.4,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "effortlessbuilding:randomizer_tool"
+      },
+      "dependencies": [
+        "1ABB70605E8F14C9"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "1CCF1B7A3413986A",
+          "type": "item",
+          "item": {
+            "id": "effortlessbuilding:randomizer_tool",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "38F6373DEC473D0C",
+          "type": "item",
+          "item": {
+            "id": "minecraft:scaffolding",
+            "count": 1
+          },
+          "count": 16,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "116024E8AC928711",
+      "custom_id": "aoe_final_mine",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "final_mine"
+      ],
+      "x": 2.6,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "mekanism:meka_tool"
+      },
+      "dependencies": [
+        "1ABB70605E8F14C9"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "5307D2702C8664CF",
+          "type": "item",
+          "item": {
+            "id": "mekanism:meka_tool",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "2ACF0F22471CC9FA",
+      "custom_id": "aoe_final_move",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "final_move"
+      ],
+      "x": 2.6,
+      "y": 2.4,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "mekanism:jetpack"
+      },
+      "dependencies": [
+        "1ABB70605E8F14C9"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "55DE7C5016C0BDBC",
+          "type": "item",
+          "item": {
+            "id": "mekanism:jetpack",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "3D2AE6A6CEA7FACF",
+      "custom_id": "aoe_build_practice",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "build_practice"
+      ],
+      "x": 5.2,
+      "y": -2.4,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "minecraft:stone_bricks"
+      },
+      "dependencies": [
+        "6FD2DB48B38EDF77"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "327EA59888426C19",
+          "type": "item",
+          "item": {
+            "id": "minecraft:stone_bricks",
+            "count": 1
+          },
+          "count": 32,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "67451F4C4B4E9C6E",
+      "custom_id": "aoe_mine_practice",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "mine_practice"
+      ],
+      "x": 5.2,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "minecraft:cobbled_deepslate"
+      },
+      "dependencies": [
+        "116024E8AC928711"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "113D674907AA7CCA",
+          "type": "item",
+          "item": {
+            "id": "minecraft:cobbled_deepslate",
+            "count": 1
+          },
+          "count": 32,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "6D3648B9E3EC2035",
+      "custom_id": "aoe_move_practice",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "move_practice"
+      ],
+      "x": 5.2,
+      "y": 2.4,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "mekanism:meka_tool"
+      },
+      "dependencies": [
+        "2ACF0F22471CC9FA"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "7BDE726F0480CD5C",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "313E57C6ADAADA15",
+      "custom_id": "aoe_final_review",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "final_review"
+      ],
+      "x": 7.800000000000001,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": {
+        "id": "mekanism:meka_tool"
+      },
+      "dependencies": [
+        "3D2AE6A6CEA7FACF",
+        "67451F4C4B4E9C6E",
+        "6D3648B9E3EC2035"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "09C8D9215699599A",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "6D9E635AD616122E",
+      "custom_id": "aoe_m07_end",
+      "tags": [
+        "aoe_v1",
+        "aoe_main",
+        "m07_end",
+        "aoe_chapter_end"
+      ],
+      "x": 10.4,
+      "y": 0.0,
+      "shape": "gear",
+      "size": 1.3,
+      "icon": {
+        "id": "mekanism:meka_tool"
+      },
+      "dependencies": [
+        "313E57C6ADAADA15"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "57A65322D8611153",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "47356A5776832838",
+          "type": "item",
+          "item": {
+            "id": "minecraft:golden_carrot",
+            "count": 8
+          },
+          "team_reward": true
+        }
+      ]
+    },
+    {
+      "id": "122919292B8B88D9",
+      "custom_id": "aoe_field_application",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "field_application"
+      ],
+      "x": 2.6,
+      "y": 7.199999999999999,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "mekanism:meka_tool"
+      },
+      "dependencies": [
+        "6FD2DB48B38EDF77"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": true,
+      "tasks": [
+        {
+          "id": "2322476EEDB9790E",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "219CE180148BFDF7",
+      "custom_id": "aoe_next_project",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "next_project"
+      ],
+      "x": 5.2,
+      "y": 7.199999999999999,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "mekanism:meka_tool"
+      },
+      "dependencies": [
+        "122919292B8B88D9"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "4B49CBBDFE7C306A",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    }
+  ]
+}

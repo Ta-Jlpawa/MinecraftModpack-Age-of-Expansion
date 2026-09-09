@@ -1,0 +1,186 @@
+{
+  "id": "4DBC871DA916F220",
+  "filename": "aoe_s02",
+  "order_index": 8,
+  "group": "71919F3451FA2DA2",
+  "icon": {
+    "id": "farmersdelight:cooking_pot"
+  },
+  "default_quest_shape": "circle",
+  "default_quest_size": 1.0,
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "hide_quest_details_until_startable": false,
+  "hide_quest_until_deps_complete": false,
+  "hide_quest_until_deps_visible": false,
+  "autofocus_id": "67C51C34E78893BE",
+  "quest_links": [],
+  "quests": [
+    {
+      "id": "67C51C34E78893BE",
+      "custom_id": "aoe_kitchen_corner",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "kitchen_corner"
+      ],
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "farmersdelight:cutting_board"
+      },
+      "dependencies": [
+        "0FF9A769C36B91A6"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": true,
+      "tasks": [
+        {
+          "id": "167299967EFB364D",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "3A402D3298E55508",
+      "custom_id": "aoe_kitchen_heat",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "kitchen_heat"
+      ],
+      "x": 2.6,
+      "y": 0.0,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "farmersdelight:stove"
+      },
+      "dependencies": [
+        "67C51C34E78893BE"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "7B29263A039066FE",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "2C7FA71C7EB238BD",
+      "custom_id": "aoe_kitchen_meal",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "kitchen_meal"
+      ],
+      "x": 5.2,
+      "y": 0.0,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "farmersdelight:vegetable_soup"
+      },
+      "dependencies": [
+        "3A402D3298E55508"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "561C42DA74A17A3C",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "103B831B6576BC5E",
+      "custom_id": "aoe_kitchen_travel",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "kitchen_travel"
+      ],
+      "x": 7.800000000000001,
+      "y": 0.0,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "minecraft:bread"
+      },
+      "dependencies": [
+        "2C7FA71C7EB238BD"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "2E98254054E49833",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "60C61BFD008178D5",
+      "custom_id": "aoe_kitchen_finish",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "kitchen_finish",
+        "aoe_chapter_end"
+      ],
+      "x": 10.4,
+      "y": 0.0,
+      "shape": "gear",
+      "size": 1.3,
+      "icon": {
+        "id": "farmersdelight:cooking_pot"
+      },
+      "dependencies": [
+        "103B831B6576BC5E"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "3AD896DE5185113C",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    }
+  ]
+}

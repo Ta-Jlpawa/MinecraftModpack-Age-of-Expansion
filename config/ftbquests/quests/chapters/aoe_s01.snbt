@@ -1,0 +1,186 @@
+{
+  "id": "4E20CC867333E718",
+  "filename": "aoe_s01",
+  "order_index": 7,
+  "group": "71919F3451FA2DA2",
+  "icon": {
+    "id": "minecraft:lantern"
+  },
+  "default_quest_shape": "circle",
+  "default_quest_size": 1.0,
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "hide_quest_details_until_startable": false,
+  "hide_quest_until_deps_complete": false,
+  "hide_quest_until_deps_visible": false,
+  "autofocus_id": "76E583C98426C069",
+  "quest_links": [],
+  "quests": [
+    {
+      "id": "76E583C98426C069",
+      "custom_id": "aoe_home_light",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "home_light"
+      ],
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "minecraft:lantern"
+      },
+      "dependencies": [
+        "0FF9A769C36B91A6"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": true,
+      "tasks": [
+        {
+          "id": "5A39A92118A1E5AC",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "3236430672BCF81A",
+      "custom_id": "aoe_home_storage",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "home_storage"
+      ],
+      "x": 2.6,
+      "y": 0.0,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "minecraft:barrel"
+      },
+      "dependencies": [
+        "76E583C98426C069"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "0F76195D2FF68C71",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "0968938331726A03",
+      "custom_id": "aoe_home_workbench",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "home_workbench"
+      ],
+      "x": 5.2,
+      "y": 0.0,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "minecraft:stonecutter"
+      },
+      "dependencies": [
+        "3236430672BCF81A"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "633C2197830B5B5E",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "408E7A36ADD4131C",
+      "custom_id": "aoe_home_palette",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "home_palette"
+      ],
+      "x": 7.800000000000001,
+      "y": 0.0,
+      "shape": "diamond",
+      "size": 1.0,
+      "icon": {
+        "id": "minecraft:stone_bricks"
+      },
+      "dependencies": [
+        "0968938331726A03"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "4EB7494693C3B4BB",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "7762DF2550EBC570",
+      "custom_id": "aoe_home_finish",
+      "tags": [
+        "aoe_v1",
+        "aoe_personal_placeholder",
+        "home_finish",
+        "aoe_chapter_end"
+      ],
+      "x": 10.4,
+      "y": 0.0,
+      "shape": "gear",
+      "size": 1.3,
+      "icon": {
+        "id": "minecraft:lantern"
+      },
+      "dependencies": [
+        "408E7A36ADD4131C"
+      ],
+      "dependency_requirement": "all_completed",
+      "optional": true,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_details_until_startable": false,
+      "hide_dependency_lines": false,
+      "tasks": [
+        {
+          "id": "4800DEF45EA16796",
+          "type": "custom"
+        }
+      ],
+      "rewards": []
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "artifacts:config_value_chance",
+          "config": "entity_equipment"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/cowboy_hat"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:items/bunny_hoppers"
+        },
+        {
+          "type": "minecraft:empty"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "artifacts:entity_equipment/zombie"
+}

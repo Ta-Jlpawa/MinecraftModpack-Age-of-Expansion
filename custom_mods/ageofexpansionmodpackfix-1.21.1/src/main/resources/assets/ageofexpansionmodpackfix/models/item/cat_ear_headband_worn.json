@@ -1,0 +1,187 @@
+{
+  "format_version": "1.9.0",
+  "credit": "Made with Blockbench",
+  "textures": {
+    "0": "ageofexpansionmodpackfix:item/cat_ear_headband",
+    "particle": "ageofexpansionmodpackfix:item/cat_ear_headband"
+  },
+  "elements": [
+    {
+      "from": [
+        1,
+        10.3,
+        0.2
+      ],
+      "to": [
+        7,
+        15.3,
+        0.2
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          1,
+          11,
+          1
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            13,
+            4,
+            16
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            2,
+            1,
+            2,
+            3
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            4,
+            13,
+            0,
+            16
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0,
+            1,
+            0,
+            3
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            3,
+            0
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0,
+            2,
+            3,
+            2
+          ],
+          "texture": "#0"
+        }
+      },
+      "shade": false
+    },
+    {
+      "from": [
+        9,
+        10.3,
+        0.2
+      ],
+      "to": [
+        15,
+        15.3,
+        0.2
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          15,
+          11,
+          1
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            13,
+            0,
+            16
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            0,
+            1,
+            0,
+            3
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0,
+            13,
+            4,
+            16
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            2,
+            1,
+            2,
+            3
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            3,
+            0
+          ],
+          "rotation": 180,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0,
+            2,
+            3,
+            2
+          ],
+          "rotation": 180,
+          "texture": "#0"
+        }
+      },
+      "shade": false
+    }
+  ],
+  "display": {},
+  "groups": [
+    {
+      "name": "main",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "scope": 0,
+      "color": 0,
+      "children": [
+        0,
+        1
+      ]
+    }
+  ],
+  "ambientocclusion": false,
+  "gui_light": "front"
+}

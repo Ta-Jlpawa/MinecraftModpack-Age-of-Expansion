@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "securitycraft:crystal_quartz"
+    },
+    "I": {
+      "item": "minecraft:iron_block"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "pattern": [
+    "CIC",
+    "IRI",
+    "CIC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "securitycraft:block_pocket_manager"
+  }
+}

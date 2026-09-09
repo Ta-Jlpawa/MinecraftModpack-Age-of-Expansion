@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "securitycraft:lens",
+  "key": {
+    "P": {
+      "item": "minecraft:cyan_stained_glass_pane"
+    }
+  },
+  "pattern": [
+    " P",
+    "P ",
+    " P"
+  ],
+  "result": {
+    "components": {
+      "minecraft:dyed_color": {
+        "rgb": 1481884
+      }
+    },
+    "count": 1,
+    "id": "securitycraft:lens"
+  }
+}
