@@ -12,6 +12,7 @@ public final class AgeofExpansionModpackFixClient {
     static void onClientSetup(FMLClientSetupEvent event) {
         if (ModList.get().isLoaded("curios")) {
             event.enqueueWork(com.tajlpawa.ageofexpansionmodpackfix.curios.client.PhantomWardCuriosRenderer::register);
+            event.enqueueWork(com.tajlpawa.ageofexpansionmodpackfix.curios.client.ToolboxCuriosRenderer::register);
         }
     }
 }

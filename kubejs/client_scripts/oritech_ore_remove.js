@@ -7,6 +7,10 @@ RecipeViewerEvents.removeEntries('item', event => {
 	event.remove("oritech:deepslate_nickel_ore")
 	event.remove("oritech:deepslate_platinum_ore")
 	event.remove("oritech:deepslate_uranium_ore")
+	event.remove("oritech:black_hole_block")
+	event.remove("oritech:black_hole_inner")
+	event.remove("oritech:black_hole_middle")
+	event.remove("oritech:black_hole_outer")
 
 	// 冗余金属材料（与其他模组重合，详见 .docs/Oritech冗余材料清理说明.md）
 	const REMOVED_MATERIALS = [
@@ -29,4 +33,11 @@ RecipeViewerEvents.removeEntries('item', event => {
 	for (let item of REMOVED_MATERIALS) {
 		event.remove(item)
 	}
+})
+
+RecipeViewerEvents.removeEntriesCompletely('item', event => {
+	event.remove("oritech:black_hole_block")
+	event.remove("oritech:black_hole_inner")
+	event.remove("oritech:black_hole_middle")
+	event.remove("oritech:black_hole_outer")
 })

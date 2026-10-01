@@ -1,6 +1,7 @@
 package com.tajlpawa.ageofexpansionmodpackfix;
 
 import com.mojang.logging.LogUtils;
+import com.tajlpawa.ageofexpansionmodpackfix.champions.ChampionSpawnRules;
 import com.tajlpawa.ageofexpansionmodpackfix.create.StressRouterContent;
 import com.tajlpawa.ageofexpansionmodpackfix.minecraft.PhantomWardItems;
 import com.tajlpawa.ageofexpansionmodpackfix.mekanism.MekanismItems;
@@ -10,7 +11,9 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
+import net.neoforged.fml.ModList;
 import net.neoforged.fml.common.Mod;
+import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.registries.*;
 import org.slf4j.Logger;
 
@@ -38,6 +41,18 @@ public class AgeofExpansionModpackFix {
             }).build());
 
     public AgeofExpansionModpackFix(IEventBus bus) {
+        bus.addListener(com.tajlpawa.ageofexpansionmodpackfix.oreexcavation.DrillDurability::components);
+        if (ModList.get().isLoaded("champions")) {
+            NeoForge.EVENT_BUS.addListener(ChampionSpawnRules::onFinalizeSpawn);
+        }
+        bus.addListener((net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent event) -> {
+            if (ModList.get().isLoaded("curios")) {
+                event.enqueueWork(com.tajlpawa.ageofexpansionmodpackfix.curios.ToolboxCurios::register);
+            }
+            if (net.neoforged.fml.ModList.get().isLoaded("ftbquests")) {
+                event.enqueueWork(com.tajlpawa.ageofexpansionmodpackfix.ftbquests.QuestCompletionAnnouncements::register);
+            }
+        });
         MekanismItems.register(bus);
         PhantomWardItems.register(bus);
         StressRouterContent.register(bus);

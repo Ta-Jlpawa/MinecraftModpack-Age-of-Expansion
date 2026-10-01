@@ -23,14 +23,12 @@ public final class StressRouterContent {
             () -> new StressRouterBlock(false, properties()));
     public static final DeferredBlock<StressRouterBlock> SPLITTER = BLOCKS.register("stress_network_splitter",
             () -> new StressRouterBlock(true, properties()));
-    public static final DeferredBlock<StressPortBlock> PORT = BLOCKS.register("stress_network_port",
-            () -> new StressPortBlock(properties().noOcclusion()));
     public static final DeferredBlock<StressConnectorBlock> CONNECTOR = BLOCKS.register("stress_network_connector",
             () -> new StressConnectorBlock(properties().noOcclusion()));
     public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<StressRouterBlockEntity>> ROUTER_ENTITY = ENTITIES.register(
             "stress_router", () -> BlockEntityType.Builder.of(StressRouterBlockEntity::new, COMBINER.get(), SPLITTER.get()).build(null));
     public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<StressPortBlockEntity>> PORT_ENTITY = ENTITIES.register(
-            "stress_port", () -> BlockEntityType.Builder.of(StressPortBlockEntity::new, PORT.get(), CONNECTOR.get()).build(null));
+            "stress_port", () -> BlockEntityType.Builder.of(StressPortBlockEntity::new, CONNECTOR.get()).build(null));
     public static final DeferredHolder<MenuType<?>, MenuType<StressRouterMenu>> MENU = MENUS.register("stress_router",
             () -> net.neoforged.neoforge.common.extensions.IMenuTypeExtension.create(StressRouterMenu::new));
 

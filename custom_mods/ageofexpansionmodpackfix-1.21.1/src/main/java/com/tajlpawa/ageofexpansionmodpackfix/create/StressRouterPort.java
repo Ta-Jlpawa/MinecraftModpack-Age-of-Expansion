@@ -15,7 +15,6 @@ public final class StressRouterPort extends StressPortBlockEntity {
         super(router.getBlockPos(), StressRouterContent.CONNECTOR.get().defaultBlockState().setValue(StressRouterBlock.FACING, face));
         this.router = router;
         this.face = face;
-        owner = router.getBlockPos();
         setLevel(router.getLevel());
     }
     @Override public List<BlockPos> addPropagationLocations(IRotate block, BlockState state, List<BlockPos> neighbours) {
@@ -31,6 +30,5 @@ public final class StressRouterPort extends StressPortBlockEntity {
     }
     @Override public void sendData() { if (router != null && router.getLevel() != null && !router.isRemoved()) router.sendData(); }
     @Override public void setChanged() { if (router != null) router.setChanged(); }
-    @Override public void restore() {}
     public boolean exists() { return !isRemoved() && !router.isRemoved() && level != null && level.isLoaded(worldPosition) && level.getBlockEntity(worldPosition) == router; }
 }

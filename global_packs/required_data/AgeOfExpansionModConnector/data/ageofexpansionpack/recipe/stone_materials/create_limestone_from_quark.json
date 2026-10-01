@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "quark:limestone"
+    }
+  ],
+  "result": {
+    "id": "create:limestone",
+    "count": 1
+  }
+}

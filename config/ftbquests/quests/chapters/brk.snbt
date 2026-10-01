@@ -1,0 +1,68 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "brk"
+	group: "21922359EAC5333F"
+	icon: {
+		id: "minecraft:iron_sword"
+	}
+	id: "781FCE8B9AC18C87"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"1F5FB54FFB5706E7"
+				"2561AAD102CFDDEE"
+				"54D04370AE38B0F4"
+			]
+			hide_until_deps_complete: true
+			id: "64E3F1FF48F7F611"
+			tasks: [{
+				icon: {
+					id: "minecraft:netherite_sword"
+				}
+				id: "030F664504D9725E"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 1
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			id: "1F5FB54FFB5706E7"
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "0A3DDF611478C2F4"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "54D04370AE38B0F4"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "39828951A221FC81"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			id: "2561AAD102CFDDEE"
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "186DEB17048D069C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+	]
+}

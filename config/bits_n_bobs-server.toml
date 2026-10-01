@@ -26,3 +26,13 @@ cogwheelMaxBounds = 64
 # Default: 64
 # Range: 1 ~ 256
 cogwheelMaxNodeCount = 64
+#.
+#Stress units per tick per angular mass the flywheel can transfer. Higher values let a flywheel with a large storage factor fill and drain faster. Default 5 matches pre-config behaviour.
+# Default: 5.0
+# Range: 0.10000000149011612 ~ 100.0
+flywheelTransferCapacityPerAngularMass = 5.0
+#.
+#Multiplier of Create's maxRotationSpeed (default 256) for the flywheel bearing's maximum RPM when storage is enabled. 0.25 -> 64 RPM (legacy default), 1.0 -> 256 RPM, 4.0 -> 1024 RPM.
+# Default: 0.25
+# Range: 0.10000000149011612 ~ 64.0
+flywheelMaxRpmFactor = 0.25

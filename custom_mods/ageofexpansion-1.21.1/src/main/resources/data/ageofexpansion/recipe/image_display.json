@@ -1,0 +1,25 @@
+{
+  "result": {
+    "count": 1,
+    "id": "ageofexpansion:image_display"
+  },
+  "pattern": [
+    " C ",
+    "BAB",
+    " C "
+  ],
+  "category": "redstone",
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "minecraft:black_stained_glass_pane"
+    },
+    "C": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "B": {
+      "item": "minecraft:redstone"
+    }
+  }
+}
+

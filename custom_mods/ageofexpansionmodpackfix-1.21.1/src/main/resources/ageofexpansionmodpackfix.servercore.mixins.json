@@ -1,0 +1,8 @@
+{
+  "required": true,
+  "package": "com.tajlpawa.ageofexpansionmodpackfix.mixin.servercore",
+  "plugin": "com.tajlpawa.ageofexpansionmodpackfix.compat.servercore.ServercoreMixinPlugin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": ["ChunkHolderBroadcastMixin"],
+  "injectors": {"defaultRequire": 1}
+}

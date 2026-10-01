@@ -1,7 +1,6 @@
 package com.tajlpawa.ageofexpansionmodpackfix.create;
 
 import java.util.List;
-import com.simibubi.create.AllBlocks;
 import com.simibubi.create.foundation.blockEntity.SmartBlockEntity;
 import com.simibubi.create.foundation.blockEntity.behaviour.BlockEntityBehaviour;
 import com.simibubi.create.infrastructure.config.AllConfigs;
@@ -35,11 +34,6 @@ public class StressRouterBlockEntity extends SmartBlockEntity implements MenuPro
         Direction front = getBlockState().getValue(StressRouterBlock.FACING);
         return port == 0 ? front : port == 1 ? front.getClockWise() : front.getCounterClockWise();
     }
-    public boolean ownsPort(BlockPos pos) {
-        for (int i = 0; i < 3; i++) if (worldPosition.relative(direction(i)).equals(pos)) return true;
-        return false;
-    }
-
     public StressRouterPort port(int index) {
         ensurePorts();
         return ports == null ? null : ports[index];
@@ -57,22 +51,12 @@ public class StressRouterBlockEntity extends SmartBlockEntity implements MenuPro
             savedPorts[i] = null;
         }
     }
-    private void migrateLegacyPorts() {
-        for (int i = 0; i < 3; i++) {
-            BlockPos pos = worldPosition.relative(direction(i));
-            if (!level.isLoaded(pos)) continue;
-            if (level.getBlockEntity(pos) instanceof StressPortBlockEntity old && !(old instanceof StressRouterPort)
-                    && worldPosition.equals(old.owner)) old.restore();
-        }
-    }
-
     @Override public void tick() {
         super.tick();
         ensurePorts();
         if (ports == null) return;
         for (StressRouterPort port : ports) port.tick();
         if (level.isClientSide) return;
-        migrateLegacyPorts();
         updateRedstone();
         if (getBlockState().getValue(BlockStateProperties.POWERED)) return;
         StressPortBlockEntity front = port(0), left = port(1), right = port(2);
@@ -130,7 +114,6 @@ public class StressRouterBlockEntity extends SmartBlockEntity implements MenuPro
             for (StressRouterPort port : ports) { port.setDemand(0); port.setOutput(0, 0); port.setRemoved(); }
             ports = null;
         }
-        migrateLegacyPorts();
     }
 
     @Override public void remove() { releasePorts(); super.remove(); }

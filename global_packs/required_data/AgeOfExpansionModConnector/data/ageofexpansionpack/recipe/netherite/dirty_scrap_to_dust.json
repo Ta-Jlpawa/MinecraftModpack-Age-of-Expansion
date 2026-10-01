@@ -1,0 +1,5 @@
+{
+  "type": "mekanism:crushing",
+  "input": { "count": 4, "item": "mekanism:dirty_netherite_scrap" },
+  "output": { "count": 1, "id": "mekanism:dust_netherite" }
+}

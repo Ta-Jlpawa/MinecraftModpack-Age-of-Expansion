@@ -20,7 +20,6 @@
   "gui.ageofexpansionmodpackfix.router.actual": "输出应力：左 %s / 右 %s SU",
   "gui.ageofexpansionmodpackfix.router.left_speed": "左：%s RPM",
   "gui.ageofexpansionmodpackfix.router.right_input": "右侧输入（SU）",
-  "block.ageofexpansionmodpackfix.stress_network_port": "应力网络端口传动杆",
   "gui.ageofexpansionmodpackfix.router.input_range": "请输入 0～16,777,216 的整数，单位 SU。",
   "gui.ageofexpansionmodpackfix.router.ports": "将元件的传动杆面对准端口；蓝色端口输入，黄色端口输出。",
   "gui.ageofexpansionmodpackfix.router.settings": "右键打开GUI。",
@@ -44,5 +43,9 @@
   "itemGroup.ageofexpansionmodpackfix": "开拓纪元 · 整合包扩展",
   "item.ageofexpansionmodpackfix.mod_icon": "开拓纪元徽章",
   "item.ageofexpansionmodpackfix.cat_ear_headband": "猫耳头饰",
-  "tooltip.ageofexpansionmodpackfix.cat_ear_headband": "佩戴于头盔槽或饰品头饰槽时，不会被选中成为生成幻翼的目标。注意:不会阻止已有的幻翼攻击。"
+  "tooltip.ageofexpansionmodpackfix.cat_ear_headband": "佩戴于头盔槽或饰品头饰槽时，不会被选中成为生成幻翼的目标。注意:不会阻止已有的幻翼攻击。",
+  "chat.ageofexpansionmodpackfix.quest_completed": "%s完成了任务%s",
+  "tooltip.ageofexpansionmodpackfix.drill_durability": "剩余耐久：%s / %s",
+  "tooltip.ageofexpansionmodpackfix.drill_oil_repair": "注液或搅拌修复：植物油/种子油 50 mB/点；润滑油 10 mB/点。",
+  "tooltip.ageofexpansionmodpackfix.drill_exhausted": "钻头已耗尽，请用油修复。"
 }

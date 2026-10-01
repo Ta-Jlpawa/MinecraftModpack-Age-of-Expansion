@@ -24,7 +24,6 @@ public final class PhantomWardTests {
         add(tests, "insomnia_stat_is_not_reset", PhantomWardTests::insomnia);
         if (ModList.get().isLoaded("curios")) add(tests, "curios_head_equip_remove_and_cosmetic", PhantomWardTests::curios);
         if (ModList.get().isLoaded("immersiveengineering")) add(tests, "cat_headband_native_recipe", PhantomWardTests::recipe);
-        add(tests, "old_headband_id_loads_as_new_id", PhantomWardTests::legacyId);
         return tests;
     }
     private static void add(Collection<TestFunction> tests, String name, java.util.function.Consumer<GameTestHelper> run) {
@@ -86,16 +85,6 @@ public final class PhantomWardTests {
         if (head.getCosmeticStacks().getSlots() == 0) head.getCosmeticStacks().grow(1);
         head.getCosmeticStacks().setStackInSlot(0, ward());
         h.assertTrue(attempt(player).getResult() == PlayerSpawnPhantomsEvent.Result.DEFAULT, "Cosmetic stack does not protect");
-        h.succeed();
-    }
-    private static void legacyId(GameTestHelper h) {
-        var tag = new net.minecraft.nbt.CompoundTag();
-        tag.putString("id", "ageofexpansionmodpackfix:cat_watch_headband");
-        tag.putInt("count", 1);
-        var stack = ItemStack.parseOptional(h.getLevel().registryAccess(), tag);
-        h.assertTrue(stack.is(ward().getItem()), "Old saved stack resolves to new item");
-        h.assertTrue(net.minecraft.core.registries.BuiltInRegistries.ITEM.getKey(stack.getItem()).toString()
-                .equals("ageofexpansionmodpackfix:cat_ear_headband"), "Canonical registry ID is new ID");
         h.succeed();
     }
     private static void recipe(GameTestHelper h) {

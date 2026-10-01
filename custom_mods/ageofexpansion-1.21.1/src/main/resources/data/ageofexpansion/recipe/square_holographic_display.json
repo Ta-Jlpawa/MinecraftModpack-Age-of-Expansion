@@ -1,0 +1,27 @@
+{
+  "result": {
+    "count": 1,
+    "id": "ageofexpansion:square_holographic_display"
+  },
+  "pattern": [
+    "DCD",
+    "BAB",
+    "DCD"
+  ],
+  "category": "redstone",
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "minecraft:glass_pane"
+    },
+    "C": {
+      "item": "minecraft:quartz"
+    },
+    "D": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "minecraft:redstone"
+    }
+  }
+}

@@ -47,7 +47,6 @@ public class StressRouterTests {
         add(tests, "direct_motor_input_and_cog_output", StressRouterTests::directMotor);
         add(tests, "stressometer_input_and_misaligned_shaft", StressRouterTests::meterInput);
         add(tests, "redstone_releases_stress_and_recovers", StressRouterTests::redstone);
-        add(tests, "legacy_ports_migrate_without_replacing_neighbours", StressRouterTests::legacyPorts);
         add(tests, "initial_menu_snapshot_has_configuration", StressRouterTests::menuSnapshot);
         add(tests, "port_state_survives_unload_and_reload", StressRouterTests::reload);
         add(tests, "native_router_recipes_match_pattern", StressRouterTests::recipes);
@@ -309,17 +308,6 @@ public class StressRouterTests {
         h.runAtTickTime(65, () -> {
             near(h, port(h, CENTER.north()).supplied(), 4096, "Signal removal restores export");
             h.assertTrue(router.status == 1, "Status recovers"); h.succeed();
-        });
-    }
-    private static void legacyPorts(GameTestHelper h) {
-        var router = setup(h, false);
-        h.setBlock(CENTER.east(), StressRouterContent.PORT.get().defaultBlockState().setValue(BlockStateProperties.AXIS, Direction.Axis.X));
-        ((StressPortBlockEntity) h.getBlockEntity(CENTER.east())).owner = h.absolutePos(CENTER);
-        motor(h, CENTER.east(2), Direction.WEST);
-        router.configure(2048, 0, 50, 16, 16);
-        h.runAtTickTime(40, () -> {
-            h.assertBlockPresent(AllBlocks.SHAFT.get(), CENTER.east());
-            near(h, port(h, CENTER.north()).supplied(), 2048, "Legacy migration retains working connection"); h.succeed();
         });
     }
     private static void menuSnapshot(GameTestHelper h) {

@@ -1,0 +1,272 @@
+{
+	autofocus_id: "413F323DD6EDD7A4"
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "ch2"
+	group: "5B323901C545A9A4"
+	icon: {
+		id: "minecraft:hay_block"
+	}
+	id: "611FB252D7ADB8E7"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["768D40156FB9FBC0"]
+			id: "5DCA3609E0EDEFED"
+			tasks: [{
+				id: "2B43C25B0274C034"
+				item: { count: 1, id: "minecraft:blaze_rod" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["64C2A4460A759370"]
+			id: "330AA53DEFA4896B"
+			tasks: [{
+				id: "1960821DA46E7D1D"
+				item: { count: 1, id: "minecraft:ender_pearl" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2874BEF3401A2677"]
+			id: "6E4DFB903379992B"
+			tasks: [{
+				id: "33FC59B31DDC14AD"
+				item: { count: 1, id: "minecraft:smithing_table" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["420F43514CFA8E7C"]
+			id: "29946A0102CF1858"
+			tasks: [{
+				id: "3786258CBE26CC9B"
+				item: { count: 1, id: "minecraft:diamond_chestplate" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"5DCA3609E0EDEFED"
+				"330AA53DEFA4896B"
+			]
+			id: "4C823DEBBC01DE5C"
+			shape: "octagon"
+			tasks: [{
+				id: "1B87DF49415DC2B2"
+				item: { count: 1, id: "minecraft:ender_eye" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["29946A0102CF1858"]
+			id: "27AD297CC5FBBC69"
+			shape: "octagon"
+			tasks: [{
+				id: "757A1E34A77F2F3F"
+				item: { count: 1, id: "minecraft:diamond_sword" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["29946A0102CF1858"]
+			id: "2FACA31EBB119538"
+			shape: "octagon"
+			tasks: [{
+				id: "7A832010B57E0B42"
+				item: { count: 1, id: "minecraft:diamond_helmet" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["29946A0102CF1858"]
+			id: "367256DD7E7B6B76"
+			shape: "octagon"
+			tasks: [{
+				id: "7E4D67C51249CE85"
+				item: { count: 1, id: "minecraft:diamond_leggings" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["29946A0102CF1858"]
+			id: "180689A650F4ABDA"
+			shape: "octagon"
+			tasks: [{
+				id: "6FBB63063EF9B1FA"
+				item: { count: 1, id: "minecraft:diamond_boots" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["56FBF36C668AA380"]
+			id: "6B9515F81AD0BB47"
+			tasks: [{
+				id: "53EE1DFCD3573A82"
+				item: { count: 1, id: "minecraft:gold_ingot" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2FACA31EBB119538"]
+			id: "18979DB7376A8350"
+			shape: "octagon"
+			tasks: [{
+				id: "6BE9B487B12E2CD6"
+				item: { count: 1, id: "minecraft:netherite_helmet" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["27AD297CC5FBBC69"]
+			id: "13EB69D0151CD218"
+			shape: "octagon"
+			tasks: [{
+				id: "462340A0B75EE3B4"
+				item: { count: 1, id: "minecraft:netherite_sword" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["367256DD7E7B6B76"]
+			id: "7112F79347DBB495"
+			shape: "octagon"
+			tasks: [{
+				id: "0DF46CF0C0BE88EE"
+				item: { count: 1, id: "minecraft:netherite_leggings" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["180689A650F4ABDA"]
+			id: "0929FA0086384F39"
+			shape: "octagon"
+			tasks: [{
+				id: "2A77E0C7A7A12E5A"
+				item: { count: 1, id: "minecraft:netherite_boots" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6B9515F81AD0BB47"]
+			id: "768D40156FB9FBC0"
+			tasks: [{
+				id: "5BF89C6536A2C87E"
+				structure: "minecraft:fortress"
+				type: "structure"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6B9515F81AD0BB47"]
+			id: "64C2A4460A759370"
+			tasks: [{
+				id: "3AE9F7C867B1FE23"
+				structure: "minecraft:bastion_remnant"
+				type: "structure"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0076CD6460B8EE5C"]
+			id: "413F323DD6EDD7A4"
+			tasks: [{
+				id: "272BD94103724C4F"
+				item: { count: 1, id: "minecraft:netherite_scrap" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["413F323DD6EDD7A4"]
+			id: "2874BEF3401A2677"
+			tasks: [{
+				id: "3BE8D43BED1EE64B"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["64C2A4460A759370"]
+			id: "420F43514CFA8E7C"
+			tasks: [{
+				id: "152C81833DF41C7A"
+				item: { count: 1, id: "minecraft:netherite_upgrade_smithing_template" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6E4DFB903379992B"]
+			id: "17C3F23F80D492EC"
+			tasks: [{
+				id: "4FFA90216AA30533"
+				item: { count: 1, id: "minecraft:netherite_chestplate" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["420F43514CFA8E7C"]
+			id: "4EF1C211AD03AECF"
+			shape: "octagon"
+			tasks: [{
+				id: "2DBA91437C84C875"
+				item: { count: 1, id: "minecraft:netherite_upgrade_smithing_template" }
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["29946A0102CF1858"]
+			id: "0076CD6460B8EE5C"
+			tasks: [{
+				id: "45820448E1762B09"
+				item: { count: 1, id: "minecraft:ancient_debris" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+	]
+}

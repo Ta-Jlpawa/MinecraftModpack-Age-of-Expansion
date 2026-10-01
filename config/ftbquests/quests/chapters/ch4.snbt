@@ -1,0 +1,309 @@
+{
+	autofocus_id: "04566F8852C80025"
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "ch4"
+	group: "5B323901C545A9A4"
+	icon: {
+		id: "immersiveengineering:generator"
+	}
+	id: "795D9D28CA19178A"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6BBE0E2B2EE64927"]
+			id: "2CB887013C69B75F"
+			tasks: [{
+				id: "24FFE844954C07F3"
+				item: { count: 1, id: "mekanismgenerators:solar_generator" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6BBE0E2B2EE64927"]
+			id: "370E8B841BADE744"
+			tasks: [{
+				id: "13E6D57CA4920306"
+				item: { count: 1, id: "mekanismgenerators:wind_generator" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6BBE0E2B2EE64927"]
+			id: "66422C6BA7F463FC"
+			tasks: [{
+				id: "210502C912ED94A3"
+				item: { count: 1, id: "mekanismgenerators:heat_generator" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7F5A3450C34ADDF8"]
+			icon: {
+				id: "immersiveengineering:wirecoil_copper"
+			}
+			id: "6BBE0E2B2EE64927"
+			tasks: [
+				{
+					id: "2B844AE2605280A7"
+					item: { count: 1, id: "mekanism:basic_universal_cable" }
+					type: "item"
+				}
+				{
+					id: "0A5601CC969F083B"
+					item: { count: 1, id: "immersiveengineering:wirecoil_copper" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"66422C6BA7F463FC"
+				"370E8B841BADE744"
+				"04566F8852C80025"
+				"1E7416AAE54AA613"
+				"2CB887013C69B75F"
+				"55AB6A48053217CE"
+			]
+			dependency_requirement: "one_completed"
+			id: "00F2666E183D4334"
+			tasks: [{
+				id: "4567D2EB5A0FF26D"
+				item: { count: 1, id: "immersiveengineering:capacitor_lv" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["00F2666E183D4334"]
+			id: "6D84BEC49311E714"
+			tasks: [{
+				id: "03B84BBDC4068EBA"
+				max_input: 1000L
+				type: "forge_energy"
+				value: 10000L
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6BBE0E2B2EE64927"]
+			id: "1E7416AAE54AA613"
+			tasks: [{
+				id: "59D28E4F3852CD3D"
+				item: { count: 1, id: "immersiveengineering:thermoelectric_generator" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6BBE0E2B2EE64927"]
+			id: "04566F8852C80025"
+			tasks: [{
+				id: "4911097B101AD0B7"
+				item: { count: 1, id: "immersiveengineering:dynamo" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			id: "2265C4DA62F129C1"
+			shape: "octagon"
+			tasks: [{
+				id: "3930DEAC86BAD1B7"
+				item: { count: 1, id: "createaddition:electric_motor" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6BBE0E2B2EE64927"]
+			id: "55AB6A48053217CE"
+			tasks: [{
+				id: "57728072C4DE5246"
+				item: { count: 1, id: "createaddition:alternator" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["222F967344431E20"]
+			id: "7F5A3450C34ADDF8"
+			tasks: [{
+				id: "2234C1AF6D09EF46"
+				item: { count: 1, id: "immersiveengineering:wire_copper" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"370E8B841BADE744"
+				"04566F8852C80025"
+				"1E7416AAE54AA613"
+				"2CB887013C69B75F"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "63C8DC8EEC7FCAC7"
+			tasks: [{
+				icon: {
+					id: "immersiveengineering:windmill_blade"
+				}
+				id: "7044D0B6B7A5D11C"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 1
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			id: "6D6FB7795E13C7D9"
+			shape: "octagon"
+			tasks: [{
+				id: "380F3B249C3C9318"
+				item: { count: 1, id: "tacz:gun_smith_table" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			id: "4A0D32BB076564AE"
+			shape: "octagon"
+			tasks: [{
+				id: "5102F14519D229C1"
+				item: { count: 1, id: "immersiveengineering:turret_gun" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			id: "15794CA51761B9BB"
+			shape: "octagon"
+			tasks: [{
+				id: "5339C12AD7CAD0FB"
+				item: { count: 1, id: "sentrymechanicalarm:sentry_mechanical_arm" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "0205A56D0CD63465"
+			shape: "octagon"
+			tasks: [{
+				id: "0F1DCEE8C9EE75F8"
+				item: { count: 1, id: "createdieselgenerators:chemical_turret" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "2A7E5B699C6B4088"
+			shape: "octagon"
+			tasks: [{
+				id: "64B3AF9A6A88C373"
+				item: { count: 1, id: "immersiveengineering:turret_chem" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2A7E5B699C6B4088"
+				"15794CA51761B9BB"
+				"0205A56D0CD63465"
+				"4A0D32BB076564AE"
+			]
+			hide_until_deps_complete: true
+			id: "6756C3654AA0DD1B"
+			shape: "octagon"
+			tasks: [{
+				icon: {
+					id: "immersiveengineering:warning_sign_attention"
+				}
+				id: "627BCF43451FF0F5"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 1
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5DD7F4F91AB4DC03"]
+			id: "222F967344431E20"
+			tasks: [{
+				id: "4CDBF2A953082650"
+				item: { count: 1, id: "immersiveengineering:wirecutter" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			id: "58F7C2BC769378FA"
+			shape: "octagon"
+			tasks: [{
+				id: "1EE234E45EE64426"
+				item: { components: { "minecraft:custom_data": { BlockId: "tacz:ammo_workbench" } }, count: 1, id: "tacz:workbench_a" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			id: "3E60D81B36F763A1"
+			shape: "octagon"
+			tasks: [{
+				id: "7D13C6796970AB66"
+				item: { components: { "minecraft:custom_data": { BlockId: "tacz:attachment_workbench" } }, count: 1, id: "tacz:workbench_c" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"58F7C2BC769378FA"
+				"6D6FB7795E13C7D9"
+				"3E60D81B36F763A1"
+			]
+			hide_until_deps_complete: true
+			id: "55BE3649ED108329"
+			shape: "octagon"
+			tasks: [{
+				icon: {
+					id: "createbigcannons:machine_gun_round"
+				}
+				id: "195E6A905EB3E258"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 1
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+	]
+}

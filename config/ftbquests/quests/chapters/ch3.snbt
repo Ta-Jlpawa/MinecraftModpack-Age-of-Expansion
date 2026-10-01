@@ -1,0 +1,153 @@
+{
+	autofocus_id: "647141BBACAA020C"
+	default_hide_dependency_lines: false
+	default_quest_shape: "gear"
+	filename: "ch3"
+	group: "5B323901C545A9A4"
+	icon: {
+		id: "create_things_and_misc:brass_tiles"
+	}
+	id: "4E589B90CAB41CA9"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["63F7A7EEB00101E0"]
+			id: "2FC199AE6975810D"
+			tasks: [{
+				id: "52C012952C8783BF"
+				item: { count: 1, id: "create:hand_crank" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["08AFD4852361FE60"]
+			id: "2BDEBE50A5BE5CF8"
+			tasks: [{
+				id: "2AC0209322610BB2"
+				item: { count: 1, id: "create:steam_engine" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2BDEBE50A5BE5CF8"]
+			id: "3EEC638068CEAE14"
+			tasks: [{
+				id: "4AE2AE50B37BC50F"
+				item: { count: 1, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17C3F23F80D492EC"]
+			id: "5589F6D528FB4BA7"
+			tasks: [{
+				id: "17E42421A96757FA"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["647141BBACAA020C"]
+			id: "08AFD4852361FE60"
+			tasks: [{
+				id: "4A7BC038729C35A7"
+				item: { count: 1, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5589F6D528FB4BA7"]
+			id: "63F7A7EEB00101E0"
+			tasks: [{
+				id: "66D590A39F27E30B"
+				item: { count: 1, id: "create:cogwheel" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3EEC638068CEAE14"]
+			id: "5DD7F4F91AB4DC03"
+			tasks: [{
+				id: "4EF929B80AACD57B"
+				item: { count: 1, id: "createbigcannons:steel_ingot" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2FC199AE6975810D"]
+			id: "2272D6CEF477D921"
+			tasks: [{
+				id: "107C4C475C5F91D7"
+				item: { count: 1, id: "create:large_water_wheel" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2272D6CEF477D921"]
+			id: "647141BBACAA020C"
+			tasks: [{
+				id: "466C8A06112AB09E"
+				item: { count: 1, id: "create:mechanical_mixer" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "10E4CA440CD9EFAF"
+			shape: "octagon"
+			tasks: [{
+				id: "6284A131F045A64D"
+				item: { count: 1, id: "minecraft:bookshelf" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"10E4CA440CD9EFAF"
+				"5445A3D410E4DD65"
+			]
+			id: "38E276A479BBC90B"
+			shape: "octagon"
+			tasks: [{
+				id: "2CCA4C3F5B4BF7F4"
+				item: { count: 1, id: "minecraft:enchanting_table" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			id: "5445A3D410E4DD65"
+			shape: "octagon"
+			tasks: [{
+				id: "436BE7C106B8CD09"
+				points: false
+				type: "xp"
+				value: 30L
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+	]
+}

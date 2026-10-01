@@ -1,0 +1,241 @@
+{
+	autofocus_id: "6D222C09239A07E6"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "ch5"
+	group: "5B323901C545A9A4"
+	icon: {
+		id: "mekanism:ultimate_infusing_factory"
+	}
+	id: "36C3AFDEB60905A2"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3D22EE37319540B5"]
+			id: "2D99B8A3BB8E81E2"
+			tasks: [{
+				id: "74E9B86CD3A9BF1A"
+				item: { count: 1, id: "immersiveengineering:coke" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2D99B8A3BB8E81E2"]
+			id: "3327FB184994EB12"
+			tasks: [{
+				id: "5D83A90616F360B9"
+				item: { count: 1, id: "immersiveengineering:dust_hop_graphite" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			id: "7DDD9A608BD52FE9"
+			shape: "octagon"
+			tasks: [{
+				id: "4A8AA229C97F9DA6"
+				item: { count: 1, id: "immersiveengineering:diesel_generator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6D84BEC49311E714"]
+			id: "01B8C7846158D4CD"
+			tasks: [{
+				id: "142D708F033D0AA2"
+				item: { count: 1, id: "mekanism:ingot_osmium" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"01B8C7846158D4CD"
+				"4CC1503427C8962C"
+			]
+			id: "65861AFEAF65980C"
+			tasks: [{
+				id: "70062CA59F08FAFD"
+				item: { count: 1, id: "mekanism:alloy_infused" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1CC13B88119F6257"
+				"414A946B5591681F"
+			]
+			id: "6D222C09239A07E6"
+			tasks: [{
+				id: "71226F5BA47C5BA0"
+				item: { count: 1, id: "mekanism:alloy_atomic" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6D84BEC49311E714"]
+			id: "3D22EE37319540B5"
+			tasks: [{
+				id: "5EEB122858D43F5A"
+				item: { count: 1, id: "minecraft:coal_block" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			id: "7F2D33A1538CC096"
+			shape: "octagon"
+			tasks: [{
+				id: "489B2C5C297CB9BB"
+				item: { count: 1, id: "immersiveengineering:arc_furnace" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3327FB184994EB12"]
+			id: "1CC13B88119F6257"
+			tasks: [{
+				id: "7793520FBCA8611F"
+				item: { count: 1, id: "immersiveengineering:ingot_hop_graphite" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6D84BEC49311E714"]
+			id: "4CC1503427C8962C"
+			tasks: [{
+				id: "5F9348815FDA1E9B"
+				item: { count: 1, id: "mekanism:metallurgic_infuser" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6D222C09239A07E6"]
+			hide_until_deps_complete: true
+			id: "3FFA278999649E50"
+			shape: "octagon"
+			tasks: [{
+				icon: {
+					id: "minecraft:obsidian"
+				}
+				id: "2A7CA181C91EEC5A"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 1
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["65861AFEAF65980C"]
+			id: "5AFB181D4F13C0AD"
+			tasks: [{
+				id: "50D5B175F535658F"
+				item: { count: 1, id: "mekanism:crusher" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5D363C3861E80457"]
+			id: "2FCE66CE7B655A0C"
+			tasks: [{
+				id: "39E07387324AAAA0"
+				item: { count: 1, id: "mekanism:dust_obsidian" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["49AA4349265A1ABE"]
+			id: "1D3BE605FCF3E1DD"
+			tasks: [{
+				id: "21A7FCB688560F11"
+				item: { count: 1, id: "create:powdered_obsidian" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"2FCE66CE7B655A0C"
+				"1D3BE605FCF3E1DD"
+			]
+			dependency_requirement: "one_completed"
+			id: "414A946B5591681F"
+			tasks: [{
+				id: "3F669DF0389D4FC5"
+				item: { count: 1, id: "mekanism:dust_refined_obsidian" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			id: "7FE79AECA81A85C7"
+			shape: "octagon"
+			tasks: [{
+				id: "6E59D81867B845EF"
+				item: { count: 1, id: "immersiveengineering:coke_oven" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			id: "598E0ABE8C1A9B1C"
+			shape: "octagon"
+			tasks: [{
+				id: "3881C48D1BDA02BB"
+				item: { count: 1, id: "immersiveengineering:squeezer" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5AFB181D4F13C0AD"]
+			id: "5D363C3861E80457"
+			tasks: [{
+				id: "50214DED9EA6917E"
+				item: { count: 1, id: "mekanism:dust_diamond" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5AFB181D4F13C0AD"]
+			id: "49AA4349265A1ABE"
+			tasks: [{
+				id: "7FC40D398D6F80BF"
+				item: { count: 1, id: "createaddition:diamond_grit" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+	]
+}

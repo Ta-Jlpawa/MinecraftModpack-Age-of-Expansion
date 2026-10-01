@@ -1,0 +1,122 @@
+{
+	autofocus_id: "5218C91952F6E281"
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "ch1"
+	group: "5B323901C545A9A4"
+	icon: {
+		id: "minecraft:grass_block"
+	}
+	id: "5BFFF471A815AE55"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1F3742E250131A13"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: {
+					id: "minecraft:grass_block"
+				}
+				id: "7391522502B34592"
+				type: "dimension"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["036579BACAE119A5"]
+			id: "77309840A34DD5FF"
+			tasks: [{
+				id: "67FE4B86E9AA5EFD"
+				item: { count: 1, id: "minecraft:wooden_pickaxe" }
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77309840A34DD5FF"]
+			id: "5218C91952F6E281"
+			tasks: [{
+				id: "6AF0D922CED35307"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6468F28900AC3658"]
+			id: "762A6B847E7ACA7C"
+			tasks: [{
+				id: "2E9A4D3C6BA36FDD"
+				item: { count: 1, id: "minecraft:obsidian" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"731A40A3CDE6AD08"
+				"762A6B847E7ACA7C"
+			]
+			id: "56FBF36C668AA380"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "1958FDF7BB67FC6D"
+				type: "dimension"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F3742E250131A13"]
+			id: "036579BACAE119A5"
+			tasks: [{
+				id: "5501CF8A7B3A11BB"
+				item: { count: 1, id: "minecraft:crafting_table" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6468F28900AC3658"]
+			id: "731A40A3CDE6AD08"
+			tasks: [{
+				id: "12C304C0E531F58F"
+				item: { count: 1, id: "minecraft:flint_and_steel" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5218C91952F6E281"]
+			id: "2415FC68C832AAB6"
+			tasks: [{
+				id: "7A965E4F75E04D3E"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2415FC68C832AAB6"]
+			id: "6468F28900AC3658"
+			tasks: [{
+				id: "5B449D683F3C0028"
+				item: { count: 1, id: "minecraft:diamond_pickaxe" }
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+}

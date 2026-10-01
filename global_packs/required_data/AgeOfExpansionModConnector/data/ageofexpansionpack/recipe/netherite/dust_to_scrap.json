@@ -1,0 +1,8 @@
+{
+  "type": "mekanism:reaction",
+  "item_input": { "count": 1, "item": "mekanism:dust_netherite" },
+  "fluid_input": { "amount": 200, "fluid": "mekanism:sulfuric_acid" },
+  "chemical_input": { "amount": 10, "chemical": "mekanism:refined_obsidian" },
+  "item_output": { "count": 1, "id": "minecraft:netherite_scrap" },
+  "duration": 100
+}

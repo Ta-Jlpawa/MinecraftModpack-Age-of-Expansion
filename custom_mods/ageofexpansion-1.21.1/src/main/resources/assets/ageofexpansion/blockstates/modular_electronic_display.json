@@ -1,0 +1,260 @@
+{
+  "variants": {
+    "facing=north,connections=0": {
+      "model": "ageofexpansion:block/modular_electronic_display_0",
+      "y": 0
+    },
+    "facing=north,connections=1": {
+      "model": "ageofexpansion:block/modular_electronic_display_1",
+      "y": 0
+    },
+    "facing=north,connections=2": {
+      "model": "ageofexpansion:block/modular_electronic_display_2",
+      "y": 0
+    },
+    "facing=north,connections=3": {
+      "model": "ageofexpansion:block/modular_electronic_display_3",
+      "y": 0
+    },
+    "facing=north,connections=4": {
+      "model": "ageofexpansion:block/modular_electronic_display_4",
+      "y": 0
+    },
+    "facing=north,connections=5": {
+      "model": "ageofexpansion:block/modular_electronic_display_5",
+      "y": 0
+    },
+    "facing=north,connections=6": {
+      "model": "ageofexpansion:block/modular_electronic_display_6",
+      "y": 0
+    },
+    "facing=north,connections=7": {
+      "model": "ageofexpansion:block/modular_electronic_display_7",
+      "y": 0
+    },
+    "facing=north,connections=8": {
+      "model": "ageofexpansion:block/modular_electronic_display_8",
+      "y": 0
+    },
+    "facing=north,connections=9": {
+      "model": "ageofexpansion:block/modular_electronic_display_9",
+      "y": 0
+    },
+    "facing=north,connections=10": {
+      "model": "ageofexpansion:block/modular_electronic_display_10",
+      "y": 0
+    },
+    "facing=north,connections=11": {
+      "model": "ageofexpansion:block/modular_electronic_display_11",
+      "y": 0
+    },
+    "facing=north,connections=12": {
+      "model": "ageofexpansion:block/modular_electronic_display_12",
+      "y": 0
+    },
+    "facing=north,connections=13": {
+      "model": "ageofexpansion:block/modular_electronic_display_13",
+      "y": 0
+    },
+    "facing=north,connections=14": {
+      "model": "ageofexpansion:block/modular_electronic_display_14",
+      "y": 0
+    },
+    "facing=north,connections=15": {
+      "model": "ageofexpansion:block/modular_electronic_display_15",
+      "y": 0
+    },
+    "facing=east,connections=0": {
+      "model": "ageofexpansion:block/modular_electronic_display_0",
+      "y": 90
+    },
+    "facing=east,connections=1": {
+      "model": "ageofexpansion:block/modular_electronic_display_1",
+      "y": 90
+    },
+    "facing=east,connections=2": {
+      "model": "ageofexpansion:block/modular_electronic_display_2",
+      "y": 90
+    },
+    "facing=east,connections=3": {
+      "model": "ageofexpansion:block/modular_electronic_display_3",
+      "y": 90
+    },
+    "facing=east,connections=4": {
+      "model": "ageofexpansion:block/modular_electronic_display_4",
+      "y": 90
+    },
+    "facing=east,connections=5": {
+      "model": "ageofexpansion:block/modular_electronic_display_5",
+      "y": 90
+    },
+    "facing=east,connections=6": {
+      "model": "ageofexpansion:block/modular_electronic_display_6",
+      "y": 90
+    },
+    "facing=east,connections=7": {
+      "model": "ageofexpansion:block/modular_electronic_display_7",
+      "y": 90
+    },
+    "facing=east,connections=8": {
+      "model": "ageofexpansion:block/modular_electronic_display_8",
+      "y": 90
+    },
+    "facing=east,connections=9": {
+      "model": "ageofexpansion:block/modular_electronic_display_9",
+      "y": 90
+    },
+    "facing=east,connections=10": {
+      "model": "ageofexpansion:block/modular_electronic_display_10",
+      "y": 90
+    },
+    "facing=east,connections=11": {
+      "model": "ageofexpansion:block/modular_electronic_display_11",
+      "y": 90
+    },
+    "facing=east,connections=12": {
+      "model": "ageofexpansion:block/modular_electronic_display_12",
+      "y": 90
+    },
+    "facing=east,connections=13": {
+      "model": "ageofexpansion:block/modular_electronic_display_13",
+      "y": 90
+    },
+    "facing=east,connections=14": {
+      "model": "ageofexpansion:block/modular_electronic_display_14",
+      "y": 90
+    },
+    "facing=east,connections=15": {
+      "model": "ageofexpansion:block/modular_electronic_display_15",
+      "y": 90
+    },
+    "facing=south,connections=0": {
+      "model": "ageofexpansion:block/modular_electronic_display_0",
+      "y": 180
+    },
+    "facing=south,connections=1": {
+      "model": "ageofexpansion:block/modular_electronic_display_1",
+      "y": 180
+    },
+    "facing=south,connections=2": {
+      "model": "ageofexpansion:block/modular_electronic_display_2",
+      "y": 180
+    },
+    "facing=south,connections=3": {
+      "model": "ageofexpansion:block/modular_electronic_display_3",
+      "y": 180
+    },
+    "facing=south,connections=4": {
+      "model": "ageofexpansion:block/modular_electronic_display_4",
+      "y": 180
+    },
+    "facing=south,connections=5": {
+      "model": "ageofexpansion:block/modular_electronic_display_5",
+      "y": 180
+    },
+    "facing=south,connections=6": {
+      "model": "ageofexpansion:block/modular_electronic_display_6",
+      "y": 180
+    },
+    "facing=south,connections=7": {
+      "model": "ageofexpansion:block/modular_electronic_display_7",
+      "y": 180
+    },
+    "facing=south,connections=8": {
+      "model": "ageofexpansion:block/modular_electronic_display_8",
+      "y": 180
+    },
+    "facing=south,connections=9": {
+      "model": "ageofexpansion:block/modular_electronic_display_9",
+      "y": 180
+    },
+    "facing=south,connections=10": {
+      "model": "ageofexpansion:block/modular_electronic_display_10",
+      "y": 180
+    },
+    "facing=south,connections=11": {
+      "model": "ageofexpansion:block/modular_electronic_display_11",
+      "y": 180
+    },
+    "facing=south,connections=12": {
+      "model": "ageofexpansion:block/modular_electronic_display_12",
+      "y": 180
+    },
+    "facing=south,connections=13": {
+      "model": "ageofexpansion:block/modular_electronic_display_13",
+      "y": 180
+    },
+    "facing=south,connections=14": {
+      "model": "ageofexpansion:block/modular_electronic_display_14",
+      "y": 180
+    },
+    "facing=south,connections=15": {
+      "model": "ageofexpansion:block/modular_electronic_display_15",
+      "y": 180
+    },
+    "facing=west,connections=0": {
+      "model": "ageofexpansion:block/modular_electronic_display_0",
+      "y": 270
+    },
+    "facing=west,connections=1": {
+      "model": "ageofexpansion:block/modular_electronic_display_1",
+      "y": 270
+    },
+    "facing=west,connections=2": {
+      "model": "ageofexpansion:block/modular_electronic_display_2",
+      "y": 270
+    },
+    "facing=west,connections=3": {
+      "model": "ageofexpansion:block/modular_electronic_display_3",
+      "y": 270
+    },
+    "facing=west,connections=4": {
+      "model": "ageofexpansion:block/modular_electronic_display_4",
+      "y": 270
+    },
+    "facing=west,connections=5": {
+      "model": "ageofexpansion:block/modular_electronic_display_5",
+      "y": 270
+    },
+    "facing=west,connections=6": {
+      "model": "ageofexpansion:block/modular_electronic_display_6",
+      "y": 270
+    },
+    "facing=west,connections=7": {
+      "model": "ageofexpansion:block/modular_electronic_display_7",
+      "y": 270
+    },
+    "facing=west,connections=8": {
+      "model": "ageofexpansion:block/modular_electronic_display_8",
+      "y": 270
+    },
+    "facing=west,connections=9": {
+      "model": "ageofexpansion:block/modular_electronic_display_9",
+      "y": 270
+    },
+    "facing=west,connections=10": {
+      "model": "ageofexpansion:block/modular_electronic_display_10",
+      "y": 270
+    },
+    "facing=west,connections=11": {
+      "model": "ageofexpansion:block/modular_electronic_display_11",
+      "y": 270
+    },
+    "facing=west,connections=12": {
+      "model": "ageofexpansion:block/modular_electronic_display_12",
+      "y": 270
+    },
+    "facing=west,connections=13": {
+      "model": "ageofexpansion:block/modular_electronic_display_13",
+      "y": 270
+    },
+    "facing=west,connections=14": {
+      "model": "ageofexpansion:block/modular_electronic_display_14",
+      "y": 270
+    },
+    "facing=west,connections=15": {
+      "model": "ageofexpansion:block/modular_electronic_display_15",
+      "y": 270
+    }
+  }
+}

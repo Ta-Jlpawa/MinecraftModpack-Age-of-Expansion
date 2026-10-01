@@ -1,0 +1,276 @@
+{
+  "variants": {
+    "facing=north,lit=true": {
+      "y": 0,
+      "model": "ageofexpansion:block/holographic_display_hidden"
+    },
+    "facing=north,lit=false,connections=0": {
+      "y": 0,
+      "model": "ageofexpansion:block/modular_holographic_display_0"
+    },
+    "facing=north,lit=false,connections=1": {
+      "y": 0,
+      "model": "ageofexpansion:block/modular_holographic_display_1"
+    },
+    "facing=north,lit=false,connections=2": {
+      "y": 0,
+      "model": "ageofexpansion:block/modular_holographic_display_2"
+    },
+    "facing=north,lit=false,connections=3": {
+      "y": 0,
+      "model": "ageofexpansion:block/modular_holographic_display_3"
+    },
+    "facing=north,lit=false,connections=4": {
+      "y": 0,
+      "model": "ageofexpansion:block/modular_holographic_display_4"
+    },
+    "facing=north,lit=false,connections=5": {
+      "y": 0,
+      "model": "ageofexpansion:block/modular_holographic_display_5"
+    },
+    "facing=north,lit=false,connections=6": {
+      "y": 0,
+      "model": "ageofexpansion:block/modular_holographic_display_6"
+    },
+    "facing=north,lit=false,connections=7": {
+      "y": 0,
+      "model": "ageofexpansion:block/modular_holographic_display_7"
+    },
+    "facing=north,lit=false,connections=8": {
+      "y": 0,
+      "model": "ageofexpansion:block/modular_holographic_display_8"
+    },
+    "facing=north,lit=false,connections=9": {
+      "y": 0,
+      "model": "ageofexpansion:block/modular_holographic_display_9"
+    },
+    "facing=north,lit=false,connections=10": {
+      "y": 0,
+      "model": "ageofexpansion:block/modular_holographic_display_10"
+    },
+    "facing=north,lit=false,connections=11": {
+      "y": 0,
+      "model": "ageofexpansion:block/modular_holographic_display_11"
+    },
+    "facing=north,lit=false,connections=12": {
+      "y": 0,
+      "model": "ageofexpansion:block/modular_holographic_display_12"
+    },
+    "facing=north,lit=false,connections=13": {
+      "y": 0,
+      "model": "ageofexpansion:block/modular_holographic_display_13"
+    },
+    "facing=north,lit=false,connections=14": {
+      "y": 0,
+      "model": "ageofexpansion:block/modular_holographic_display_14"
+    },
+    "facing=north,lit=false,connections=15": {
+      "y": 0,
+      "model": "ageofexpansion:block/modular_holographic_display_15"
+    },
+    "facing=east,lit=true": {
+      "y": 90,
+      "model": "ageofexpansion:block/holographic_display_hidden"
+    },
+    "facing=east,lit=false,connections=0": {
+      "y": 90,
+      "model": "ageofexpansion:block/modular_holographic_display_0"
+    },
+    "facing=east,lit=false,connections=1": {
+      "y": 90,
+      "model": "ageofexpansion:block/modular_holographic_display_1"
+    },
+    "facing=east,lit=false,connections=2": {
+      "y": 90,
+      "model": "ageofexpansion:block/modular_holographic_display_2"
+    },
+    "facing=east,lit=false,connections=3": {
+      "y": 90,
+      "model": "ageofexpansion:block/modular_holographic_display_3"
+    },
+    "facing=east,lit=false,connections=4": {
+      "y": 90,
+      "model": "ageofexpansion:block/modular_holographic_display_4"
+    },
+    "facing=east,lit=false,connections=5": {
+      "y": 90,
+      "model": "ageofexpansion:block/modular_holographic_display_5"
+    },
+    "facing=east,lit=false,connections=6": {
+      "y": 90,
+      "model": "ageofexpansion:block/modular_holographic_display_6"
+    },
+    "facing=east,lit=false,connections=7": {
+      "y": 90,
+      "model": "ageofexpansion:block/modular_holographic_display_7"
+    },
+    "facing=east,lit=false,connections=8": {
+      "y": 90,
+      "model": "ageofexpansion:block/modular_holographic_display_8"
+    },
+    "facing=east,lit=false,connections=9": {
+      "y": 90,
+      "model": "ageofexpansion:block/modular_holographic_display_9"
+    },
+    "facing=east,lit=false,connections=10": {
+      "y": 90,
+      "model": "ageofexpansion:block/modular_holographic_display_10"
+    },
+    "facing=east,lit=false,connections=11": {
+      "y": 90,
+      "model": "ageofexpansion:block/modular_holographic_display_11"
+    },
+    "facing=east,lit=false,connections=12": {
+      "y": 90,
+      "model": "ageofexpansion:block/modular_holographic_display_12"
+    },
+    "facing=east,lit=false,connections=13": {
+      "y": 90,
+      "model": "ageofexpansion:block/modular_holographic_display_13"
+    },
+    "facing=east,lit=false,connections=14": {
+      "y": 90,
+      "model": "ageofexpansion:block/modular_holographic_display_14"
+    },
+    "facing=east,lit=false,connections=15": {
+      "y": 90,
+      "model": "ageofexpansion:block/modular_holographic_display_15"
+    },
+    "facing=south,lit=true": {
+      "y": 180,
+      "model": "ageofexpansion:block/holographic_display_hidden"
+    },
+    "facing=south,lit=false,connections=0": {
+      "y": 180,
+      "model": "ageofexpansion:block/modular_holographic_display_0"
+    },
+    "facing=south,lit=false,connections=1": {
+      "y": 180,
+      "model": "ageofexpansion:block/modular_holographic_display_1"
+    },
+    "facing=south,lit=false,connections=2": {
+      "y": 180,
+      "model": "ageofexpansion:block/modular_holographic_display_2"
+    },
+    "facing=south,lit=false,connections=3": {
+      "y": 180,
+      "model": "ageofexpansion:block/modular_holographic_display_3"
+    },
+    "facing=south,lit=false,connections=4": {
+      "y": 180,
+      "model": "ageofexpansion:block/modular_holographic_display_4"
+    },
+    "facing=south,lit=false,connections=5": {
+      "y": 180,
+      "model": "ageofexpansion:block/modular_holographic_display_5"
+    },
+    "facing=south,lit=false,connections=6": {
+      "y": 180,
+      "model": "ageofexpansion:block/modular_holographic_display_6"
+    },
+    "facing=south,lit=false,connections=7": {
+      "y": 180,
+      "model": "ageofexpansion:block/modular_holographic_display_7"
+    },
+    "facing=south,lit=false,connections=8": {
+      "y": 180,
+      "model": "ageofexpansion:block/modular_holographic_display_8"
+    },
+    "facing=south,lit=false,connections=9": {
+      "y": 180,
+      "model": "ageofexpansion:block/modular_holographic_display_9"
+    },
+    "facing=south,lit=false,connections=10": {
+      "y": 180,
+      "model": "ageofexpansion:block/modular_holographic_display_10"
+    },
+    "facing=south,lit=false,connections=11": {
+      "y": 180,
+      "model": "ageofexpansion:block/modular_holographic_display_11"
+    },
+    "facing=south,lit=false,connections=12": {
+      "y": 180,
+      "model": "ageofexpansion:block/modular_holographic_display_12"
+    },
+    "facing=south,lit=false,connections=13": {
+      "y": 180,
+      "model": "ageofexpansion:block/modular_holographic_display_13"
+    },
+    "facing=south,lit=false,connections=14": {
+      "y": 180,
+      "model": "ageofexpansion:block/modular_holographic_display_14"
+    },
+    "facing=south,lit=false,connections=15": {
+      "y": 180,
+      "model": "ageofexpansion:block/modular_holographic_display_15"
+    },
+    "facing=west,lit=true": {
+      "y": 270,
+      "model": "ageofexpansion:block/holographic_display_hidden"
+    },
+    "facing=west,lit=false,connections=0": {
+      "y": 270,
+      "model": "ageofexpansion:block/modular_holographic_display_0"
+    },
+    "facing=west,lit=false,connections=1": {
+      "y": 270,
+      "model": "ageofexpansion:block/modular_holographic_display_1"
+    },
+    "facing=west,lit=false,connections=2": {
+      "y": 270,
+      "model": "ageofexpansion:block/modular_holographic_display_2"
+    },
+    "facing=west,lit=false,connections=3": {
+      "y": 270,
+      "model": "ageofexpansion:block/modular_holographic_display_3"
+    },
+    "facing=west,lit=false,connections=4": {
+      "y": 270,
+      "model": "ageofexpansion:block/modular_holographic_display_4"
+    },
+    "facing=west,lit=false,connections=5": {
+      "y": 270,
+      "model": "ageofexpansion:block/modular_holographic_display_5"
+    },
+    "facing=west,lit=false,connections=6": {
+      "y": 270,
+      "model": "ageofexpansion:block/modular_holographic_display_6"
+    },
+    "facing=west,lit=false,connections=7": {
+      "y": 270,
+      "model": "ageofexpansion:block/modular_holographic_display_7"
+    },
+    "facing=west,lit=false,connections=8": {
+      "y": 270,
+      "model": "ageofexpansion:block/modular_holographic_display_8"
+    },
+    "facing=west,lit=false,connections=9": {
+      "y": 270,
+      "model": "ageofexpansion:block/modular_holographic_display_9"
+    },
+    "facing=west,lit=false,connections=10": {
+      "y": 270,
+      "model": "ageofexpansion:block/modular_holographic_display_10"
+    },
+    "facing=west,lit=false,connections=11": {
+      "y": 270,
+      "model": "ageofexpansion:block/modular_holographic_display_11"
+    },
+    "facing=west,lit=false,connections=12": {
+      "y": 270,
+      "model": "ageofexpansion:block/modular_holographic_display_12"
+    },
+    "facing=west,lit=false,connections=13": {
+      "y": 270,
+      "model": "ageofexpansion:block/modular_holographic_display_13"
+    },
+    "facing=west,lit=false,connections=14": {
+      "y": 270,
+      "model": "ageofexpansion:block/modular_holographic_display_14"
+    },
+    "facing=west,lit=false,connections=15": {
+      "y": 270,
+      "model": "ageofexpansion:block/modular_holographic_display_15"
+    }
+  }
+}

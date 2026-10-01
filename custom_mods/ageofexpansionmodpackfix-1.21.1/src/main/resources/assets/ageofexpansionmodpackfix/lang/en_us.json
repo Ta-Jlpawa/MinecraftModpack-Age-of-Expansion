@@ -30,7 +30,6 @@
   "gui.ageofexpansionmodpackfix.router.actual": "Output: L %s / R %s SU",
   "gui.ageofexpansionmodpackfix.router.left_speed": "Left: %s RPM",
   "gui.ageofexpansionmodpackfix.router.right_input": "Right input (SU)",
-  "block.ageofexpansionmodpackfix.stress_network_port": "Stress Network Port Shaft",
   "gui.ageofexpansionmodpackfix.router.input_range": "Enter an integer from 0 to 16,777,216 SU.",
   "gui.ageofexpansionmodpackfix.router.ports": "Align shaft faces with the ports: teal input, gold output.",
   "gui.ageofexpansionmodpackfix.router.settings": "Right-click to configure; close to save. Speed: right clockwise, left counterclockwise.",
@@ -53,5 +52,9 @@
   "gui.ageofexpansionmodpackfix.router.right_output": "Right",
   "item.ageofexpansionmodpackfix.mod_icon": "Age of Expansion Emblem",
   "item.ageofexpansionmodpackfix.cat_ear_headband": "Cat Ear Headband",
-  "tooltip.ageofexpansionmodpackfix.cat_ear_headband": "While equipped on your head or in an active Curios slot, your insomnia cannot spawn phantoms. Removing it ends protection; existing phantoms can still attack."
+  "tooltip.ageofexpansionmodpackfix.cat_ear_headband": "While equipped on your head or in an active Curios slot, your insomnia cannot spawn phantoms. Removing it ends protection; existing phantoms can still attack.",
+  "chat.ageofexpansionmodpackfix.quest_completed": "%s has completed the quest %s",
+  "tooltip.ageofexpansionmodpackfix.drill_durability": "Durability: %s / %s",
+  "tooltip.ageofexpansionmodpackfix.drill_oil_repair": "Repair by spout or mixer: plant/seed oil 50 mB/point; lubricant 10 mB/point.",
+  "tooltip.ageofexpansionmodpackfix.drill_exhausted": "Drill exhausted; repair with oil."
 }

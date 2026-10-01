@@ -1,0 +1,9 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "additives": [],
+  "energy": 512000,
+  "input": { "item": "minecraft:ancient_debris" },
+  "results": [{ "count": 4, "id": "minecraft:netherite_scrap" }],
+  "slag": { "tag": "c:slag" },
+  "time": 100
+}

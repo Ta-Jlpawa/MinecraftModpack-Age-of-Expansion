@@ -3,12 +3,35 @@
   "package": "com.tajlpawa.ageofexpansionmodpackfix.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "create.RegistrateEventReceiverMixin",
     "mekanism.TileEntityTransmitterMixin",
     "create.RouterRotationMixin",
     "create.RouterKineticMixin",
     "create.RouterGeneratorMixin",
     "create.RouterNetworkMixin",
-    "create.RouterTorqueAccessor"
+    "create.RouterTorqueAccessor",
+    "create.toolbox.CarriedToolboxPlayerMixin",
+    "create.toolbox.ToolboxBlockEntityAccess",
+    "create.toolbox.CarriedToolboxHandlerMixin",
+    "create.toolbox.CarriedToolboxEquipMixin",
+    "create.toolbox.CarriedToolboxDepositMixin",
+    "architectury.EventInvokerSnapshotMixin",
+    "oreexcavation.DrillItemMixin",
+    "oreexcavation.DrillingMachineMixin",
+    "oreexcavation.DrillSpoutMixin",
+    "oreexcavation.DrillMixerMixin",
+    "oreexcavation.DrillBasinRecipeMixin",
+    "mekanism.FissionMeltdownMixin",
+    "oritech.NukeBlockMixin",
+    "oritech.AcceleratorBlackHoleMixin",
+    "oritech.BlackHoleBlockMixin",
+    "oritech.ExistingBlackHoleMixin",
+    "champions.ChampionSpawnHandlerMixin"
+  ],
+  "client": [
+    "create.toolbox.CarriedToolboxClientMixin",
+    "create.toolbox.CarriedToolboxChoiceMixin",
+    "mekanism.LogisticalTransporterRenderMixin"
   ],
   "injectors": {
     "defaultRequire": 1

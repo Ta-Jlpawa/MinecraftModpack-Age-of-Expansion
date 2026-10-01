@@ -1,0 +1,108 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "ch7"
+	group: "5B323901C545A9A4"
+	icon: {
+		id: "ageofexpansionmodpackfix:mod_icon"
+	}
+	id: "0BA4748D0DED4318"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["540863442C54CC26"]
+			id: "5B2FDB35FC0502EB"
+			tasks: [{
+				id: "404EAAAFF0B2BC0B"
+				item: { count: 1, id: "mekanism:antiprotonic_nucleosynthesizer" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5B2FDB35FC0502EB"]
+			id: "24DD355C654A3774"
+			tasks: [{
+				id: "1CFDE8077753C7B2"
+				item: { components: { "mekanism:side_config": { config: { energy: { side: { back: "input", bottom: "input", front: "input", left: "input", right: "input", top: "input" } }, items: { side: { back: "input", bottom: "input", front: "output", left: "input", right: "input", top: "input" } } } } }, count: 1, id: "mekanism:creative_energy_cube" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5B2FDB35FC0502EB"]
+			id: "6272F10B70AA1DA8"
+			tasks: [{
+				id: "55F5C897C8E574B4"
+				item: { count: 1, id: "simulated:creative_physics_staff" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5B2FDB35FC0502EB"]
+			id: "2B07F1D1813585FF"
+			tasks: [{
+				id: "58BDDAC58F357325"
+				item: { count: 1, id: "mekanism:creative_chemical_tank" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"44AE799E752FAD9D"
+				"217210F518C323BE"
+				"6272F10B70AA1DA8"
+				"2B07F1D1813585FF"
+				"24DD355C654A3774"
+			]
+			id: "29B18F9373EE9766"
+			rewards: [{
+				id: "408658A5183E2B48"
+				item: {
+					count: 1
+					id: "ageofexpansionmodpackfix:mod_icon"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "24C542BF92EC9CC2"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 1
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5B2FDB35FC0502EB"]
+			id: "44AE799E752FAD9D"
+			tasks: [{
+				id: "3C5FC34C0AB32340"
+				item: { count: 1, id: "mekanism:creative_fluid_tank" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5B2FDB35FC0502EB"]
+			id: "217210F518C323BE"
+			tasks: [{
+				id: "09C5A9D67C526E39"
+				item: { count: 1, id: "minecraft:enchanted_golden_apple" }
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+	]
+}

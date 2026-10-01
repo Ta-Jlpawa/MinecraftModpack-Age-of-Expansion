@@ -1,16 +1,6 @@
 {
-  "chapter_groups": [
-    {
-      "id": "413F578156EE8A08"
-    },
-    {
-      "id": "71919F3451FA2DA2"
-    },
-    {
-      "id": "36E33A5845B80DA6"
-    },
-    {
-      "id": "02958343D1CB1EEA"
-    }
-  ]
+	chapter_groups: [
+		{ id: "5B323901C545A9A4" }
+		{ id: "21922359EAC5333F" }
+	]
 }

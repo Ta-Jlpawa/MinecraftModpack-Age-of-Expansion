@@ -75,3 +75,10 @@
 		#.
 		#Ability to dye fluid tanks.
 		dyeableTanks = true
+
+#.
+#Options to help improve the behaviour of Bits 'n' Bobs alongside other mods. (Opt-in)
+[compatabilityOptions]
+	#.
+	#Suppresses wooden cogwheels from other mods in favour of Bits 'n' Bobs' behaviour system. Intended for Create: Encased but may work with other mods with proper tags.
+	suppressExternalWoodenCogwheels = true

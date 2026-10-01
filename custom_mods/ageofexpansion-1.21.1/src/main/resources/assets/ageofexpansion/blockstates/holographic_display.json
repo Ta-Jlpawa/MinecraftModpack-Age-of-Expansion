@@ -1,0 +1,36 @@
+{
+  "variants": {
+    "facing=north,lit=true": {
+      "y": 0,
+      "model": "ageofexpansion:block/holographic_display_hidden"
+    },
+    "facing=north,lit=false": {
+      "y": 0,
+      "model": "ageofexpansion:block/holographic_display"
+    },
+    "facing=east,lit=true": {
+      "y": 90,
+      "model": "ageofexpansion:block/holographic_display_hidden"
+    },
+    "facing=east,lit=false": {
+      "y": 90,
+      "model": "ageofexpansion:block/holographic_display"
+    },
+    "facing=south,lit=true": {
+      "y": 180,
+      "model": "ageofexpansion:block/holographic_display_hidden"
+    },
+    "facing=south,lit=false": {
+      "y": 180,
+      "model": "ageofexpansion:block/holographic_display"
+    },
+    "facing=west,lit=true": {
+      "y": 270,
+      "model": "ageofexpansion:block/holographic_display_hidden"
+    },
+    "facing=west,lit=false": {
+      "y": 270,
+      "model": "ageofexpansion:block/holographic_display"
+    }
+  }
+}

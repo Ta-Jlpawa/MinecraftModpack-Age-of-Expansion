@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "createdieselgenerators:wood_chip" },
+    { "item": "createdieselgenerators:wood_chip" },
+    { "item": "createdieselgenerators:wood_chip" },
+    { "item": "createdieselgenerators:wood_chip" }
+  ],
+  "result": {
+    "id": "immersiveengineering:dust_wood",
+    "count": 1
+  }
+}

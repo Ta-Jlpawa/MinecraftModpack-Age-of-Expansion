@@ -1,0 +1,75 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "brt"
+	group: "21922359EAC5333F"
+	icon: {
+		id: "mekanism:configurator"
+	}
+	id: "0431C4D1F6E96147"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "45CFFC69A364AFC5"
+			tasks: [{
+				id: "00327733D6C7D2B3"
+				item: { count: 1, id: "pipe_connector:pipe_connector" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "6589DC1172B7676F"
+			tasks: [{
+				id: "52BFE4C30EEA964A"
+				item: { count: 1, id: "effortlessbuilding:randomizer_tool" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			id: "76E2BC1887097149"
+			tasks: [{
+				id: "211371827E7E13E3"
+				item: { count: 1, id: "create:brown_toolbox" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "313E4F66AF0611DB"
+			tasks: [{
+				id: "1CC4119D9861B1EA"
+				item: { count: 1, id: "ageofexpansionmodpackfix:cat_ear_headband" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			id: "5D42B9C3B543CD98"
+			tasks: [{
+				id: "6AD9BA1D1C9C6881"
+				item: { count: 1, id: "create:tree_fertilizer" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			id: "00F12E67C854F376"
+			tasks: [{
+				id: "6B08E78939356A9D"
+				item: { count: 1, id: "ageofexpansion:electronic_display" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+	]
+}

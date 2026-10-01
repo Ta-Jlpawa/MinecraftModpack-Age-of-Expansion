@@ -2,7 +2,6 @@
   "replace": false,
   "values": [
     "ageofexpansionmodpackfix:stress_network_combiner",
-    "ageofexpansionmodpackfix:stress_network_splitter",
-    "ageofexpansionmodpackfix:stress_network_port"
+    "ageofexpansionmodpackfix:stress_network_splitter"
   ]
 }

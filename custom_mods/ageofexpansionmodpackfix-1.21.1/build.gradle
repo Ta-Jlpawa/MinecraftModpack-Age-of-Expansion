@@ -100,6 +100,12 @@ neoForge {
             gameDirectory = layout.buildDirectory.dir('routerClientSmoke').get().asFile
             systemProperty 'ageofexpansion.routerClientSmoke', 'true'
         }
+        toolboxClientSmoke {
+            client()
+            sourceSet = sourceSets.gameTest
+            gameDirectory = layout.buildDirectory.dir('toolboxClientSmoke').get().asFile
+            systemProperty 'ageofexpansion.toolboxClientSmoke', 'true'
+        }
 
         data {
             data()
@@ -145,6 +151,7 @@ neoForge.runs.configureEach {
 }
 neoForge.runs.gameTestServer.loadedMods = [neoForge.mods.getByName("${mod_id}_game_test")]
 neoForge.runs.routerClientSmoke.loadedMods = [neoForge.mods.getByName("${mod_id}_game_test")]
+neoForge.runs.toolboxClientSmoke.loadedMods = [neoForge.mods.getByName("${mod_id}_game_test")]
 
 // Sets up a dependency configuration called 'localRuntime'.
 // This configuration should be used instead of 'runtimeOnly' to declare
@@ -155,7 +162,50 @@ configurations {
 }
 
 dependencies {
+    compileOnly files('../../mods/createoreexcavation-1.21-1.6.8.jar')
+    gameTestCompileOnly files('../../mods/createoreexcavation-1.21-1.6.8.jar')
+    if (providers.gradleProperty('drillIntegration').isPresent()) {
+        localRuntime files('../../mods/createoreexcavation-1.21-1.6.8.jar', '../../mods/createaddition-1.6.0.jar',
+                '../../mods/ImmersiveEngineering-1.21.1-12.4.3-194-Remake.jar', '../../mods/ImmersivePetroleum-1.21.1-4.5.0-39.jar')
+    }
+    def ftbDependencies = files('../../mods/ftb-quests-neoforge-2101.1.36.jar',
+            '../../mods/ftb-library-neoforge-2101.1.36.jar', '../../mods/ftb-teams-neoforge-2101.1.11.jar',
+            '../../mods/architectury-13.0.8-neoforge.jar')
+    compileOnly ftbDependencies
+    gameTestCompileOnly ftbDependencies
+    if (providers.gradleProperty('ftbIntegration').isPresent()) {
+        localRuntime ftbDependencies
+        localRuntime files('../../mods/cloth-config-15.0.140-neoforge.jar')
+    }
+
+    compileOnly files('../../mods/champions-neoforge-21.1.1.7.jar')
+    gameTestCompileOnly files('../../mods/champions-neoforge-21.1.1.7.jar')
+    if (providers.gradleProperty('championIntegration').isPresent()) {
+        localRuntime files('../../mods/champions-neoforge-21.1.1.7.jar', '../../mods/architectury-13.0.8-neoforge.jar')
+    }
+
+    compileOnly files('../../mods/curios-neoforge-9.5.1+1.21.1.jar')
+    gameTestCompileOnly files('../../mods/curios-neoforge-9.5.1+1.21.1.jar')
+    if (!providers.gradleProperty('withoutCurios').isPresent()) {
+        localRuntime files('../../mods/curios-neoforge-9.5.1+1.21.1.jar')
+    }
+    if (providers.gradleProperty('phantomIntegration').isPresent()) {
+        localRuntime files('../../mods/ImmersiveEngineering-1.21.1-12.4.3-194-Remake.jar')
+    }
     implementation files('../../mods/Mekanism-1.21.1-10.7.19.85.jar')
+    compileOnly files('../../mods/MekanismGenerators-1.21.1-10.7.19.85.jar')
+    gameTestCompileOnly files('../../mods/MekanismGenerators-1.21.1-10.7.19.85.jar')
+    if (providers.gradleProperty('blastIntegration').isPresent()) {
+        localRuntime files('../../mods/MekanismGenerators-1.21.1-10.7.19.85.jar', '../../mods/oritech-neoforge-1.21.1-1.2.10.jar',
+                '../../mods/architectury-13.0.8-neoforge.jar', '../../mods/geckolib-neoforge-1.21.1-4.8.4.jar',
+                '../../mods/athena-neoforge-1.21.1-4.0.6.jar')
+    }
+    if (providers.gradleProperty('recipeIntegration').isPresent()) {
+        localRuntime files('../../mods/kubejs-neoforge-2101.7.2-build.368.jar', '../../mods/rhino-2101.2.7-build.85.jar',
+                '../../mods/ImmersiveEngineering-1.21.1-12.4.3-194-Remake.jar', '../../mods/createoreexcavation-1.21-1.6.8.jar')
+    }
+    gameTestCompileOnly files('../../mods/ImmersiveEngineering-1.21.1-12.4.3-194-Remake.jar')
+    gameTestCompileOnly files('../../mods/oritech-neoforge-1.21.1-1.2.10.jar')
     implementation files('../../mods/create-1.21.1-6.0.10.jar')
     // Compile against the dependencies bundled in the installed Create jar.
     implementation fileTree(dir: 'build/createDependencies', include: '*.jar')
@@ -180,6 +230,30 @@ dependencies {
     // For more info:
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
+}
+
+if (providers.gradleProperty('recipeIntegration').isPresent()) {
+    tasks.named('processGameTestResources').configure {
+        from('../../global_packs/required_data/AgeOfExpansionModConnector/data/createoreexcavation/recipe/drilling/netherite.json') {
+            into 'data/createoreexcavation/recipe/drilling'
+        }
+        from('../../global_packs/required_data/AgeOfExpansionModConnector/data/ageofexpansionpack/recipe/netherite') {
+            into 'data/ageofexpansionpack/recipe/netherite'
+        }
+    }
+}
+
+if (providers.gradleProperty('pipeIntegration').isPresent()) {
+    neoForge.runs.gameTestServer.systemProperty 'ageofexpansion.pipeIntegration', 'true'
+    tasks.register('stageGameTestPipeConfig', Copy) {
+        from '../../config/Mekanism/tiers.toml'
+        into layout.buildDirectory.dir('gameTestServer/config/Mekanism')
+    }
+    tasks.named('runGameTestServer').configure { dependsOn 'stageGameTestPipeConfig' }
+}
+
+if (providers.gradleProperty('championIntegration').isPresent()) {
+    neoForge.runs.gameTestServer.systemProperty 'ageofexpansion.championIntegration', 'true'
 }
 
 tasks.register('extractCreateDependencies', Copy) {

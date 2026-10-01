@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    " A ",
+    "ABA",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "ageofexpansion:square_electronic_display"
+    }
+  },
+  "result": {
+    "id": "ageofexpansion:modular_electronic_display",
+    "count": 1
+  }
+}

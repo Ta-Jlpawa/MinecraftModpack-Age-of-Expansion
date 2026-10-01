@@ -1,0 +1,6 @@
+{
+  "type": "oritech:grinder",
+  "ingredients": [{ "item": "minecraft:ancient_debris" }],
+  "results": [{ "count": 4, "id": "mekanism:dust_netherite" }],
+  "time": 40
+}

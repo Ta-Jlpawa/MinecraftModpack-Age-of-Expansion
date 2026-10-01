@@ -1,0 +1,26 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "brf"
+	group: "21922359EAC5333F"
+	icon: {
+		id: "minecraft:creeper_spawn_egg"
+	}
+	id: "3246D6DA4E94A410"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "6D9E4331176E9981"
+		tasks: [{
+			dimension: "ae2:spatial_storage"
+			icon: {
+				id: "ae2:spatial_storage_cell_128"
+			}
+			id: "2FDD41B6DB54E081"
+			type: "dimension"
+		}]
+		x: -0.5d
+		y: 0.0d
+	}]
+}

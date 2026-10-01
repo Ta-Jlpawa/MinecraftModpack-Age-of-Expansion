@@ -1,0 +1,6 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 16000,
+  "input": { "item": "minecraft:ancient_debris" },
+  "result": { "count": 4, "id": "mekanism:dust_netherite" }
+}

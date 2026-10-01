@@ -1,0 +1,24 @@
+{
+  "result": {
+    "count": 1,
+    "id": "ageofexpansion:holographic_display"
+  },
+  "pattern": [
+    " C ",
+    "BAB",
+    " C "
+  ],
+  "category": "redstone",
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "minecraft:glass_pane"
+    },
+    "C": {
+      "item": "minecraft:quartz"
+    },
+    "B": {
+      "item": "minecraft:redstone"
+    }
+  }
+}

@@ -53,6 +53,9 @@ Age of Expansion整合包独占模组，用于修改整合包内模组的逻辑�
 [[mixins]]
 config="${mod_id}.mixins.json"
 
+[[mixins]]
+config="${mod_id}.servercore.mixins.json"
+
 # The [[accessTransformers]] block allows you to declare where your AT file is.
 # If this block is omitted, a fallback attempt will be made to load an AT from META-INF/accesstransformer.cfg
 #[[accessTransformers]]
@@ -112,5 +115,19 @@ config="${mod_id}.mixins.json"
     modId="curios"
     type="optional"
     versionRange="[9.5.1,10)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="ftbquests"
+    type="optional"
+    versionRange="[2101.1.36,2102)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="createoreexcavation"
+    type="optional"
+    versionRange="[1.6.8,1.7)"
     ordering="AFTER"
     side="BOTH"

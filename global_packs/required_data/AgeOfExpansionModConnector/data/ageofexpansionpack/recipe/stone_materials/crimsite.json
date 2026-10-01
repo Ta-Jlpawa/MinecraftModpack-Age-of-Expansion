@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:netherrack"
+    },
+    "B": {
+      "item": "create:rose_quartz"
+    }
+  },
+  "result": {
+    "id": "create:crimsite",
+    "count": 8
+  }
+}

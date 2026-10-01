@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ageofexpansion:block/electronic_display",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "ageofexpansion:block/electronic_display",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ageofexpansion:block/electronic_display",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ageofexpansion:block/electronic_display",
+      "y": 270
+    }
+  }
+}
