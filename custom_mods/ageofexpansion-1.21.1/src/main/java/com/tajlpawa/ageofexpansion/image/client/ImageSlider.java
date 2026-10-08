@@ -15,9 +15,9 @@ public final class ImageSlider extends AbstractSliderButton {
     }
     @Override public void renderWidget(net.minecraft.client.gui.GuiGraphics g,int mouseX,int mouseY,float delta){
         var font=net.minecraft.client.Minecraft.getInstance().font;int x=getX(),y=getY(),knob=x+4+(int)Math.round(value*(getWidth()-8));
-        g.fill(x,y,x+getWidth(),y+18,0xff242c30);g.drawCenteredString(font,getMessage(),x+getWidth()/2,y+1,active?0xffe5f1ed:0xff7c8987);
-        g.fill(x+4,y+13,x+getWidth()-4,y+15,0xff53615f);g.fill(x+4,y+13,knob,y+15,active?0xff69bea2:0xff53615f);
-        g.fill(knob-2,y+10,knob+3,y+18,active?0xffbeeadd:0xff7c8987);
+        ImageSkin.box(g,x,y,getWidth(),18,active?0:3);g.drawCenteredString(font,getMessage(),x+getWidth()/2,y+1,active?0xffe5f1ed:0xff7c8987);
+        ImageSkin.track(g,x+4,y+12,getWidth()-8);g.fill(x+4,y+13,knob,y+15,active?0xff69bea2:0xff53615f);
+        ImageSkin.knob(g,knob-2,y+10);
         if(isHoveredOrFocused())g.renderOutline(x,y,getWidth(),18,0xff83b6a5);
     }
     @Override protected void updateMessage(){setMessage(Component.literal(intValue()+suffix));}

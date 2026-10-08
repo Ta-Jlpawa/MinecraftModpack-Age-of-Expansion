@@ -86,7 +86,7 @@
   "screen.ageofexpansion.image.diameter": "笔刷直径 px",
   "screen.ageofexpansion.image.opacity": "不透明度 %",
   "screen.ageofexpansion.image.quota": "图像数量：%s / %s",
-  "screen.ageofexpansion.image.paint_hint": "滚轮缩放 · 中键平移 · Ctrl+Z 撤销",
+  "screen.ageofexpansion.image.paint_hint": "左键绘制 · 右键移动 · 中键平移 · 滚轮缩放",
   "screen.ageofexpansion.image.scale_range": "目标缩放范围：%s%%～%s%%",
   "screen.ageofexpansion.image.file_info": "%s × %s px · 原文件 %s KB",
   "screen.ageofexpansion.image.working": "正在处理…",
@@ -138,5 +138,15 @@
   "screen.ageofexpansion.image.players_with_images": "玩家 / 图像数 · 双击应用筛选",
   "screen.ageofexpansion.image.error.no_player_images": "该玩家不存在或没有图像，未应用筛选。",
   "screen.ageofexpansion.image.player_list": "玩家图像列表",
-  "screen.ageofexpansion.image.player_list_hint": "单击选择，双击应用筛选"
+  "screen.ageofexpansion.image.player_list_hint": "单击选择，双击应用筛选",
+  "screen.ageofexpansion.image.tools": "绘图工具",
+  "screen.ageofexpansion.image.tool_brush": "画笔",
+  "screen.ageofexpansion.image.tool_leaf": "柳叶笔",
+  "screen.ageofexpansion.image.tool_rectangle": "矩形选区",
+  "screen.ageofexpansion.image.tool_lasso": "不规则选区",
+  "screen.ageofexpansion.image.mode_normal": "普通模式",
+  "screen.ageofexpansion.image.mode_clear": "清除模式",
+  "screen.ageofexpansion.image.cancel_selection": "取消选区",
+  "screen.ageofexpansion.image.cancel_selection_hint": "取消选择，保留图像内容",
+  "screen.ageofexpansion.image.tool_hint": "悬停或点击箭头选择模式；直接点击工具恢复普通模式"
 }

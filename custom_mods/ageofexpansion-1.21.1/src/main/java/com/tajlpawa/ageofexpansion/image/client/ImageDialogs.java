@@ -14,8 +14,8 @@ public final class ImageDialogs {
         private int layer(){return parent instanceof Modal modal?modal.layer()+300:300;}
         protected Modal(Screen parent,Component title){super(title);this.parent=parent;}
         @Override protected void init(){w=Math.min(400,width-24);h=Math.min(250,height-24);left=(width-w)/2;top=(height-h)/2;}
-        protected Button button(String key,int x,int y,int width,Runnable run){return addRenderableWidget(Button.builder(ImageScreen.text(key),b->run.run()).bounds(x,y,width,20).build());}
-        protected void background(GuiGraphics g,float delta){parent.render(g,-1,-1,delta);g.flush();g.pose().pushPose();g.pose().translate(0,0,layer());g.fill(0,0,width,height,0x99000000);g.fill(left,top,left+w,top+h,0xff303538);g.renderOutline(left,top,w,h,0xff75888a);g.drawCenteredString(font,font.plainSubstrByWidth(title.getString(),w-24),width/2,top+10,0xffeeeeee);}
+        protected Button button(String key,int x,int y,int width,Runnable run){return addRenderableWidget(new ImageSkin.Action(ImageScreen.text(key),x,y,width,20,run));}
+        protected void background(GuiGraphics g,float delta){parent.render(g,-1,-1,delta);g.flush();g.pose().pushPose();g.pose().translate(0,0,layer());g.fill(0,0,width,height,0x99000000);ImageSkin.box(g,left,top,w,h,5);g.drawCenteredString(font,font.plainSubstrByWidth(title.getString(),w-24),width/2,top+10,0xffeeeeee);}
         @Override public void render(GuiGraphics g,int x,int y,float delta){background(g,delta);super.render(g,x,y,delta);g.flush();g.pose().popPose();}
         @Override public void onClose(){minecraft.setScreen(parent);}
         @Override public boolean isPauseScreen(){return false;}

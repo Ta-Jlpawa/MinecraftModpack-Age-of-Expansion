@@ -89,7 +89,7 @@
   "screen.ageofexpansion.image.diameter": "Diameter px",
   "screen.ageofexpansion.image.opacity": "Opacity %",
   "screen.ageofexpansion.image.quota": "Images: %s / %s",
-  "screen.ageofexpansion.image.paint_hint": "Wheel: zoom | Middle drag: pan | Ctrl+Z: undo",
+  "screen.ageofexpansion.image.paint_hint": "LMB draw · RMB move · MMB pan · Scroll zoom",
   "screen.ageofexpansion.image.scale_range": "Target scale: %s%%–%s%%",
   "screen.ageofexpansion.image.file_info": "%s × %s px · Source file %s KB",
   "screen.ageofexpansion.image.working": "Working…",
@@ -141,5 +141,15 @@
   "screen.ageofexpansion.image.players_with_images": "Player / images - double-click to apply",
   "screen.ageofexpansion.image.error.no_player_images": "Player not found or has no images; filter unchanged.",
   "screen.ageofexpansion.image.player_list": "Players with images",
-  "screen.ageofexpansion.image.player_list_hint": "Click to select; double-click to apply filter"
+  "screen.ageofexpansion.image.player_list_hint": "Click to select; double-click to apply filter",
+  "screen.ageofexpansion.image.tools": "Painting tools",
+  "screen.ageofexpansion.image.tool_brush": "Brush",
+  "screen.ageofexpansion.image.tool_leaf": "Leaf fill",
+  "screen.ageofexpansion.image.tool_rectangle": "Rectangle",
+  "screen.ageofexpansion.image.tool_lasso": "Lasso",
+  "screen.ageofexpansion.image.mode_normal": "Normal",
+  "screen.ageofexpansion.image.mode_clear": "Clear",
+  "screen.ageofexpansion.image.cancel_selection": "Deselect",
+  "screen.ageofexpansion.image.cancel_selection_hint": "Remove selection, keep the image",
+  "screen.ageofexpansion.image.tool_hint": "Hover or use the arrow for modes; click the tool for Normal"
 }

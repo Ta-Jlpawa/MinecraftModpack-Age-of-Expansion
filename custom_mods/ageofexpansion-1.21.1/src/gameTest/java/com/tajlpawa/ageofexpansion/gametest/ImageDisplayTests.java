@@ -51,7 +51,7 @@ public final class ImageDisplayTests {
     private static void paint(GameTestHelper h){try(var canvas=new PaintCanvas(new BufferedImage(32,32,BufferedImage.TYPE_INT_ARGB),2,1)){
         canvas.begin(4.2,4.2,1,0xff0000,50,false);for(int i=0;i<4;i++)canvas.drag(4.2,4.2);canvas.end();int pixel=canvas.image.getRGB(4,4);h.assertTrue((pixel>>>24)==128,"Half opacity does not accumulate within a stroke");
         canvas.begin(4.2,4.2,1,0,100,true);canvas.end();h.assertTrue(canvas.image.getRGB(4,4)>>>24==0,"Eraser clears alpha");canvas.undo();h.assertTrue(canvas.image.getRGB(4,4)==pixel,"Disk-spilled undo restores exact pixels");canvas.undo();h.assertTrue(canvas.image.getRGB(4,4)==0,"Undo to transparent origin");
-        for(int n=0;n<3;n++){canvas.begin(1,1,1,0x00ff00,100,false);canvas.drag(20,1);canvas.end();}h.assertTrue(canvas.undoCount()==2,"Undo count bounded");for(int x=1;x<=20;x++)h.assertTrue(canvas.image.getRGB(x,1)>>>24==255,"Interpolated stroke has no gaps");
+        for(int n=0;n<3;n++){canvas.begin(1,1,1,0x00ff00+n,100,false);canvas.drag(20,1);canvas.end();}h.assertTrue(canvas.undoCount()==2,"Undo count bounded");for(int x=1;x<=20;x++)h.assertTrue(canvas.image.getRGB(x,1)>>>24==255,"Interpolated stroke has no gaps");
         try(var noUndo=new PaintCanvas(sample(),0)){noUndo.begin(1,1,512,0,100,true);noUndo.end();h.assertTrue(!noUndo.undo()&&noUndo.undoCount()==0,"Undo disabled at zero");}h.succeed();
     }catch(IOException e){throw new RuntimeException(e);}}
     private static DisplayBlock block(int kind){return (kind==0?DisplayContent.IMAGE:kind==1?DisplayContent.IMAGE_SQUARE:DisplayContent.IMAGE_MODULE).get();}
